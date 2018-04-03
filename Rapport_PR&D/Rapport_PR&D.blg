@@ -1,0 +1,30 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'Rapport_PR&D.blg'
+[53] biber-MSWIN32:303> INFO - === 
+[111] Biber.pm:359> INFO - Reading 'Rapport_PR&D.bcf'
+[233] Biber.pm:835> INFO - Found 27 citekeys in bib section 0
+[260] Biber.pm:3670> INFO - Processing section 0
+[281] Biber.pm:3840> INFO - Looking for bibtex format file 'polytech/dummy.bib' for section 0
+[321] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[327] bibtex.pm:1292> INFO - Found BibTeX data source 'polytech/dummy.bib'
+[347] Biber.pm:3840> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
+[379] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[392] bibtex.pm:1292> INFO - Found BibTeX data source 'bibliographie.bib'
+[442] Utils.pm:164> WARN - I didn't find a database entry for 'CITATION_combien_de_personnes_regardent_la_television' (section 0)
+[442] Utils.pm:164> WARN - I didn't find a database entry for 'CITATION_MEDIA DE MASSE' (section 0)
+[442] Utils.pm:164> WARN - I didn't find a database entry for 'CITATION Comment recevoir la t\IeC {\'e}l\IeC {\'e}vision CSA' (section 0)
+[442] Utils.pm:164> WARN - I didn't find a database entry for 'COMMENT-FONCTIONNE' (section 0)
+[442] Utils.pm:164> WARN - I didn't find a database entry for 'CITATION_MOLOTOV' (section 0)
+[472] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[472] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'level = 4' with 'level = 2'
+[473] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[473] Biber.pm:3499> INFO - Sorting list 'nyt/global/WWW' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
+[473] Biber.pm:3505> INFO - No sort tailoring available for locale 'fr-FR'
+[499] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[499] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'level = 4' with 'level = 2'
+[499] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[499] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
+[499] Biber.pm:3505> INFO - No sort tailoring available for locale 'fr-FR'
+[521] bbl.pm:608> INFO - Writing 'Rapport_PR&D.bbl' with encoding 'UTF-8'
+[531] bbl.pm:712> INFO - Output to Rapport_PR&D.bbl
+[536] Biber.pm:109> INFO - WARNINGS: 5

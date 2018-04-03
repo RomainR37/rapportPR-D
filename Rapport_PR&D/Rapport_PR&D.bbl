@@ -1,0 +1,1276 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/WWW}
+    \entry{abduraman_tv_2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=18ec683c5f4c176a4c66f7a8dc41a4ae}{%
+           family={Abduraman},
+           familyi={A\bibinitperiod},
+           given={Alina\bibnamedelima Elma},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=d015c15402e2c659b3ff5fe3458881bc}{%
+           family={Berrani},
+           familyi={B\bibinitperiod},
+           given={Sid\bibnamedelima Ahmed},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=af6f16806d7a97b36572e7333a8f28fc}{%
+           family={Merialdo},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2f9cb584f27455a2b284162ef5577e6}
+      \strng{fullhash}{a2f9cb584f27455a2b284162ef5577e6}
+      \strng{authornamehash}{a2f9cb584f27455a2b284162ef5577e6}
+      \strng{authorfullhash}{a2f9cb584f27455a2b284162ef5577e6}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{TV} Content Analysis: Techniques and Applications}
+      \field{title}{{TV} Program Structuring Techniques}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{157}
+      \range{pages}{1}
+      \verb{file}
+      \verb mm-publi-3481.pdf:C\:\\Users\\Romain\\Zotero\\storage\\4HURZMIW\\mm-publi-3481.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{_adaptive_2017}{inreference}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adaptive bitrate streaming is a technique used in streaming multimedia over computer networks. While in the past most video streaming technologies utilized streaming protocols such as {RTP} with {RTSP}, today's adaptive streaming technologies are almost exclusively based on {HTTP} and designed to work efficiently over large distributed {HTTP} networks such as the Internet. It works by detecting a user's bandwidth and {CPU} capacity in real time and adjusting the quality of a video stream accordingly. It requires the use of an encoder which can encode a single source video at multiple bit rates. The player client switches between streaming the different encodings depending on available resources. "The result: very little buffering, fast start time and a good experience for both high-end and low-end connections." More specifically, and as the implementations in use today are, adaptive bitrate streaming is a method of video streaming over {HTTP} where the source content is encoded at multiple bit rates, then each of the different bit rate streams are segmented into small multi-second parts. The streaming client is made aware of the available streams at differing bit rates, and segments of the streams by a manifest file. When starting, the client requests the segments from the lowest bit rate stream. If the client finds the download speed is greater than the bit rate of the segment downloaded, then it will request the next higher bit rate segments. Later, if the client finds the download speed for a segment is lower than the bit rate for the segment, and therefore the network throughput has deteriorated, then it will request a lower bit rate segment. The segment size can vary depending on the particular implementation, but they are typically between two (2) and ten (10) seconds.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{20}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{Page Version {ID}: 806215994}
+      \field{title}{Adaptive bitrate streaming}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\CCDFE6EG\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Adaptive_bitrate_streaming&oldid=806215994
+      \endverb
+    \endentry
+    \entry{_chiffres_2017}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nous rassemblons sur cette page toutes les statistiques liées à Internet : pourcentage d'internautes, nombre d'inscrits sur les réseaux sociaux, usages du}
+      \field{day}{13}
+      \field{month}{4}
+      \field{title}{Chiffres Internet - 2017}
+      \field{titleaddon}{Blog du Modérateur}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\PGIIM4AK\\chiffres-internet.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.blogdumoderateur.com/chiffres-internet/
+      \endverb
+    \endentry
+    \entry{_cisco_2017}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Updated annually, this white paper presents the details of the Cisco {VNI} global {IP} traffic forecast and the methodology behind it.}
+      \field{shorttitle}{Cisco Visual Networking Index}
+      \field{title}{Cisco Visual Networking Index: Forecast and Methodology, 2016–2021}
+      \field{titleaddon}{Cisco}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\ZZ5XXGNY\\complete-white-paper-c11-481360.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html
+      \endverb
+    \endentry
+    \entry{_ffmpeg_2017}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{{FFmpeg}}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb FFmpeg:C\:\\Users\\Romain\\Zotero\\storage\\DL6WCLQ4\\www.ffmpeg.org.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.ffmpeg.org/
+      \endverb
+    \endentry
+    \entry{fielding_hypertext_1996}{online}{}
+      \name{author}{3}{}{%
+        {{hash=fa7af56c6dc9e94432c11d9d66a2ead7}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{%
+           family={Berners-Lee},
+           familyi={B\bibinithyphendelim L\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0ac60360aab1a7600415a85e542f3c61}{%
+           family={Frystyk},
+           familyi={F\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{90570706a3913f0b2972bd12da2ee963}
+      \strng{fullhash}{90570706a3913f0b2972bd12da2ee963}
+      \strng{authornamehash}{90570706a3913f0b2972bd12da2ee963}
+      \strng{authorfullhash}{90570706a3913f0b2972bd12da2ee963}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hypertext Transfer Protocol -- {HTTP}/1.0}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\ZKU5Q77V\\rfc1945.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc1945
+      \endverb
+    \endentry
+    \entry{_flash_2017}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adobe has long played a leadership role in advancing interactivity and creative content – from video, to games and more – on the web. Where we’ve seen a need to pus...}
+      \field{day}{25}
+      \field{month}{7}
+      \field{title}{Flash \& The Future of Interactive Content}
+      \field{titleaddon}{Adobe Blog}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\IIK8DFF7\\adobe-flash-update.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://theblog.adobe.com/adobe-flash-update/
+      \endverb
+    \endentry
+    \entry{_how_2016}{online}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep understanding of video streaming technology key points will provide you a clear picture of the choices you have here. Video streaming intends transmitting media data online while enabling users to process it without completing the process of transmission. According to this, streaming protocols are just the ways of this transmission.  Therefore, choosing a streaming protocol that will perfectly suit the type of media...}
+      \field{day}{26}
+      \field{month}{8}
+      \field{title}{How to Sort Through the Variety of Streaming Protocols}
+      \field{titleaddon}{Letzgro}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\6K62YNM8\\the-variety-of-streaming-protocols.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://letzgro.net/blog/the-variety-of-streaming-protocols/
+      \endverb
+    \endentry
+    \entry{_html5_2017}{online}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{{HTML}5 Introduction}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb HTML5 Introduction:C\:\\Users\\Romain\\Zotero\\storage\\SCGEKP7X\\html5_intro.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.w3schools.com/html/html5_intro.asp
+      \endverb
+    \endentry
+    \entry{_introduction_2016}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction aux protocoles}
+      \field{titleaddon}{{OpenClassrooms}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\BEB8VXTI\\introduction-aux-protocoles.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://openclassrooms.com/courses/les-reseaux-de-zero/introduction-aux-protocoles
+      \endverb
+    \endentry
+    \entry{liu_near-duplicate_2013}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cd0f0cd17467d8e0cc3ed143e26df5f3}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiajun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bbead5d4b952a01fb4a47ceb3e05a235}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f7bef19e854ecc793b7729f6563be1cb}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Hongyun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e4d51f11650e851e72ac4d5731f46dd6}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Heng\bibnamedelima Tao},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=fd1acc047cfee55f83025ae0e8f6adee}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Chong\bibnamedelima Wah},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b6d71ec9840ef40e6548c546b298afd}
+      \strng{fullhash}{6b6d71ec9840ef40e6548c546b298afd}
+      \strng{authornamehash}{6b6d71ec9840ef40e6548c546b298afd}
+      \strng{authorfullhash}{6b6d71ec9840ef40e6548c546b298afd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{03600300}
+      \field{journaltitle}{{ACM} Computing Surveys}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{shorttitle}{Near-duplicate video retrieval}
+      \field{title}{Near-duplicate video retrieval: Current research and future trends}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{volume}{45}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1145/2501654.2501658
+      \endverb
+      \verb{file}
+      \verb ContentServer.pdf:C\:\\Users\\Romain\\Documents\\Projet R&D\\ContentServer.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?doid=2501654.2501658
+      \endverb
+    \endentry
+    \entry{_live_2017}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Live streaming technology is often employed to relay live events such as sports, concerts and more generally {TV} and Radio programmes that are output live. Often shortened to just streaming, live streaming is the process of transmitting media 'live' to computers and devices. This is a fairly complex and nascent subject with a lot of variables, so in this article we'll introduce you to the subject and let you know how you can get started.}
+      \field{title}{Live streaming web audio and video}
+      \field{titleaddon}{Mozilla Developer Network}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\P3EY7J32\\Live_streaming_web_audio_and_video.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video
+      \endverb
+    \endentry
+    \entry{_chronique_streaming_2010}{online}{}
+      \name{author}{3}{}{%
+        {{hash=a19b685a4b59e78c7b5f38990d1ba1d1}{%
+           family={Ndiaye},
+           familyi={N\bibinitperiod},
+           given={Awa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a05c708e657c90a3cb228b81d7acede3}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Solène},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ced857cb168cccc6937fcae891c1fcfd}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \strng{fullhash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \strng{authornamehash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \strng{authorfullhash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{analysediachroniquestreaming}
+      \field{title}{Streaming Vidéo: Histoire et évolution de l'offre et des usages}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://hautdeforme.files.wordpress.com/2013/01/analysediachroniquestreaming.pdf
+      \endverb
+    \endentry
+    \entry{pantos_http_2017}{online}{}
+      \name{author}{2}{}{%
+        {{hash=fa5100c95ba0b556dc172db749550757}{%
+           family={Pantos},
+           familyi={P\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=52bb360d0d0a8c2da0a9b85999493f3e}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{605214e13bb04f8e3763075ded1e0b30}
+      \strng{fullhash}{605214e13bb04f8e3763075ded1e0b30}
+      \strng{authornamehash}{605214e13bb04f8e3763075ded1e0b30}
+      \strng{authorfullhash}{605214e13bb04f8e3763075ded1e0b30}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{HTTP} Live Streaming}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\N6JP5RLJ\\rfc8216.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc8216
+      \endverb
+    \endentry
+    \entry{rao_real-time_2016}{online}{}
+      \name{author}{5}{}{%
+        {{hash=293b486a7e956afeac45290b400514a3}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Anup},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1f1a47d3dd66d52fe02ce3a6617caa0}{%
+           family={Lanphier},
+           familyi={L\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1962867eea3ef80b37e8c10fcddc586a}{%
+           family={Stiemerling},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c520fc132510d84b39cdc7763de73842}{%
+           family={Schulzrinne},
+           familyi={S\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ed07b958842a8f4d3dc9a6da878ff527}{%
+           family={Westerlund},
+           familyi={W\bibinitperiod},
+           given={Magnus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{722ca7dc279466c79e0835128c4dc7bf}
+      \strng{fullhash}{722ca7dc279466c79e0835128c4dc7bf}
+      \strng{authornamehash}{722ca7dc279466c79e0835128c4dc7bf}
+      \strng{authorfullhash}{722ca7dc279466c79e0835128c4dc7bf}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Use-case de l'utilisation de {RTSP} pour la distribution live. https://tools.ietf.org/html/rfc7826\#appendix-Es}
+      \field{title}{Real-Time Streaming Protocol Version 2.0}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\P5QRJU8B\\rfc7826.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc7826
+      \endverb
+    \endentry
+    \entry{sancerre_canal+_2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6156d6cfabc713fe4f165e8ffc7b4065}{%
+           family={Sancerre},
+           familyi={S\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \strng{fullhash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \strng{authornamehash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \strng{authorfullhash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quitte à abandonner le décodeur.}
+      \field{title}{Canal+ veut pousser les abonnés vers son application}
+      \field{titleaddon}{Journal de l'économie}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\ZTPGMGDF\\Canal-veut-pousser-les-abonnes-vers-son-application_a4601.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.journaldeleconomie.fr/Canal-veut-pousser-les-abonnes-vers-son-application_a4601.html
+      \endverb
+    \endentry
+    \entry{rtsp_1996}{online}{}
+      \name{author}{1}{}{%
+        {{hash=00fde203cbb86f39a8f6713838b4104c}{%
+           family={Schulzrinne\bibnamedelima \{{\textbackslash}textless\}schulzrinne@cs.columbia.edu\{{\textbackslash}textgreater\}},
+           familyi={S\bibinitperiod\bibinitdelim \\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{00fde203cbb86f39a8f6713838b4104c}
+      \strng{fullhash}{00fde203cbb86f39a8f6713838b4104c}
+      \strng{authornamehash}{00fde203cbb86f39a8f6713838b4104c}
+      \strng{authorfullhash}{00fde203cbb86f39a8f6713838b4104c}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Real Time Streaming Protocol ({RTSP})}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\UNZ28V9H\\rfc2326.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc2326
+      \endverb
+    \endentry
+    \entry{_mpegdash_2017}{inreference}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dynamic Adaptive Streaming over {HTTP} (diffusion en flux adaptatif dynamique sur {HTTP}) souvent nommé {MPEG}-{DASH} est un standard de format de diffusion audiovisuelle sur Internet. Il se base sur la préparation du contenu en différentes présentations de qualité et débit variable, découpées en segments de courte durée (quelques secondes). Chacun de ces segments est rendu disponible individuellement au moyen d'un protocole d'échange. Le protocole principalement ciblé est {HTTP} comme l'indique le titre, mais la spécification admet explicitement que d'autres protocoles (par exemple {FTP}) puissent être utilisés. L'organisation des segments et les paramètres associés sont publiés dans un manifeste au format {XML}. La norme {ISO}/{IEC} 23009 finalisée fin 2011, définit le format du manifeste ainsi que celui des segments basés sur des formats de conteneur {MPEG} : {ISO} Base Media File Format ({ISO}/{IEC} 14496-12) et {MPEG}-2 Transport Stream ({ISO}/{IEC} 13818-1), et donne des indications pour la définition d'autres formats de segment. Le comportement attendu des clients {MPEG}-{DASH} et les algorithmes d'adaptation ne sont pas normalisés, laissant aux fournisseurs de ces applications une large marge pour la différenciation commerciale et/ou l'adaptation à des besoins spécifiques. L'idée de base est que le client {MPEG}-{DASH} effectue une estimation de la bande passante disponible pour la réception des segments, et en fonction du remplissage de son tampon de réception il choisit pour le prochain segment à charger une représentation dont le débit : assure la meilleure qualité possible et permet un délai de réception compatible avec le rendu ininterrompu du contenu. L'utilisation de {HTTP} comme protocole sous-jacent permet de s'appuyer efficacement sur l'infrastructure existante du web et les bibliothèques réseau existantes sur les appareils connectés à Internet (ordinateurs, tablettes, télévisions connectées, décodeurs, smartphones...)}
+      \field{booktitle}{Wikipédia}
+      \field{day}{4}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{note}{Page Version {ID}: 137922465}
+      \field{title}{{<}span lang="en"{>}Dynamic Adaptive Streaming over {HTTP}{<}/span{>}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\C58QZWC3\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Dynamic_Adaptive_Streaming_over_HTTP&oldid=137922465
+      \endverb
+    \endentry
+    \entry{def_streaming_2013}{inreference}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le streaming (terme anglais, de stream : « courant », « flux », « flot »), flux direct, flux, lecture en continu, lecture en transit ou diffusion en mode continu, désigne un principe utilisé principalement pour l'envoi de contenu en « direct » (ou en léger différé). On peut également songer à la locution lecture seule, déjà utilisée en informatique. Très utilisé sur Internet et sur les réseaux de téléphonie mobile, le streaming permet la lecture d'un flux audio ou vidéo (cas de la vidéo à la demande) à mesure qu'il est diffusé. Il s'oppose ainsi à la diffusion par téléchargement de fichiers qui nécessite de récupérer l'ensemble des données d'un morceau ou d'un extrait vidéo avant de pouvoir l'écouter ou le regarder. Néanmoins la lecture en continu est, du point de vue théorique, un téléchargement car il y a un échange de données brutes entre un client et un serveur, mais le stockage est provisoire et n'apparaît pas directement sous forme de fichier sur le disque dur du destinataire. Les données sont téléchargées en continu dans la mémoire vive, sont analysées à la volée par l'ordinateur ou le smartphone et rapidement transférées vers un écran ou un lecteur multimédia (pour affichage) puis remplacées par de nouvelles données. Les flux audio ou vidéo de streaming sont généralement fournis par des plateformes qui proposent plusieurs films, séries ou morceaux musicaux.}
+      \field{booktitle}{Wikipédia}
+      \field{day}{18}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{note}{Page Version {ID}: 140761727}
+      \field{title}{{<}span lang="en"{>}Streaming{<}/span{>}}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\LGJKWDZM\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Streaming&oldid=140761727
+      \endverb
+    \endentry
+    \entry{_thought_2010}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{Thoughts on Flash - Apple}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Thoughts on Flash - Apple:C\:\\Users\\Romain\\Zotero\\storage\\5GIFEHPU\\thoughts-on-flash.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.apple.com/hotnews/thoughts-on-flash/
+      \endverb
+    \endentry
+    \entry{_vlc_2017}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{{VLC}: Site officiel - Des solutions multimédias libres pour tous les {OS} ! - {VideoLAN}}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb VLC\: Site officiel - Des solutions multimédias libres pour tous les OS ! - VideoLAN:C\:\\Users\\Romain\\Zotero\\storage\\98B4XXF4\\index.fr.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.videolan.org/index.fr.html
+      \endverb
+    \endentry
+    \entry{zambelli_history_2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=152972cd4921016c2079c9ae407a1ddc}{%
+           family={Zambelli},
+           familyi={Z\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{152972cd4921016c2079c9ae407a1ddc}
+      \strng{fullhash}{152972cd4921016c2079c9ae407a1ddc}
+      \strng{authornamehash}{152972cd4921016c2079c9ae407a1ddc}
+      \strng{authorfullhash}{152972cd4921016c2079c9ae407a1ddc}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelprefix}{WWW}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're close to broadly available {HD} streaming which could trigger mass adoption of connected {TV}. Alex Zambelli gives the story so far}
+      \field{day}{1}
+      \field{issn}{0261-3077}
+      \field{journaltitle}{The Guardian}
+      \field{langid}{british}
+      \field{month}{3}
+      \field{title}{A history of media streaming and the future of connected {TV}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\75KE5X3E\\history-streaming-future-connected-tv.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.theguardian.com/media-network/media-network-blog/2013/mar/01/history-streaming-future-connected-tv
+      \endverb
+      \keyw{Connected {TV},Media \& Tech Network}
+    \endentry
+  \endsortlist
+  \sortlist[entry]{nyt/global/}
+    \entry{abduraman_tv_2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=18ec683c5f4c176a4c66f7a8dc41a4ae}{%
+           family={Abduraman},
+           familyi={A\bibinitperiod},
+           given={Alina\bibnamedelima Elma},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=d015c15402e2c659b3ff5fe3458881bc}{%
+           family={Berrani},
+           familyi={B\bibinitperiod},
+           given={Sid\bibnamedelima Ahmed},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=af6f16806d7a97b36572e7333a8f28fc}{%
+           family={Merialdo},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2f9cb584f27455a2b284162ef5577e6}
+      \strng{fullhash}{a2f9cb584f27455a2b284162ef5577e6}
+      \strng{authornamehash}{a2f9cb584f27455a2b284162ef5577e6}
+      \strng{authorfullhash}{a2f9cb584f27455a2b284162ef5577e6}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{TV} Content Analysis: Techniques and Applications}
+      \field{title}{{TV} Program Structuring Techniques}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{157}
+      \range{pages}{1}
+      \verb{file}
+      \verb mm-publi-3481.pdf:C\:\\Users\\Romain\\Zotero\\storage\\4HURZMIW\\mm-publi-3481.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{_adaptive_2017}{inreference}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adaptive bitrate streaming is a technique used in streaming multimedia over computer networks. While in the past most video streaming technologies utilized streaming protocols such as {RTP} with {RTSP}, today's adaptive streaming technologies are almost exclusively based on {HTTP} and designed to work efficiently over large distributed {HTTP} networks such as the Internet. It works by detecting a user's bandwidth and {CPU} capacity in real time and adjusting the quality of a video stream accordingly. It requires the use of an encoder which can encode a single source video at multiple bit rates. The player client switches between streaming the different encodings depending on available resources. "The result: very little buffering, fast start time and a good experience for both high-end and low-end connections." More specifically, and as the implementations in use today are, adaptive bitrate streaming is a method of video streaming over {HTTP} where the source content is encoded at multiple bit rates, then each of the different bit rate streams are segmented into small multi-second parts. The streaming client is made aware of the available streams at differing bit rates, and segments of the streams by a manifest file. When starting, the client requests the segments from the lowest bit rate stream. If the client finds the download speed is greater than the bit rate of the segment downloaded, then it will request the next higher bit rate segments. Later, if the client finds the download speed for a segment is lower than the bit rate for the segment, and therefore the network throughput has deteriorated, then it will request a lower bit rate segment. The segment size can vary depending on the particular implementation, but they are typically between two (2) and ten (10) seconds.}
+      \field{booktitle}{Wikipedia}
+      \field{day}{20}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{Page Version {ID}: 806215994}
+      \field{title}{Adaptive bitrate streaming}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\CCDFE6EG\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Adaptive_bitrate_streaming&oldid=806215994
+      \endverb
+    \endentry
+    \entry{_chiffres_2017}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nous rassemblons sur cette page toutes les statistiques liées à Internet : pourcentage d'internautes, nombre d'inscrits sur les réseaux sociaux, usages du}
+      \field{day}{13}
+      \field{month}{4}
+      \field{title}{Chiffres Internet - 2017}
+      \field{titleaddon}{Blog du Modérateur}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\PGIIM4AK\\chiffres-internet.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.blogdumoderateur.com/chiffres-internet/
+      \endverb
+    \endentry
+    \entry{_cisco_2017}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Updated annually, this white paper presents the details of the Cisco {VNI} global {IP} traffic forecast and the methodology behind it.}
+      \field{shorttitle}{Cisco Visual Networking Index}
+      \field{title}{Cisco Visual Networking Index: Forecast and Methodology, 2016–2021}
+      \field{titleaddon}{Cisco}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\ZZ5XXGNY\\complete-white-paper-c11-481360.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html
+      \endverb
+    \endentry
+    \entry{_ffmpeg_2017}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeltitlesource}{title}
+      \field{title}{{FFmpeg}}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb FFmpeg:C\:\\Users\\Romain\\Zotero\\storage\\DL6WCLQ4\\www.ffmpeg.org.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.ffmpeg.org/
+      \endverb
+    \endentry
+    \entry{fielding_hypertext_1996}{online}{}
+      \name{author}{3}{}{%
+        {{hash=fa7af56c6dc9e94432c11d9d66a2ead7}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d469e0df304c98f67b55d087ea6187a1}{%
+           family={Berners-Lee},
+           familyi={B\bibinithyphendelim L\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0ac60360aab1a7600415a85e542f3c61}{%
+           family={Frystyk},
+           familyi={F\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{90570706a3913f0b2972bd12da2ee963}
+      \strng{fullhash}{90570706a3913f0b2972bd12da2ee963}
+      \strng{authornamehash}{90570706a3913f0b2972bd12da2ee963}
+      \strng{authorfullhash}{90570706a3913f0b2972bd12da2ee963}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hypertext Transfer Protocol -- {HTTP}/1.0}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\ZKU5Q77V\\rfc1945.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc1945
+      \endverb
+    \endentry
+    \entry{_flash_2017}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adobe has long played a leadership role in advancing interactivity and creative content – from video, to games and more – on the web. Where we’ve seen a need to pus...}
+      \field{day}{25}
+      \field{month}{7}
+      \field{title}{Flash \& The Future of Interactive Content}
+      \field{titleaddon}{Adobe Blog}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\IIK8DFF7\\adobe-flash-update.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://theblog.adobe.com/adobe-flash-update/
+      \endverb
+    \endentry
+    \entry{_how_2016}{online}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Deep understanding of video streaming technology key points will provide you a clear picture of the choices you have here. Video streaming intends transmitting media data online while enabling users to process it without completing the process of transmission. According to this, streaming protocols are just the ways of this transmission.  Therefore, choosing a streaming protocol that will perfectly suit the type of media...}
+      \field{day}{26}
+      \field{month}{8}
+      \field{title}{How to Sort Through the Variety of Streaming Protocols}
+      \field{titleaddon}{Letzgro}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\6K62YNM8\\the-variety-of-streaming-protocols.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://letzgro.net/blog/the-variety-of-streaming-protocols/
+      \endverb
+    \endentry
+    \entry{_html5_2017}{online}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeltitlesource}{title}
+      \field{title}{{HTML}5 Introduction}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb HTML5 Introduction:C\:\\Users\\Romain\\Zotero\\storage\\SCGEKP7X\\html5_intro.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.w3schools.com/html/html5_intro.asp
+      \endverb
+    \endentry
+    \entry{_introduction_2016}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction aux protocoles}
+      \field{titleaddon}{{OpenClassrooms}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\BEB8VXTI\\introduction-aux-protocoles.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://openclassrooms.com/courses/les-reseaux-de-zero/introduction-aux-protocoles
+      \endverb
+    \endentry
+    \entry{liu_near-duplicate_2013}{article}{}
+      \name{author}{6}{}{%
+        {{hash=cd0f0cd17467d8e0cc3ed143e26df5f3}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiajun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bbead5d4b952a01fb4a47ceb3e05a235}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f7bef19e854ecc793b7729f6563be1cb}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Hongyun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e4d51f11650e851e72ac4d5731f46dd6}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Heng\bibnamedelima Tao},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=fd1acc047cfee55f83025ae0e8f6adee}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Chong\bibnamedelima Wah},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b6d71ec9840ef40e6548c546b298afd}
+      \strng{fullhash}{6b6d71ec9840ef40e6548c546b298afd}
+      \strng{authornamehash}{6b6d71ec9840ef40e6548c546b298afd}
+      \strng{authorfullhash}{6b6d71ec9840ef40e6548c546b298afd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{03600300}
+      \field{journaltitle}{{ACM} Computing Surveys}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{shorttitle}{Near-duplicate video retrieval}
+      \field{title}{Near-duplicate video retrieval: Current research and future trends}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{volume}{45}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1145/2501654.2501658
+      \endverb
+      \verb{file}
+      \verb ContentServer.pdf:C\:\\Users\\Romain\\Documents\\Projet R&D\\ContentServer.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?doid=2501654.2501658
+      \endverb
+    \endentry
+    \entry{_live_2017}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Live streaming technology is often employed to relay live events such as sports, concerts and more generally {TV} and Radio programmes that are output live. Often shortened to just streaming, live streaming is the process of transmitting media 'live' to computers and devices. This is a fairly complex and nascent subject with a lot of variables, so in this article we'll introduce you to the subject and let you know how you can get started.}
+      \field{title}{Live streaming web audio and video}
+      \field{titleaddon}{Mozilla Developer Network}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\P3EY7J32\\Live_streaming_web_audio_and_video.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video
+      \endverb
+    \endentry
+    \entry{_chronique_streaming_2010}{online}{}
+      \name{author}{3}{}{%
+        {{hash=a19b685a4b59e78c7b5f38990d1ba1d1}{%
+           family={Ndiaye},
+           familyi={N\bibinitperiod},
+           given={Awa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a05c708e657c90a3cb228b81d7acede3}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Solène},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ced857cb168cccc6937fcae891c1fcfd}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \strng{fullhash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \strng{authornamehash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \strng{authorfullhash}{e1f0f7add3ef51e61ccf87668d784e12}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{analysediachroniquestreaming}
+      \field{title}{Streaming Vidéo: Histoire et évolution de l'offre et des usages}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://hautdeforme.files.wordpress.com/2013/01/analysediachroniquestreaming.pdf
+      \endverb
+    \endentry
+    \entry{pantos_http_2017}{online}{}
+      \name{author}{2}{}{%
+        {{hash=fa5100c95ba0b556dc172db749550757}{%
+           family={Pantos},
+           familyi={P\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=52bb360d0d0a8c2da0a9b85999493f3e}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{605214e13bb04f8e3763075ded1e0b30}
+      \strng{fullhash}{605214e13bb04f8e3763075ded1e0b30}
+      \strng{authornamehash}{605214e13bb04f8e3763075ded1e0b30}
+      \strng{authorfullhash}{605214e13bb04f8e3763075ded1e0b30}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{HTTP} Live Streaming}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\N6JP5RLJ\\rfc8216.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc8216
+      \endverb
+    \endentry
+    \entry{rao_real-time_2016}{online}{}
+      \name{author}{5}{}{%
+        {{hash=293b486a7e956afeac45290b400514a3}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Anup},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1f1a47d3dd66d52fe02ce3a6617caa0}{%
+           family={Lanphier},
+           familyi={L\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1962867eea3ef80b37e8c10fcddc586a}{%
+           family={Stiemerling},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c520fc132510d84b39cdc7763de73842}{%
+           family={Schulzrinne},
+           familyi={S\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ed07b958842a8f4d3dc9a6da878ff527}{%
+           family={Westerlund},
+           familyi={W\bibinitperiod},
+           given={Magnus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{722ca7dc279466c79e0835128c4dc7bf}
+      \strng{fullhash}{722ca7dc279466c79e0835128c4dc7bf}
+      \strng{authornamehash}{722ca7dc279466c79e0835128c4dc7bf}
+      \strng{authorfullhash}{722ca7dc279466c79e0835128c4dc7bf}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Use-case de l'utilisation de {RTSP} pour la distribution live. https://tools.ietf.org/html/rfc7826\#appendix-Es}
+      \field{title}{Real-Time Streaming Protocol Version 2.0}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\P5QRJU8B\\rfc7826.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc7826
+      \endverb
+    \endentry
+    \entry{sancerre_canal+_2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6156d6cfabc713fe4f165e8ffc7b4065}{%
+           family={Sancerre},
+           familyi={S\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \strng{fullhash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \strng{authornamehash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \strng{authorfullhash}{6156d6cfabc713fe4f165e8ffc7b4065}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quitte à abandonner le décodeur.}
+      \field{title}{Canal+ veut pousser les abonnés vers son application}
+      \field{titleaddon}{Journal de l'économie}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\ZTPGMGDF\\Canal-veut-pousser-les-abonnes-vers-son-application_a4601.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.journaldeleconomie.fr/Canal-veut-pousser-les-abonnes-vers-son-application_a4601.html
+      \endverb
+    \endentry
+    \entry{rtsp_1996}{online}{}
+      \name{author}{1}{}{%
+        {{hash=00fde203cbb86f39a8f6713838b4104c}{%
+           family={Schulzrinne\bibnamedelima \{{\textbackslash}textless\}schulzrinne@cs.columbia.edu\{{\textbackslash}textgreater\}},
+           familyi={S\bibinitperiod\bibinitdelim \\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{00fde203cbb86f39a8f6713838b4104c}
+      \strng{fullhash}{00fde203cbb86f39a8f6713838b4104c}
+      \strng{authornamehash}{00fde203cbb86f39a8f6713838b4104c}
+      \strng{authorfullhash}{00fde203cbb86f39a8f6713838b4104c}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Real Time Streaming Protocol ({RTSP})}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\UNZ28V9H\\rfc2326.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc2326
+      \endverb
+    \endentry
+    \entry{_mpegdash_2017}{inreference}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dynamic Adaptive Streaming over {HTTP} (diffusion en flux adaptatif dynamique sur {HTTP}) souvent nommé {MPEG}-{DASH} est un standard de format de diffusion audiovisuelle sur Internet. Il se base sur la préparation du contenu en différentes présentations de qualité et débit variable, découpées en segments de courte durée (quelques secondes). Chacun de ces segments est rendu disponible individuellement au moyen d'un protocole d'échange. Le protocole principalement ciblé est {HTTP} comme l'indique le titre, mais la spécification admet explicitement que d'autres protocoles (par exemple {FTP}) puissent être utilisés. L'organisation des segments et les paramètres associés sont publiés dans un manifeste au format {XML}. La norme {ISO}/{IEC} 23009 finalisée fin 2011, définit le format du manifeste ainsi que celui des segments basés sur des formats de conteneur {MPEG} : {ISO} Base Media File Format ({ISO}/{IEC} 14496-12) et {MPEG}-2 Transport Stream ({ISO}/{IEC} 13818-1), et donne des indications pour la définition d'autres formats de segment. Le comportement attendu des clients {MPEG}-{DASH} et les algorithmes d'adaptation ne sont pas normalisés, laissant aux fournisseurs de ces applications une large marge pour la différenciation commerciale et/ou l'adaptation à des besoins spécifiques. L'idée de base est que le client {MPEG}-{DASH} effectue une estimation de la bande passante disponible pour la réception des segments, et en fonction du remplissage de son tampon de réception il choisit pour le prochain segment à charger une représentation dont le débit : assure la meilleure qualité possible et permet un délai de réception compatible avec le rendu ininterrompu du contenu. L'utilisation de {HTTP} comme protocole sous-jacent permet de s'appuyer efficacement sur l'infrastructure existante du web et les bibliothèques réseau existantes sur les appareils connectés à Internet (ordinateurs, tablettes, télévisions connectées, décodeurs, smartphones...)}
+      \field{booktitle}{Wikipédia}
+      \field{day}{4}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{note}{Page Version {ID}: 137922465}
+      \field{title}{{<}span lang="en"{>}Dynamic Adaptive Streaming over {HTTP}{<}/span{>}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\C58QZWC3\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Dynamic_Adaptive_Streaming_over_HTTP&oldid=137922465
+      \endverb
+    \endentry
+    \entry{def_streaming_2013}{inreference}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le streaming (terme anglais, de stream : « courant », « flux », « flot »), flux direct, flux, lecture en continu, lecture en transit ou diffusion en mode continu, désigne un principe utilisé principalement pour l'envoi de contenu en « direct » (ou en léger différé). On peut également songer à la locution lecture seule, déjà utilisée en informatique. Très utilisé sur Internet et sur les réseaux de téléphonie mobile, le streaming permet la lecture d'un flux audio ou vidéo (cas de la vidéo à la demande) à mesure qu'il est diffusé. Il s'oppose ainsi à la diffusion par téléchargement de fichiers qui nécessite de récupérer l'ensemble des données d'un morceau ou d'un extrait vidéo avant de pouvoir l'écouter ou le regarder. Néanmoins la lecture en continu est, du point de vue théorique, un téléchargement car il y a un échange de données brutes entre un client et un serveur, mais le stockage est provisoire et n'apparaît pas directement sous forme de fichier sur le disque dur du destinataire. Les données sont téléchargées en continu dans la mémoire vive, sont analysées à la volée par l'ordinateur ou le smartphone et rapidement transférées vers un écran ou un lecteur multimédia (pour affichage) puis remplacées par de nouvelles données. Les flux audio ou vidéo de streaming sont généralement fournis par des plateformes qui proposent plusieurs films, séries ou morceaux musicaux.}
+      \field{booktitle}{Wikipédia}
+      \field{day}{18}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{note}{Page Version {ID}: 140761727}
+      \field{title}{{<}span lang="en"{>}Streaming{<}/span{>}}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\LGJKWDZM\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=Streaming&oldid=140761727
+      \endverb
+    \endentry
+    \entry{_thought_2010}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{title}{Thoughts on Flash - Apple}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Thoughts on Flash - Apple:C\:\\Users\\Romain\\Zotero\\storage\\5GIFEHPU\\thoughts-on-flash.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.apple.com/hotnews/thoughts-on-flash/
+      \endverb
+    \endentry
+    \entry{_vlc_2017}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeltitlesource}{title}
+      \field{title}{{VLC}: Site officiel - Des solutions multimédias libres pour tous les {OS} ! - {VideoLAN}}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb VLC\: Site officiel - Des solutions multimédias libres pour tous les OS ! - VideoLAN:C\:\\Users\\Romain\\Zotero\\storage\\98B4XXF4\\index.fr.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.videolan.org/index.fr.html
+      \endverb
+    \endentry
+    \entry{zambelli_history_2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=152972cd4921016c2079c9ae407a1ddc}{%
+           family={Zambelli},
+           familyi={Z\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{152972cd4921016c2079c9ae407a1ddc}
+      \strng{fullhash}{152972cd4921016c2079c9ae407a1ddc}
+      \strng{authornamehash}{152972cd4921016c2079c9ae407a1ddc}
+      \strng{authorfullhash}{152972cd4921016c2079c9ae407a1ddc}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're close to broadly available {HD} streaming which could trigger mass adoption of connected {TV}. Alex Zambelli gives the story so far}
+      \field{day}{1}
+      \field{issn}{0261-3077}
+      \field{journaltitle}{The Guardian}
+      \field{langid}{british}
+      \field{month}{3}
+      \field{title}{A history of media streaming and the future of connected {TV}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\75KE5X3E\\history-streaming-future-connected-tv.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.theguardian.com/media-network/media-network-blog/2013/mar/01/history-streaming-future-connected-tv
+      \endverb
+      \keyw{Connected {TV},Media \& Tech Network}
+    \endentry
+  \endsortlist
+  \missing{CITATION_combien_de_personnes_regardent_la_television}
+  \missing{CITATION_MEDIA DE MASSE}
+  \missing{CITATION Comment recevoir la t\IeC {\'e}l\IeC {\'e}vision CSA}
+  \missing{CITATION_MOLOTOV}
+  \missing{COMMENT-FONCTIONNE}
+\endrefsection
+\endinput
+
