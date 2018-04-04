@@ -2141,9 +2141,32 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">polytech/dummy.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">bibliographie.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="2">_chiffres_2017</bcf:citekey>
+    <bcf:citekey order="3">_cisco_2017</bcf:citekey>
+    <bcf:citekey order="4">sancerre_canal+_2017</bcf:citekey>
+    <bcf:citekey order="5">abduraman_tv_2012</bcf:citekey>
+    <bcf:citekey order="6">liu_near-duplicate_2013</bcf:citekey>
+    <bcf:citekey order="7">_definition_2017</bcf:citekey>
+    <bcf:citekey order="8">zambelli_history_2013</bcf:citekey>
+    <bcf:citekey order="9">_chronique_streaming_2010</bcf:citekey>
+    <bcf:citekey order="10">_thoughts_2010</bcf:citekey>
+    <bcf:citekey order="11">_flash_2017</bcf:citekey>
+    <bcf:citekey order="12">_adaptive_2017</bcf:citekey>
+    <bcf:citekey order="13">_adaptive_2017</bcf:citekey>
+    <bcf:citekey order="14">_introduction_2017</bcf:citekey>
+    <bcf:citekey order="15">_how_2016</bcf:citekey>
+    <bcf:citekey order="16">_live_2017</bcf:citekey>
+    <bcf:citekey order="17">fielding_hypertext_1996</bcf:citekey>
+    <bcf:citekey order="18">_html5_2017</bcf:citekey>
+    <bcf:citekey order="19">rtsp_1996</bcf:citekey>
+    <bcf:citekey order="20">rao_real-time_2016</bcf:citekey>
+    <bcf:citekey order="21">_mpegdash_2017</bcf:citekey>
+    <bcf:citekey order="22">pantos_http_2017</bcf:citekey>
+    <bcf:citekey order="23">_ffmpeg_2017</bcf:citekey>
+    <bcf:citekey order="24">_vlc:_2017</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/WWW" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="WWW">
   <bcf:sorting>

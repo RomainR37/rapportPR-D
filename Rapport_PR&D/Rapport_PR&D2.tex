@@ -170,24 +170,89 @@ Par la suite, les grands groupes informatiques de l’époque ont déployé tour
 	\label{fig:logoPlatform}
 \end{figure}
 
-Au fil des années, la concurrence évolue et devient de plus en plus rude. La technologie s’améliore et les anciennes plateformes dominantes deviennent rapidement obsolètes. Arrive au courant des années 2000 Adobe et sa technologie Adode Flash qui s’impose rapidement dans tous les foyers, si bien que l’add-on Flash Player était installé sur 99\% des ordinateurs américains jusqu’en 2011 \cite{_chronique_streaming_2010}. Aujourd’hui, Flash Player est devenu obsolète pour plusieurs raisons : tout d’abord, la technologie entraînait de nombreux bugs et failles de sécurité que déploraient la plupart des services l’utilisant, et ensuite, l’avènement de l’HTML5 sur les navigateurs a permis d’incruster une vidéo sur une page web sans avoir besoin de plug-ins particuliers. Tous ces problèmes concernant Flash ont été listés notamment par Steve Jobs en personne en 2010 [WWW15], prônant par la même occasion le HTML5 et les nouvelles technologies émergentes. La page Flash sera définitivement tournée dans les années qui viennent, avec l’annonce d’Adobe le 25 juillet 2017 qui prévoit son abandon définitif à l’horizon 2020 [WWW5].
+Au fil des années, la concurrence évolue et devient de plus en plus rude. La technologie s’améliore et les anciennes plateformes dominantes deviennent rapidement obsolètes. Arrive au courant des années 2000 \textit{Adobe} et sa technologie \textit{Adode Flash} qui s’impose rapidement dans tous les foyers, si bien que l’add-on \textit{Flash Player} était installé sur 99\% des ordinateurs américains jusqu’en 2011 \cite{_chronique_streaming_2010}. Aujourd’hui, \textit{Flash Player} est devenu obsolète pour plusieurs raisons : tout d’abord, la technologie entraînait de nombreux bugs et failles de sécurité que déploraient la plupart des services l’utilisant, et ensuite, l’avènement de l’HTML5 sur les navigateurs a permis d’incruster une vidéo sur une page web sans avoir besoin de plug-ins particuliers. Tous ces problèmes concernant \textit{Flash} ont été listés notamment par Steve Jobs en personne en 2010 \cite{_thoughts_2010}, prônant par la même occasion le HTML5 et les nouvelles technologies émergentes. La page \textit{Flash} sera définitivement tournée dans les années qui viennent, avec l’annonce d’Adobe le 25 juillet 2017 qui prévoit son abandon définitif à l’horizon 2020 \cite{_flash_2017}.
 
-La tendance aujourd’hui est aux nouveaux protocoles qui fonctionnent indépendamment de toutes installations de plug-ins ou de programmes pour fonctionner. C’est le cas par exemple du protocole HLS que nous observerons plus en détails dans la \textit{subsec:newProto}. Par ailleurs, l’un des aspects importants de la diffusion en continu aujourd’hui est l’\textit{Adaptive Streaming} qui est exposé dans la partie suivante.
+La tendance aujourd’hui est aux nouveaux protocoles qui fonctionnent indépendamment de toutes installations de plug-ins ou de programmes pour fonctionner. C’est le cas par exemple du protocole HLS que nous observerons plus en détails dans la \autoref{subsec:newProto}. Par ailleurs, l’un des aspects importants de la diffusion en continu aujourd’hui est l’\textit{Adaptive Streaming} qui est exposé dans la partie suivante.
 
 \section{Diffusion en flux adaptatif ou Adaptative Streaming}
 \label{sec:adaptative_streaming}
 
+La diffusion en flux adaptatif est une technique utilisée dans les protocoles modernes pour la diffusion de flux en direct. Elle consiste en l’adaptation de la qualité de l’image affichée en fonction de la bande-passante et de la capacité du processeur du client qui reçoit les données \cite{_adaptive_2017}. Il nécessite la présence d’un encodeur qui puisse recevoir le fichier que l’on souhaite transférer et qui le transmet au client avec plusieurs débits différents. Un schéma décrivant le fonctionnement lors d’une lecture d’un flux est à suivre :
+
+\begin{figure}
+	\includegraphics[scale=0.25]{images/Adaptive_streaming_overview.png}
+	\caption{Schéma du fonctionnement de la diffusion en flux adaptatif (tiré de \cite{_adaptive_2017})}
+	\label{fig:adaptive_bitrate}
+\end{figure}
+
+Le résultat induit un léger temps de chargement lors d’un changement de bande-passante mais un démarrage plus rapide de la lecture également. Ce principe est quasiment exclusif aux protocoles basés sur le HTTP et n’est pas adapté pour les protocoles plus anciens comme RTSP que nous verrons dans la partie \autoref{subsec:rtsp}. Ce type de diffusion est clairement celui-ci qui prend de l’ampleur et qui est particulièrement utilisé pour les Web TV.
+
+La prochaine section détaillera les protocoles de communication les plus réputés dans le domaine du \textit{streaming} et leurs évolutions à travers le temps.
+
+
 \section{Les protocoles}
 \label{sec:protocoles}
 
+Nous allons évoquer les différents protocoles de communication utilisables pour recevoir des flux de données en continu. Mais avant ça, il est important de définir ce qu’est un protocole de communication. Il s’agit d’un ensemble de règles définissant la procédure de communication sur un réseau \cite{_introduction_2017}. C’est par ce biais que les données sont communiquées et interprétées par la suite. Les protocoles que nous allons évoquer sont ceux qui ont été ou qui sont encore les plus utilisés pour le transfert de flux de données depuis l’apparition du streaming. Cependant, il en existe d’autres qui sont plus mineurs ou qui ont été moins présents sur le marché.
+
+Les protocoles cités par la suite se trouvent sur la couche applicative de modèle OSI, cependant tous ces protocoles dépendent de la couche Transport et les protocoles de transport les plus utilisés pour la transmission de flux sont principalement le Transmission Control Protocol (TCP) et le User Datagram Protocol (UDP) \cite{_how_2016}. Le but du TCP est d’assurer le procédé de transmission des données, c’est-à-dire qu’on est sûr que toutes les données seront bien arrivées à destination. En effet, les paquets sont envoyés les uns après les autres, et si les premiers ne sont pas arrivés, les autres ne sont pas envoyés. Ce principe induit une possibilité de ralentissement, cependant il n’y aura aucune perte d’informations. Quant à l’UDP, la priorité est basée sur l’envoi d’informations en un minimum de temps. Ainsi, il est possible d’avoir des pertes d’informations lors de l’envoi des données mais la diffusion restera continu. De ce fait, pour la transmission en direct et pour avoir le moins de décalage, la préférence sera pour le UDP. Cependant, d’autres éléments peuvent rentrer en compte, notamment le fait que le TCP est utilisé dans de nombreux domaines sur Internet, et de ce fait, est moins susceptible d’être bloqué par un pare-feu que l’UDP. Le TCP sera malgré tout plus adapté pour les vidéos à la demande que pour la diffusion en direct.
+
+Après avoir évoqué ces protocoles de transport, nous allons nous focaliser sur les protocoles de communication utilisables pour la diffusion de données en continu.
+
+
 \subsection{HTTP}
+\label{subsec:http}
+
+Le protocole HTTP est un des protocoles les plus connus puisqu’il est à la base d’internet et des navigateurs Web. Il est aujourd’hui et de loin, le protocole le plus utilisé pour transférer des données média à la demande ou en continu \cite{_live_2017}. C’est avec ce biais notamment, et avec l’apparition d’HTML5, que les médias sont diffusés le plus facilement et le plus à même d’être à la disposition de tous.
+
+Sans rentrer dans le fonctionnement détaillé du protocole, le principe d’HTTP est basé sur des requêtes échangées entre un client et un serveur. Il est générique, sans-état, et peut-être utilisé pour toute sorte de tâches différentes, de la navigation sur une page web à l’envoi de flux de données. C’est l’un des premiers protocoles à la base de la naissance d’Internet tel qu’il est aujourd’hui. Il est standardisé depuis 1996 \cite{fielding_hypertext_1996}, bien qu’utilisé depuis les origines du net dès 1990, et mis à jour régulièrement au cours des années avec les différents RFC publiés à propos du protocole. Il permet de transférer des textes, tout comme des données binaires et donc, tout type de médias divers et variés. Il utilise une structure sous forme d’URL pour décrire un objet. C’est ainsi que l’on peut remarquer que les adresses sur Internet utilisent toutes le protocole HTTP pour communiquer.
+
+La tendance actuelle est de se séparer des autres protocoles de streaming courants pour revenir vers l’HTTP ou vers des protocoles basés sur ce dernier. Parmi les avantages, il y a notamment le fait de s’implémenter facilement, à moindre coût de par sa liberté d’exploitation, et la possibilité de faire de la diffusion en flux adaptatif comme vu dans la \autoref{sec:adaptative_streaming}.
+
+
+Cette tendance vient d’une part, des failles de sécurité induits par certaines plateformes, et d’autre part, de l’avènement du HTML5. Le langage HTML est un format de données conçues pour représenter des pages web. Son principe repose sur des balises représentant un type de données qui s’affichera sur le navigateur. L’arrivée d’HTML5 en 2014 implique de nouvelles balises permettant d’implémenter des éléments multimédia directement sur la page \cite{_html5_2017}. Cela bouscule fondamentalement le marché, et induit une obsolescence de la quasi-totalité des extensions permettant de lire des vidéos diverses. En effet, auparavant, la lecture d’une vidéo sur un navigateur était possible uniquement via une extension comme \textit{Flash} ou encore \textit{Silverlight} par exemple.
+
+Le HTTP étant le protocole qui permet d’envoyer des données HTML, l’impact du HTML5 a permis de remettre le protocole dans les premiers plans en ce qui concerne la diffusion de contenu et a aussi induit une explosion des nouveaux procédés, basés sur le HTTP, et prenant partie des nouvelles fonctionnalités mises à disposition par HTML5.
+
+\begin{figure}
+	\includegraphics[scale=0.25]{images/html5logo}
+	\caption{Logo du HTML5 qui a bousculé le marché du multimédia en ligne à son arrivée}
+	\label{fig:html5logo}
+\end{figure}
 
 \subsection{RTSP et RTSP 2.0}
+\label{subsec:rtsp}
+
+Le protocole RTSP, acronyme de \textit{Real Time Streaming Protocol}, permet d’établir et de contrôler un ou plusieurs flux de données média en continu comme la vidéo et l’audio \cite{rtsp_1996}. Il a été l’un des protocoles pionniers dans la diffusion en continu et a été standardisé en avril 1998. Développé par \textit{RealNetworks} entre autres, il agit comme une sorte de télécommande sur les médias diffusés, avec des contrôles comme lecture, pause, arrêt ou encore enregistrer. Il utilise conjointement les protocoles de transport \textit{Real-time Transport Protocol} (RTP) et \textit{Real-time Control Protocol} pour envoyer les données média souhaitées. Quand RTP s’occupe de la transmission des données, RTCP se charge de transmettre des statistiques, des informations de qualité de service et aide également à la synchronisation en cas de multiples flux. RTSP est assez similaire dans sa structure à HTTP en terme de syntaxe et d’utilisation. Les deux protocoles utilisent une structure sous forme d’URL, pour le protocole RTSP, celle-ci commence par \textit{rtsp://}. À la différence du HTTP qui utilise par défaut le port 80 pour fonctionner, le port par défaut du RTSP est le 554. L’autre différence dans la conception cette fois est que, par rapport à l’HTTP qui est sans-état, RTSP fonctionne avec des états et permet ainsi de gérer différents flux sans problème.
+
+L’un des points forts du protocole est sa flexibilité. En effet, le protocole peut échanger entre TCP et UDP pour promouvoir une meilleure expérience pour le client. Ce principe fonctionne aussi bien pour la diffusion en direct que pour les vidéos à la demande.
+
+La version originale du protocole est devenue obsolète et a été remplacée par sa version 2.0 en décembre 2016 \cite{rao_real-time_2016}, bien que cette version ne soit pas rétro-compatible avec l’ancien protocole. Les ajustements apportés sont plus en phase avec la technologie et certaines modifications notamment dans les en-têtes des requêtes entraînent cette non-compatibilité.
+
+De nombreux protocoles se sont inspirés de RTSP, notamment \textit{Microsoft} avec leur protocole propriétaire \textit{Microsoft Media Server}, rapidement devenu obsolète en 2003 et abandonné en 2008, et remplacé par RTSP sur les serveurs Windows.
+
 
 \subsection{RTMP}
 
+Le \textit{Real Time Messaging Protocol} était l’une des institutions du monde du streaming lorsque son développeur, \textit{Macromedia} qui en 2005 a été racheté par \textit{Adode Systems}, régnait sur le marché de la diffusion de données avec \textit{Flash Player}. C’est un protocole propriétaire qui permet de diffuser du contenu multimédia entre un serveur et un client possédant un lecteur Flash. Il existe différentes variantes de ce protocole comme RTMPE (pour Encrypted, qui signifie chiffré, ici en utilisant un mécanisme de sécurité propre à Adobe), RTMPS (pour Secure, en utilisant les procédés SSL/TLS) et RTMPT (qui est encaspulé dans des requêtes HTTP).
+
+RTMP est basé sur le TCP, permettant ainsi une transmission des données fiable et une connexion stable. Il est aussi flexible, et permet d’envoyer des données audio, vidéo et même texte avec divers formats de fichiers vers différents appareils. Tout comme RTSP, le client peut contrôler le flux avec des commandes similaires pour gérer la lecture du flux.
+
+L’un des avantages qu’il a toujours face aux protocoles modernes est son faible temps de latence, ce qui est d’une grande importance pour la diffusion en continu. De ce point de vue, il surpasse même les protocoles comme HTTP ou HLS encore de nos jours. L’autre atout majeur est sa capacité à être multi-plateforme. C’était l’une des grandes forces du protocole lorsqu’il régnait sur le marché dans les années 2000. Aujourd’hui cet argument n’est plus valable à cause de l’abandon progressif de l’extension Flash provoqué par l’arrivée d’HTML5. En effet, les dernières moutures de certains navigateurs ne sont plus compatibles avec Flash comme par exemple \textit{Firefox} ou \textit{Chrome}. Il était aussi auparavant disponible sur Android, ce qui n’est plus le cas depuis Android 4.0 sorti en 2011, dû notamment aux failles de sécurité du lecteur. Parmi les autres inconvénients, on retrouve l’instabilité en cas de bande passante changeante et l’absence de streaming en flux adaptatif.
+
+Pour pallier à l’absence de flux adaptatif, Adobe a mis en place d’autres protocoles comme le HDS, basé sur l’HTTP.
+
+
 \subsection{MPEG-DASH, HLS, HDS et les nouveaux protocoles basés sur HTTP}
 \label{subsec:newProto}
+
+Dans cette section, les protocoles cités sont ceux qui sont actuellement utilisés par les plateformes les plus connus. Tous ces protocoles sont basés sur l’HTTP vu dans la \autoref{subsec:http}, pour les raisons que nous avons déjà citées comme l’avènement du HTML5 ou le marché qui est concentré dans sa quasi-totalité sur ce procédé. Aussi, ils ont tous en commun d’être adaptés pour faire du streaming en flux adaptatif. Ils ont aussi la particularité de passer à travers les pare-feux et les serveurs proxy, étant donné qu’ils sont basés sur HTTP, ce qui n’est pas le cas des anciens protocoles de communication basés sur UDP, comme RTSP.
+
+Le premier protocole que nous allons évoquer est celui qui est standardisé, à savoir la diffusion en flux adaptatif dynamique sur HTTP, couramment nommé MPEG-DASH \cite{_mpegdash_2017}. Il tient l’appellation MPEG du nom du groupe de travail \textit{Moving Picture Expert Group} qui est chargé des normes de compression, de traitement et de codage de fichiers multimédias. Ils ont par exemple à l’origine des différents fichiers de compression connus de tous comme le MP3 par exemple. Le MPEG-DASH est une technique de streaming adaptatif permettant d’envoyer des contenus média de haute-qualité à travers des serveurs HTTP. Il fait partie des solutions les plus populaires de par sa standardisation en avril 2012. Il fonctionne en divisant le contenu en plusieurs petites sections contenant un intervalle de temps du fichier complet. Chaque segment est disponible avec différents débits et ainsi, selon des facteurs déterminés par le client recevant les données, le contenu est envoyé avec le débit adapté de manière automatique. Les facteurs de détermination sont le vitesse de connexion, les capacités techniques de l’appareil mais aussi les préférences de l’utilisateur. Le but principal du standard est de proposer une diffusion avec le moins d’efforts de la machine pour n’importe quel format vers n’importe quel appareil. L’un de ces avantages par rapport à la concurrence réside dans la non-dépendance à un codec particulier. Un codec est un procédé qui encode et décode un flux de données pour le transférer par la suite. Là où les protocoles propriétaires ont tous un codec qui leur est propre MPEG-DASH peut s’adapter sur divers codecs différents.
+
+Sous le même principe, reposent divers protocoles propriétaires, et notamment le plus connu, \textit{HTTP Live Streaming Protocol} (HLS). Développé par \textit{Apple} et initié en 2009, il utilise le même système que le MPEG-DASH, à savoir une division du fichier en plusieurs petites séquences de fichiers HTTP. Le protocole était destiné aux systèmes \textit{Apple} mais a depuis été étendu plus globalement. L’entreprise l’a documenté sous forme de RFC en 2015 et souhaite que le protocole devienne un standard reconnu. Il a été publié en Août 2017 et est en attente d’approbation pour le moment \cite{pantos_http_2017}. HLS présente l’avantage de prévenir les erreurs de flux en envoyant des extraits supplémentaires en cas de problèmes. Bien qu’il soit utilisé par des plateformes très utilisées (par exemple, \textit{MyCanal} la plateforme de \textit{Canal +}), il n’est pas recommandé pour effectuer des diffusions en direct, notamment en raison de son haut temps de latence lors de la transmission des données. Si on prend l’exemple de \textit{MyCanal}, il n’est pas rare d’avoir des décalages de plusieurs minutes par rapport à la diffusion télévisée. Le codec utilisé par le protocole est le M3U, qui nécessite l’utilisation de Javascript, supporté par les dernières versions des navigateurs web.
+
+Parmi les autres protocoles propriétaires que l’on peut citer, il y \textit{HTTP Dynamic Streaming} (HDS), développé par \textit{Adobe}, qui fonctionne sur le même principe mais qui est appliqué au vidéo \textit{Flash}. De la même manière que HLS et MPEG-DASH, le serveur analyse la bande-passante du client et lui envoie les données qui lui correspondent le mieux. Cependant, ce protocole est voué à disparaître en même temps que l’extension \textit{Flash}.
 
 
 \section{Les formats de fichiers utilisés}
@@ -210,13 +275,37 @@ La tendance aujourd’hui est aux nouveaux protocoles qui fonctionnent indépend
 
 \chapter{Les bibliothèques et logiciels d'acquisition}
 
+Pour notre plateforme, nous aurons besoin d’une bibliothèque qui puisse acquérir les flux de streaming afin de les traiter par la suite. Il existe de nombreuses librairies diverses et variées pour effectuer une acquisition de flux. Nous allons nous focaliser sur deux d’entre elles : VLC et FFMPEG.
 
 \section{Les frameworks Windows (VfW, DirectShow, Media Foundation)}
 
+
 \section{FFMPEG}
+
+\begin{figure}
+	\includegraphics[scale=0.5]{images/ffmpeg}
+	\caption{Logo de FFMPEG}
+	\label{fig:logoffmpeg}
+\end{figure}
+
+FFMPEG est un ensemble de logiciels libres permettant d’acquérir, de convertir et d’enregistrer des flux vidéo et audio \cite{_ffmpeg_2017}. La première version du projet a été créée en 2000 et a depuis été reprise par de nombreux autres outils multimédia disponibles en ligne. Le projet est composé de plusieurs logiciels dont \textit{ffmpeg} qui est un outil en ligne de commande pour convertir des fichiers multimédia, \textit{ffserver} qui est un serveur streaming pour les diffusions en ligne, \textit{ffplay} qui est un lecteur utilisant les bibliothèques \textit{ffmpeg} et \textit{ffprobe} qui est un outil d’analyse de flux multimédia. En complément de ces outils, il existe également diverses bibliothèques qui sont proposées aux développeurs. Ces bibliothèques ont été rédigées en langage C et permettent de gérer diverses tâches liées aux flux de données. Ces outils proposés par FFMPEG sont libres et ont été utilisés dans de nombreux projets comme VLC par exemple.
+
+Plus d’une centaines de fichiers et de protocoles sont pris en charge par FFMPEG, parmi eux, on retrouve les protocoles de communication que nous avons vu auparavant : HTTP, HLS, RTMP, RTP, etc. La liste des fichiers supportés est disponible \href{http://ffmpeg.org/general.html#Supported-File-Formats_002c-Codecs-or-Features}{ici}.
+
+Parmi les logiciels, \textit{ffprobe} nous sera particulièrement utile pour afficher les statistiques liées aux flux de données que l’on souhaite visionner. Il offre tout un panel d’informations comme le codec, la disposition de l’affichage avec longueur et largeur de la fenêtre, mais surtout des chiffres sur le débit, le nombre d’images par seconde à l’affichage, le nombre d’images visionnées au total, et bien d’autres encore.
 
 
 \section{libVLC et VLCJ}
+
+\begin{figure}
+	\includegraphics[scale=0.5]{images/vlc-media-player-logo}
+	\caption{Logo de la VideoLAN Organization}
+	\label{fig:logovlc}
+\end{figure}
+
+LibVLC est une bibliothèque initiée par la \textit{VideoLAN Organization}, qui est à l’origine du lecteur multimédia VLC. \textit{VideoLAN} est une association à but non-lucrative qui développe et promeut des solutions libres pour le multimédia. Elle met à disposition de nombreuses bibliothèques et logiciels, dont le plus connu et le plus utilisé est \textit{VLC Media Player} \cite{_vlc:_2017}. Il s’agit d’un des lecteurs les plus réputés du marché dû à ses performances et ses possibilités pour lire la plupart des codecs audio ou vidéo. En effet, les codecs sont directement intégrés au logiciel grâce aux bibliothèques de FFMPEG.
+
+LibVLC est rédigée en langage C, mais il existe de nombreux adaptations et frameworks reprenant la bibliothèque et qui sont adaptés à tout type de langage (C++, Java, Python, etc.). On peut retrouver la liste de ces bibliothèques sur ce \href{https://wiki.videolan.org/LibVLC/}{site}. Dans notre cas, on pourrait être amené à utiliser le framework VLCJ, qui permet d’importer un lecteur VLC dans une fenêtre JAVA.
 
 
 \section{Streamlink}

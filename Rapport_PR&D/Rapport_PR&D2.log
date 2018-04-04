@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  4 APR 2018 01:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  4 APR 2018 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2597,60 +2597,60 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \openout1 = `Rapport_PR&D2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 34.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 34.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 52.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 52.
  (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 34.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 34.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 34.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 52.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for T1+jkpf on input line 34.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+jkpf on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/t1jkpf.fd
 File: t1jkpf.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkpf.
 )
-LaTeX Info: Redefining \degres on input line 34.
-LaTeX Info: Redefining \dots on input line 34.
+LaTeX Info: Redefining \degres on input line 52.
+LaTeX Info: Redefining \dots on input line 52.
 Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)              on input line 34.
-LaTeX Info: Redefining \up on input line 34.
+(frenchb.ldf)              on input line 52.
+LaTeX Info: Redefining \up on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2692,11 +2692,11 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout4 = `Rapport_PR&D2.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Rapport_PR&D2.bbl' not found.
-No file Rapport_PR&D2.bbl.
-Package biblatex Info: Reference section=0 on input line 34.
-Package biblatex Info: Reference segment=0 on input line 34.
-LaTeX Info: Redefining \microtypecontext on input line 34.
+Package biblatex Info: ... file 'Rapport_PR&D2.bbl' found.
+(./Rapport_PR&D2.bbl)
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
+LaTeX Info: Redefining \microtypecontext on input line 52.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2712,6 +2712,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count466
+
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count467
@@ -2749,7 +2750,7 @@ ABD: EveryShipout initializing macros
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 34.
+Package hyperref Info: Link coloring ON on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2759,9 +2760,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count473
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 
 Package pageslts Warning: Package pdfpages detected.
@@ -2811,18 +2812,18 @@ Package caption Info: End \AtBeginDocument code.
 File: polytech/polytech.pdf Graphic file (type pdf)
 
 <use polytech/polytech.pdf>
-Package pdftex.def Info: polytech/polytech.pdf used on input line 34.
+Package pdftex.def Info: polytech/polytech.pdf used on input line 52.
 (pdftex.def)             Requested size: 306.2564pt x 95.25526pt.
  <polytech/univ.pdf, id=8, 133.3289pt x 99.73561pt>
 File: polytech/univ.pdf Graphic file (type pdf)
 
 <use polytech/univ.pdf>
-Package pdftex.def Info: polytech/univ.pdf used on input line 34.
+Package pdftex.def Info: polytech/univ.pdf used on input line 52.
 (pdftex.def)             Requested size: 133.32857pt x 99.73535pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/jkpf/b/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+jkptt on input line 34.
+LaTeX Font Info:    Try loading font information for T1+jkptt on input line 52.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
@@ -2832,7 +2833,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkptt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+jkpf on input line 34.
+LaTeX Font Info:    Try loading font information for OT1+jkpf on input line 52.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ot1jkpf.fd
@@ -2842,13 +2843,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkpf' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 34.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 52.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2856,7 +2857,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2864,13 +2865,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 34.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 52.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 34.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 52.
 
 (c:/texlive/2016/texmf-dist/tex/latex/stmaryrd/ustmry.fd)
 Package microtype Info: Character `029' is missing
@@ -2935,39 +2936,181 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [1
 
 
-] [2
+]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 83.
+.................................................
 
-] [3
+<images/exemple_sites.png, id=269, 404.712pt x 128.27925pt>
+File: images/exemple_sites.png Graphic file (type png)
+
+<use images/exemple_sites.png>
+Package pdftex.def Info: images/exemple_sites.png used on input line 84.
+(pdftex.def)             Requested size: 303.53325pt x 96.2092pt.
+
+* Missing: images/exemple_sites.pax
+[2
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[3 <./images/exemple_sites.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]
+ []
+
+[4] [5
 
 ]
 Chapitre 1.
-[4
+[6
 
 ]
 Chapitre 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 [][][][]\T1/jkpf/b/n/24.88 La dif-fu-sion de flux en
  []
 
-[5
+[7
 
 ]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 167.
+.................................................
+ <images/logos_platform.png, id=309, 591.4095pt x 175.25475pt>
+File: images/logos_platform.png Graphic file (type png)
+
+<use images/logos_platform.png>
+Package pdftex.def Info: images/logos_platform.png used on input line 168.
+(pdftex.def)             Requested size: 413.98383pt x 122.67747pt.
+
+* Missing: images/logos_platform.pax
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[8 <./images/logos_platform.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 182.
+.................................................
+
+<images/Adaptive_streaming_overview.png, id=323, 1699.05353pt x 490.30235pt>
+File: images/Adaptive_streaming_overview.png Graphic file (type png)
+
+<use images/Adaptive_streaming_overview.png>
+Package pdftex.def Info: images/Adaptive_streaming_overview.png used on input l
+ine 183.
+(pdftex.def)             Requested size: 424.76234pt x 122.57529pt.
+
+* Missing: images/Adaptive_streaming_overview.pax
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[9 <./images/Adaptive_streaming_overview.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 217.
+.................................................
+
+<images/html5logo.jpg, id=339, 642.4pt x 642.4pt>
+File: images/html5logo.jpg Graphic file (type jpg)
+ <use images/html5logo.jpg>
+Package pdftex.def Info: images/html5logo.jpg used on input line 218.
+(pdftex.def)             Requested size: 160.59961pt x 160.59961pt.
+
+* Missing: images/html5logo.pax
+
+Underfull \vbox (badness 2326) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[10]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[11 <./images/html5logo.jpg>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[12]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[13]
 Chapitre 3.
-[6
+[14
 
 ]
 Chapitre 4.
-[7
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 285.
+.................................................
+<images/ffmpeg.png, id=373, 397.485pt x 100.375pt>
+File: images/ffmpeg.png Graphic file (type png)
+ <use images/ffmpeg.png>
+Package pdftex.def Info: images/ffmpeg.png used on input line 286.
+(pdftex.def)             Requested size: 198.742pt x 50.18736pt.
 
-] [8
+* Missing: images/ffmpeg.pax
+[15
+
+ <./images/ffmpeg.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 300.
+.................................................
+
+<images/vlc-media-player-logo.png, id=383, 501.875pt x 250.9375pt>
+File: images/vlc-media-player-logo.png Graphic file (type png)
+
+<use images/vlc-media-player-logo.png>
+Package pdftex.def Info: images/vlc-media-player-logo.png used on input line 30
+1.
+(pdftex.def)             Requested size: 250.93687pt x 125.46843pt.
+
+* Missing: images/vlc-media-player-logo.pax
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 4.  Les bi-blio-thèques et lo-gi-ciels d'ac-
+qui-si-tion
+ []
+
+[16 <./images/vlc-media-player-logo.png>] [17
 
 ]
 Chapitre 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [18
 
 ]
 Overfull \vbox (77.07655pt too high) has occurred while \output is active []
@@ -2977,39 +3120,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Chapitre 5.  Des-crip-tion gé-né-rale
  []
 
-[10]
+[19]
 Chapitre 6.
-[11
+[20
 
-] [12
+] [21
 
 ]
 Chapitre 7.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 193.
+. Redefining command \caption with sig. 'om' on line 373.
 .................................................
-<sonarcmd.png, id=297, 728.12025pt x 236.082pt>
+<sonarcmd.png, id=414, 728.12025pt x 236.082pt>
 File: sonarcmd.png Graphic file (type png)
  <use sonarcmd.png>
-Package pdftex.def Info: sonarcmd.png used on input line 194.
+Package pdftex.def Info: sonarcmd.png used on input line 374.
 (pdftex.def)             Requested size: 436.87552pt x 141.65028pt.
 
 * Missing: sonarcmd.pax
-[13
+[22
 
  <./sonarcmd.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 205.
+. Redefining command \caption with sig. 'om' on line 385.
 .................................................
- <sonarresult.png, id=302, 765.45975pt x 343.2825pt>
+ <sonarresult.png, id=419, 765.45975pt x 343.2825pt>
 File: sonarresult.png Graphic file (type png)
 
 <use sonarresult.png>
-Package pdftex.def Info: sonarresult.png used on input line 206.
+Package pdftex.def Info: sonarresult.png used on input line 386.
 (pdftex.def)             Requested size: 421.00417pt x 188.80594pt.
 
 * Missing: sonarresult.pax
@@ -3019,48 +3162,48 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 é du code
  []
 
-[14 <./sonarresult.png>]
+[23 <./sonarresult.png>]
 Chapitre 8.
-[15
+[24
 
-] [16
+] [25
 
-] [17
+] [26
 
 ]
 Annexe A.
-[18
+[27
 
 ]
 Annexe B.
-[19
+[28
 
 ]
 Annexe C.
-[20
+[29
 
 ]
 Annexe D.
-[21
+[30
 
 ]
 Annexe E.
 
-Overfull \hbox (47.02747pt too wide) in paragraph at lines 265--266
+Overfull \hbox (47.02747pt too wide) in paragraph at lines 445--446
 \T1/jkpf/m/n/10.95 (-20) avec la ver-sion 3.0.1 de VLC dis-po-nible à l'adresse
  sui-vante : https ://get.videolan.org/vlc/3.0.1/win64/vlc-|
  []
 
 
-Overfull \hbox (114.10776pt too wide) in paragraph at lines 270--271
+Overfull \hbox (114.10776pt too wide) in paragraph at lines 450--451
 \T1/jkpf/m/n/10.95 (-20) faire fonc-tion-ner de dis-po-ser du JRE 8 dis-po-nibl
 e à l'adresse : www.oracle.com/technetwork/java/javase/downloads/jre8-|
  []
 
-[22
+[31
 
 ]
-Overfull \hbox (113.22833pt too wide) in paragraph at lines 275--276
+Overfull \hbox (113.22833pt too wide) in paragraph at lines 455--456
 []\T1/jkpf/m/n/10.95 (-20) Le pro-jet se trouve sur le dé-pôt Gi-tHub dis-po-ni
 ble à l'adresse sui-vante : https ://-gi-thub.com/RomainR37/streamPlatform |
  []
@@ -3068,29 +3211,29 @@ ble à l'adresse sui-vante : https ://-gi-thub.com/RomainR37/streamPlatform |
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 281.
+. Redefining command \caption with sig. 'om' on line 461.
 .................................................
-<images/cmdLancement.png, id=340, 729.32475pt x 52.39575pt>
+<images/cmdLancement.png, id=459, 729.32475pt x 52.39575pt>
 File: images/cmdLancement.png Graphic file (type png)
 
 <use images/cmdLancement.png>
-Package pdftex.def Info: images/cmdLancement.png used on input line 282.
+Package pdftex.def Info: images/cmdLancement.png used on input line 462.
 (pdftex.def)             Requested size: 437.59822pt x 31.43768pt.
 
 * Missing: images/cmdLancement.pax
 
-LaTeX Warning: Polytech : Missing label on figure on input line 284.
+LaTeX Warning: Polytech : Missing label on figure on input line 464.
 
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 294.
+. Redefining command \caption with sig. 'om' on line 474.
 .................................................
-<images/testStream.png, id=341, 413.1435pt x 230.0595pt>
+<images/testStream.png, id=460, 413.1435pt x 230.0595pt>
 File: images/testStream.png Graphic file (type png)
 
 <use images/testStream.png>
-Package pdftex.def Info: images/testStream.png used on input line 295.
+Package pdftex.def Info: images/testStream.png used on input line 475.
 (pdftex.def)             Requested size: 289.19846pt x 161.04054pt.
 
 * Missing: images/testStream.pax
@@ -3100,34 +3243,216 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 n
  []
 
-[23 <./images/cmdLancement.png>]
+[32 <./images/cmdLancement.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 319.
+. Redefining command \caption with sig. 'om' on line 499.
 .................................................
 
-<images/imageQualite.png, id=349, 1202.99437pt x 452.4403pt>
+<images/imageQualite.png, id=467, 1202.99437pt x 452.4403pt>
 File: images/imageQualite.png Graphic file (type png)
 
 <use images/imageQualite.png>
-Package pdftex.def Info: images/imageQualite.png used on input line 320.
+Package pdftex.def Info: images/imageQualite.png used on input line 500.
 (pdftex.def)             Requested size: 445.10095pt x 167.40028pt.
 
 * Missing: images/imageQualite.pax
-
-Package biblatex Warning: Type 'online' not found on input line 329.
-
-No file Rapport_PR&D2.gls.
-No file Rapport_PR&D2.acr.
-No file Rapport_PR&D2.ind.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Annexe E.  Guide d'ins-tal-la-tion et d'uti-li-sa-tio
 n
  []
 
-[24 <./images/testStream.png> <./images/imageQualite.png>]
+[33 <./images/testStream.png> <./images/imageQualite.png>]
+Overfull \hbox (1.50822pt too wide) in paragraph at lines 509--509
+[][]$\T1/jkptt/m/n/10.95 https : / / www . cisco . com / c / en / us / solution
+s / collateral / service -[] provider /|
+ []
+
+
+Overfull \hbox (7.4523pt too wide) in paragraph at lines 509--509
+[]\T1/jkpf/m/it/10.95 (-20) Définition strea-ming\T1/jkpf/m/n/10.95 (-20) . \T1
+/jkpf/m/sc/10.95 (-20) url \T1/jkpf/m/n/10.95 (-20) : [][]$\T1/jkptt/m/n/10.95 
+http : / / www . futura -[] sciences . com / tech / definitions /|
+ []
+
+[34
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Webographie
+ []
+
+[35]
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+ (c:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+! Package babel Error: Unknown language `british'. Either you have
+(babel)                misspelled its name, it has not been installed,
+(babel)                or you requested it in a previous run. Fix its name,
+(babel)                install it or just rerun the file, respectively.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 \end{document}
+                    
+You may proceed, but expect unexpected results
+
+No file Rapport_PR&D2.gls.
+No file Rapport_PR&D2.acr.
+No file Rapport_PR&D2.ind.
+[36
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04675pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04675pt
+* \textwidth=597.50787pt
+* \textheight=845.04675pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-98.26999pt
+* \headheight=14.0pt
+* \headsep=12.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ []\T1/jkpf/b/n/10 Département In-for-ma-tique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ []\T1/jkpf/b/n/10 64 ave-nue Jean Por-ta-lis, 37200 Tours, France
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ [][][][][]$\T1/jkptt/b/n/10 p o l y t e c h \OML/jkp/m/it/10 : \T1/jkptt/b/n/1
+0 u n i v -[] t o u r s\OML/jkp/m/it/10 : \T1/jkptt/b/n/10 f r$[][][][]
+ []
+
+File: polytech/polytech.pdf Graphic file (type pdf)
+<use polytech/polytech.pdf>
+Package pdftex.def Info: polytech/polytech.pdf used on input line 509.
+(pdftex.def)             Requested size: 306.2564pt x 95.25526pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ [][][][]\T1/jkpf/b/n/12 Informatique
+ []
+
+<images/illuStreaming.jpg, id=531, 2569.6pt x 863.225pt>
+File: images/illuStreaming.jpg Graphic file (type jpg)
+
+<use images/illuStreaming.jpg>
+Package pdftex.def Info: images/illuStreaming.jpg used on input line 509.
+(pdftex.def)             Requested size: 2569.59377pt x 863.2229pt.
+
+<images/streamlink.png, id=532, 570.933pt x 75.8835pt>
+File: images/streamlink.png Graphic file (type png)
+
+<use images/streamlink.png>
+Package pdftex.def Info: images/streamlink.png used on input line 509.
+(pdftex.def)             Requested size: 570.9316pt x 75.8833pt.
+
+<images/affichageFlux.png, id=533, 1155.71774pt x 619.71526pt>
+File: images/affichageFlux.png Graphic file (type png)
+
+<use images/affichageFlux.png>
+Package pdftex.def Info: images/affichageFlux.png used on input line 509.
+(pdftex.def)             Requested size: 1155.71494pt x 619.71373pt.
+ [37
+
+
+ <./images/illuStreaming.jpg> <./images/streamlink.png> <./images/affichageFlux
+.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ [][][][]\T1/jkpf/b/sc/10.95 Ecole Po-ly-tech-nique de l'Uni-ver-sité Fran-çois
+ Ra-be-lais de Tours
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ []\T1/jkpf/b/n/10 Département In-for-ma-tique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ []\T1/jkpf/b/n/10 64 ave-nue Jean Por-ta-lis, 37200 Tours, France
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ [][][][][]$\T1/jkptt/b/n/10 p o l y t e c h \OML/jkp/m/it/10 : \T1/jkptt/b/n/1
+0 u n i v -[] t o u r s\OML/jkp/m/it/10 : \T1/jkptt/b/n/10 f r$[][][][]
+ []
+
+File: polytech/polytech.pdf Graphic file (type pdf)
+<use polytech/polytech.pdf>
+Package pdftex.def Info: polytech/polytech.pdf used on input line 509.
+(pdftex.def)             Requested size: 306.2564pt x 95.25526pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+ [][][][]\T1/jkpf/b/n/12 Informatique
+ []
+
+File: images/illuStreaming.jpg Graphic file (type jpg)
+<use images/illuStreaming.jpg>
+Package pdftex.def Info: images/illuStreaming.jpg used on input line 509.
+(pdftex.def)             Requested size: 2569.59377pt x 863.2229pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+[]\T1/jkpf/m/n/14.4 Le do-maine du strea-ming est en
+ []
+
+File: images/streamlink.png Graphic file (type png)
+<use images/streamlink.png>
+Package pdftex.def Info: images/streamlink.png used on input line 509.
+(pdftex.def)             Requested size: 570.9316pt x 75.8833pt.
+File: images/affichageFlux.png Graphic file (type png)
+ <use images/affichageFlux.png>
+Package pdftex.def Info: images/affichageFlux.png used on input line 509.
+(pdftex.def)             Requested size: 1155.71494pt x 619.71373pt.
+
+Underfull \hbox (badness 2503) in paragraph at lines 509--509
+[]\T1/jkpf/m/n/14.4 Lancement de la plate-forme en
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 509--509
+[]\T1/jkpf/m/n/14.4 Affichage des flux en si-mul-ta-nés,
+ []
+
+[38
+
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: custom
@@ -3160,14 +3485,16 @@ n
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [25
+ [39
 
 
-]
 
+
+
+] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 329.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 509.
 \c@pagesLTS.arabic.1.local.count=\count489
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -3179,25 +3506,25 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./Rapport_PR&D2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
 Package logreq Info: Writing requests to 'Rapport_PR&D2.run.xml'.
 \openout1 = `Rapport_PR&D2.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 329.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54201 strings out of 493013
- 968918 string characters out of 6136993
- 1586169 words of memory out of 5000000
- 56455 multiletter control sequences out of 15000+600000
- 157981 words of font info for 271 fonts, out of 8000000 for 9000
+ 54895 strings out of 493013
+ 983801 string characters out of 6136993
+ 1594337 words of memory out of 5000000
+ 56919 multiletter control sequences out of 15000+600000
+ 187311 words of font info for 401 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,94p,10412b,23074s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,16n,94p,10391b,23219s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/tex
 live/2016/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<c:/texlive/201
 6/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb><c:/texlive/2016/texmf-dis
@@ -3209,11 +3536,12 @@ ive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmite.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2016/texmf-dist/font
 s/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpmsc8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/j
-kpttmn8a.pfb>
-Output written on Rapport_PR&D2.pdf (33 pages, 1123960 bytes).
+kpttbn8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.p
+fb>
+Output written on Rapport_PR&D2.pdf (47 pages, 4607417 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 604 compressed objects within 7 object streams
- 121 named destinations out of 1000 (max. 500000)
- 52400 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 795 compressed objects within 8 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 54013 words of extra memory for PDF output out of 61914 (max. 10000000)
 

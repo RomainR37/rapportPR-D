@@ -60,6 +60,7 @@
       <file>biblatex.cfg</file>
       <file>french.lbx</file>
       <file>english.lbx</file>
+      <file>british.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
@@ -82,7 +83,7 @@
     </requires>
     <requires type="editable">
       <file>polytech/dummy.bib</file>
-      <file>bibliographie.bib</file>
+      <file>biblio.bib</file>
     </requires>
   </external>
 </requests>
