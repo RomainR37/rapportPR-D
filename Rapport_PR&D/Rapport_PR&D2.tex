@@ -1,7 +1,7 @@
 \documentclass{polytech/polytech}
-\schooldepartment{di}
-\typereport{custom}
-\typereportname{Ajout PRD}
+
+\typereport{prddi5}
+
 \reportyear{2017-2018}
 \title{Plateforme d'acquisition et de formatage temps réel multiflux TV Web}
 \student[di5]{Romain}{ROUSSEAU}{romain.rousseau@etu.univ-tours.fr}
@@ -26,7 +26,25 @@
 \keyword{Online TV}
 
 
-\addbibresource{bibliographie.bib}
+\posterblock{Contexte}{Le domaine du streaming est en constante évolution et représente près de 80\% de trafic de données sur le net.
+	
+	Alors qu’il existe de nombreux outils pour analyser les vidéos hors-ligne, il en existe très peu pour analyser les flux en direct, ce qui pourrait apporter de nouvelles possibilités dans de nombreux domaines du secteur des médias.}{images/illuStreaming}{Illustration sur le streaming}
+
+\posterblock{Objectifs}{Le but est de réaliser une plateforme d’acquisition multi-flux TV Web. Dans un premier temps, le souhait est d’afficher en simultané plusieurs flux TV par le biais de la plateforme.
+	
+	Par la suite, nous pourrons implémenter des éléments de statistiques sur le flux arrivant ou bien de l’analyse d’images}{images/streamlink}{Aperçu de l'invite de commande pour le lancement de la plate-forme}
+
+\posterblock{Fonctionnalités}{
+	\begin{itemize}
+		\item Sélection des chaînes désirées sur un fichier texte;
+		\item Lancement de la plate-forme en ligne de commande;
+		\item Affichage des flux en simultanés, avec gestion de la synchronisation.
+	\end{itemize}
+}{images/affichageFlux}{Exemple d'affichage de plusieurs chaînes en simultané}
+
+
+
+\addbibresource{biblio.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -47,17 +65,57 @@ Des éléments complémentaires concernant notamment la gestion de projet via un
 de Gantt sont disponibles en annexes.
 
 
+
 \part{Contexte de la réalisation et cadre générale du projet}
+
+
+Cette partie est consacrée à la description du cadre général du projet, c’est-à-dire ce pourquoi le sujet a été proposé, qui sont les acteurs autour de celui-ci, les enjeux posés, etc.
 
 
 \section{Contexte, enjeux et acteurs}
 
+
+Aujourd’hui, Internet est l’un des supports les plus répandus pour échanger et partager de l’information. En constante expansion, Internet est accessible par plus de la moitié de la population mondiale \cite{_chiffres_2017}. L’un des aspects majeurs d’Internet est la diffusion de contenu audio et vidéo, en effet plus de 75\% du trafic actuel est constitué de données vidéo et ce pourcentage augmentera jusqu’à plus de 80\% à l’horizon 2021 \cite{_cisco_2017}. La demande continue de prendre de l’ampleur au fil des années, les consommateurs demandant des vidéos avec la meilleure qualité possible.
+
+Avec cette évolution constante, la diffusion de contenu vidéo en ligne est devenue un enjeu majeur pour les entreprises s’installant sur Internet et en particulier pour celles spécialisées dans l’audio-visuel et les médias. Les plus grands groupes ont déjà tous développé des services permettant de voir leurs programmes en direct ou en différé sur Internet depuis plusieurs années déjà. Aujourd’hui, elles sont utilisées couramment par le grand public (exemple avec la plateforme MyCanal du groupe Canal + qui compte 5 millions de visiteurs uniques par mois et près de 2 millions d’utilisateurs actifs \cite{sancerre_canal+_2017}) et les principaux acteurs du secteur tendent à vouloir élargir leur offre en se démarquant du modèle de la télévision traditionnelle.
+
+
+\begin{figure}
+	\includegraphics[scale=0.75]{images/exemple_sites.png}
+	\caption{Exemples de plate-forme vidéo de grands groupes audio-visuels français}
+	\label{fig:ex_plate-formes}
+\end{figure}
+
+Ils existent déjà de nombreux outils pour acquérir, stocker, traiter et indexer les flux de Web TV hors-ligne \cite{abduraman_tv_2012}. Cependant, la tendance actuelle est l’analyse de ces flux en continu, notamment par le biais de la détection de vidéos dupliquées \cite{liu_near-duplicate_2013}. Ce type d’analyse peut être appliqué à de nombreux domaines faisant l’objet d’enjeux majeurs pour les entreprises du secteur comme la protection de la propriété intellectuelle, la recommandation de vidéo, ou même le contrôle des vidéos.
+
+
+Prenons un exemple d’analyse en continu qui est susceptible d’être utilisé dans le cadre de la télévision sur le web. Une entreprise souhaite vérifier si ces publicités sont bien passées à l’antenne. Par le biais de la détection vidéo, il serait possible en analysant le flux d’une chaîne souhaitée de savoir si la publicité est bien passée, à quel moment de la journée, sa fréquence sur un temps donné, et d’autres données pouvant intéresser l’entreprise. Récupérer ces informations avec une analyse manuelle du chaîne est laborieuse et coûteuse.
+
+Ce projet a été initié par un ancien étudiant de Polytech Tours, M. Jordan NICOT qui, pour son projet libre lors de son dernier semestre, a réalisé un programme de traitement d’un flux RTSP. L’idée derrière son projet était de détecter si une chaîne de télévision diffusait des publicités ou non. Pour cela, la plateforme prenait un flux RTSP venant de son boîtier TV et effectuait un traitement d’images détecter l’apparition du jingle de publicité de la chaîne analysée. Le traitement était assez rudimentaire, puisqu’il consistait en l’analyse d’un encart de l’image dans lequel était écrit, avec une typographie particulière, le mot "publicités". L’analyse fonctionnait bien pour une à deux chaînes, mais pas pour toutes. Cependant, l’idée principale a été conservée, et sera exploitée lors de ce projet.
+
+
 \section{Objectifs}
+
+L’objectif de ce projet est, à terme, de mettre en place une plateforme d’acquisition et de formatage en temps réel de flux TV Web. Le but est que cette plateforme soit adaptable afin que des éléments d’analyse et de traitements des données puissent être ajoutée par la suite. Pour le moment, nous nous contenterons d’afficher un ou plusieurs flux à l’écran en prenant en compte les capacités réseaux, et garantissant une synchronisation en horodatage des flux. Le projet s’appuiera sur une partie des travaux de Jordan NICOT lors de son projet libre de l’année dernière. Le code ne sera pas repris dans son intégralité, le programme final de ce projet sera seulement inspiré de ses travaux, notamment de gestion et d’affichage du flux. 
+
+Ce sujet s’inscrit dans le cadre d’un projet de création de startup ImageStream engagé au niveau du Laboratoire d’Informatique Fondamentale de Tours (LIFAT), entre l’Université et le secteur privé. Ainsi, la plateforme pourra être réutilisée et amélioré si le projet abouti. Par ailleurs, pour ces raisons de création de Start-Up en lien avec l’Université, les tests de la plateforme seront réalisés via le réseau et les machines de l’université.
 
 \section{Hypothèses}
 
+Le but de l’application est d’acquérir des flux TV retransmis sur le Web. Cependant, avec l’évolution des protocoles de streaming (voir \autoref{chap:diffusion_flux}), il devient de plus en plus compliqué de récupérer un flux TV pour un programme tiers. Les grandes plateformes d’hébergement de flux nécessitent souvent d’avoir un compte sur le site en question ou d’être abonné à un fournisseur de services. L’un des intérêts de l’application est qu’elle fonctionne pour toutes les chaînes accessibles gratuitement sur la télévision française par la TNT. Or, certaines d’entre elles pourraient être difficiles d’accès pour la plateforme.
+
+S’il n’est pas possible de récupérer les flux, de façon sûr et légal, alors nous effectuerons les tests uniquement sur des chaînes facilement accessibles, quelles soient françaises ou étrangères, comme par exemple : FranceInfo ou France24, toutes les deux disponibles sur Youtube.
+
 
 \section{Base méthodologique}
+
+Ce projet suivra une structure traditionnelle de cycle en V. En effet, elle est plus adaptée dans notre cas qu’une méthode Agile. La plateforme ne nécessite pas une grande réactivité dans les demandes clients et n’a besoin de fonctionnement sous forme de sprint pour être réalisé. Étant donné qu’il n’y a pas de clients pour le moment, les demandes sont déjà connues et ne sont pas amenées à évoluer pour ce qui est de la partie Analyse des besoins.
+
+
+De plus, certaines étapes du cycle ont déjà été réalisé, la partie Analyse des besoins notamment, ainsi que la partie concernant les spécifications fonctionnelles. Le détail de la gestion de ce projet sont disponibles en annexes, avec le diagramme de Gantt. Il est à noter que ce diagramme est uniquement à but informatif, et les dates limites des tâches présentes sur celui-ci sont susceptibles d’être modifiées au cours de l’avancement du projet.
+
+Concernant le développement, nous suivrons une structure de type MVC (Modèle Vue Contrôleur) avec la partie Modèle qui se focalisera sur les objets Flux que nous allons créer, la partie Vue qui se concentrera sur l’affichage des fenêtres et sur l’interface en général et la partie Contrôleur qui fera la liaison entre les parties.
+
 
 
 \part{\'{E}tat de l'art et Veille technologique}
@@ -79,25 +137,58 @@ de Gantt sont disponibles en annexes.
 
 
 \chapter{La diffusion de flux en continu sur Internet}
+\label{chap:diffusion_flux}
 
+Dans la partie suivante, nous allons effectuer un tour d’horizon sur les flux en continu diffusés sur Internet ainsi que sur les possibilités actuelles en terme d’exploitation de données. Nous répondrons par la suite à plusieurs problématiques : comment les flux en continu ont émergé avec le développement d’Internet ? Quels sont les protocoles existants permettant de transmettre ces flux de données? Quelles librairies nous permettent d’acquérir et d’exploiter ces flux? Autant de questions auxquelles nous allons nous pencher dans les pages qui suivent.
+
+Une parenthèse cependant concernant la suite de ce rapport, nous emploierons plusieurs termes pour définir la même notion, à savoir les flux de données en continu. Nous les nommerons flux, flux TV Web ou encore Streaming ou Streaming vidéo indifféremment. Le terme Streaming est tiré de l’anglais stream signifiant flot ou courant en français. Ce terme désigne aujourd’hui dans le langage courant la diffusion en continu sur Internet de contenus audio-visuels. Il existe différents types de données que l’on peut diffuser en continu sur une plateforme, mais nous nous focaliserons essentiellement sur les flux vidéo en continu, qui sont les bases de ce projet. Nous pouvons noter que les autres principes de flux de données comme le streaming audio que l’on peut retrouver sur des plateformes comme Spotify ou Deezer fonctionnent sur des bases similaires. Seules les données transférées diffèrent.
 
 \section{Principe générale du \textit{streaming}}
+
+La diffusion de flux en continu repose sur le principe d’une communication entre un client et un serveur. Les données sont mis à disposition sur un serveur et pour récupérer ses informations, le client envoie une requête qui lui communique les données souhaitées. Il existe deux types de lectures distincts \cite{_definition_2017} :
+
+\begin{description}
+	\item[Lecture Progressive] Cette forme de lecture est celle que l’on retrouve lorsque l’on regarde une vidéo sur un navigateur par exemple. Ici la vidéo est chargée, les données sont mises en cache par le client et la vidéo commence lorsqu’il y a assez de données en cache pour la commencer. La plupart du temps, le serveur propose plusieurs versions du même fichier avec des qualités différentes pour pouvoir s’adapter à la bande passante du client. C’est le principe que l’on retrouve pour le visionnage de vidéos Youtube par exemple.
+	\item[Lecture en continu] Il s’agit de la forme de lecture qui nous intéresse pour ce projet. Ici, le contenu est diffusé au même rythme que la lecture. L’une des différences majeures est que le fichier envoyé par le serveur n’a pas de début et de fin définis comme pour un fichier statique. C’est un flot de données qui est envoyé au fur et à mesure au client.
+\end{description}
+
+Pour notre projet, nous nous intéresserons uniquement à la lecture en continu, qui est le principe des flux TV sur le Web. Et en particulier, l’un des aspects que nous rechercherons par la suite sur la diffusion de flux est le \textit{streaming} adapté ou \textit{Adaptive Streaming} en anglais que nous détaillerons dans la \autoref{sec:adaptative_streaming}.
+
 
 
 \section{Genèse du \textit{streaming} vidéo et évolution au fil du temps}
 
+Dans les années 1990, Internet commence à se démocratiser. Il est désormais accessible de s’acheter un ordinateur personnel pour un foyer lambda, quand les prix étaient encore très élevés dans les années 1980. L’élargissement de la bande passante ainsi que l’amélioration de l’accès aux réseaux accélèrent le développement d’Internet tel qu’on le connaît aujourd'hui. La possibilité de communiquer entre différents foyers et de diffuser des informations à travers le monde devient de plus en plus accessible par le biais de ce jeune Internet.
+
+C’est en 1995 qu’apparaît la première diffusion audio en ligne en continu sur Internet. Il s’agissait d’un match de baseball proposé aux abonnés d’\textit{ESPNSportZone} en ligne. Ainsi, les abonnés de partout dans le monde ont pu suivre le match via un enregistrement radiophonique \cite{zambelli_history_2013}. La diffusion a été mise en place par une entreprise du nom de Progressive Network, qui plus tard, est devenu \textit{Real Network}.
+
+Par la suite, les grands groupes informatiques de l’époque ont déployé tour à tour leurs solutions. Au début des années 2000, trois plateformes ont le monopole du streaming : \textit{Real Player} de \textit{Real Network}, \textit{Windows Media Player} de \textit{Microsoft} et \textit{Quicktime Player} de \textit{Apple}, avec chacun leurs propres technologies et protocoles de communication. Nous verrons par ailleurs le détail de certains de ces protocoles dans la \autoref{sec:protocoles}.
+
+\begin{figure}
+	\includegraphics[scale=0.70]{images/logos_platform.png}
+	\caption{Exemples de plate-forme populaire dans les années 2000}
+	\label{fig:logoPlatform}
+\end{figure}
+
+Au fil des années, la concurrence évolue et devient de plus en plus rude. La technologie s’améliore et les anciennes plateformes dominantes deviennent rapidement obsolètes. Arrive au courant des années 2000 Adobe et sa technologie Adode Flash qui s’impose rapidement dans tous les foyers, si bien que l’add-on Flash Player était installé sur 99\% des ordinateurs américains jusqu’en 2011 \cite{_chronique_streaming_2010}. Aujourd’hui, Flash Player est devenu obsolète pour plusieurs raisons : tout d’abord, la technologie entraînait de nombreux bugs et failles de sécurité que déploraient la plupart des services l’utilisant, et ensuite, l’avènement de l’HTML5 sur les navigateurs a permis d’incruster une vidéo sur une page web sans avoir besoin de plug-ins particuliers. Tous ces problèmes concernant Flash ont été listés notamment par Steve Jobs en personne en 2010 [WWW15], prônant par la même occasion le HTML5 et les nouvelles technologies émergentes. La page Flash sera définitivement tournée dans les années qui viennent, avec l’annonce d’Adobe le 25 juillet 2017 qui prévoit son abandon définitif à l’horizon 2020 [WWW5].
+
+La tendance aujourd’hui est aux nouveaux protocoles qui fonctionnent indépendamment de toutes installations de plug-ins ou de programmes pour fonctionner. C’est le cas par exemple du protocole HLS que nous observerons plus en détails dans la \textit{subsec:newProto}. Par ailleurs, l’un des aspects importants de la diffusion en continu aujourd’hui est l’\textit{Adaptive Streaming} qui est exposé dans la partie suivante.
+
 \section{Diffusion en flux adaptatif ou Adaptative Streaming}
+\label{sec:adaptative_streaming}
 
 \section{Les protocoles}
+\label{sec:protocoles}
 
 \subsection{HTTP}
 
 \subsection{RTSP et RTSP 2.0}
 
-
 \subsection{RTMP}
 
 \subsection{MPEG-DASH, HLS, HDS et les nouveaux protocoles basés sur HTTP}
+\label{subsec:newProto}
+
 
 \section{Les formats de fichiers utilisés}
 
