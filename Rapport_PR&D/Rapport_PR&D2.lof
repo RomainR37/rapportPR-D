@@ -106,6 +106,20 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Description g\IeC {\'e}n\IeC {\'e}rale}{}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Sch\IeC {\'e}ma de l'environnement du projet\relax }}{18}{figure.5.1}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagramme de cas d'utilisation\relax }}{19}{figure.5.2}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
@@ -116,13 +130,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Documentation et contr\IeC {\^o}le de qualit\IeC {\'e} du code}{}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Lancement de l'instance SonarQube\relax }}{22}{figure.7.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Lancement de l'instance SonarQube\relax }}{23}{figure.7.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces R\IeC {\'e}sultats de l'analyse Sonar\relax }}{23}{figure.7.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces R\IeC {\'e}sultats de l'analyse Sonar\relax }}{24}{figure.7.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -142,13 +156,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {E}Guide d'installation et d'utilisation}{}{appendix.E}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Commande de lancement du programme\relax }}{32}{figure.E.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Commande de lancement du programme\relax }}{33}{figure.E.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Fichier texte exemple \textit {testStream}\relax }}{33}{figure.E.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Fichier texte exemple \textit {testStream}\relax }}{34}{figure.E.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -158,7 +172,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Exemple de probl\IeC {\`e}mes d'affichage\relax }}{33}{figure.E.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemple de probl\IeC {\`e}mes d'affichage\relax }}{34}{figure.E.3}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

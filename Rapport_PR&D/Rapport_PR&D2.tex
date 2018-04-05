@@ -316,13 +316,37 @@ LibVLC est rédigée en langage C, mais il existe de nombreux adaptations et fra
 
 \chapter{Description générale}
 
+Le chapitre qui suit décrit ce que sera la plateforme, avec ces différentes spécifications. Nous détaillerons l’environnement du projet, les caractéristiques des utilisateurs, les fonctionnalités du système ainsi qu’une idée de ce que sera la structure générale de la plateforme.
+
+Il est à noter que certains aspects ne sont pas encore fixés et sont susceptibles d’évoluer par la suite.
 
 \section{Environnement du projet}
+
+Ce projet sera testé sur les salles machines de l’école et branché sur le réseau de l’université. Il sera important de prendre en compte les capacités en terme de réseau de l’université afin de pouvoir acquérir de multiples flux sans encombre et sans problèmes de bande-passante.
+
+\begin{figure}
+	\includegraphics[scale=0.75]{images/environnement}
+	\caption{Schéma de l'environnement du projet}
+	\label{fig:environnement}
+\end{figure}
+
+Il est possible que certains flux soient bloqués par des pare-feux de l’université. Comme on l’a vu auparavant, cela pourrait se produire si on utilise des flux RTSP ou RTMP par exemple. Dans ce cas, il y aura une configuration de la machine à effectuer.
 
 \section{Caractéristiques des utilisateurs}
 
 
+Il n’y a ici qu’un seul type d’utilisateurs pour la plate-forme en ce qui concerne la première ébauche. La plate-forme n’est pas disposée à être accessible au grand public pour le moment. Un utilisateur classique aura accès à l’intégralité des fonctionnalités du système. Néanmoins, l’objectif est que la plateforme reste accessible facilement, quand bien même il serait restreint à un petit nombre d’utilisateurs. Dans le cas où la plateforme serait réutilisée et évoluée par la suite, il sera intéressant de disposer d’une interface simple et compréhensible, même si la personne n’est pas familière avec l’univers du streaming.
+
 \section{Fonctionnalités du système}
+
+Le système disposera de plusieurs fonctionnalités basiques que l’on peut retrouver dans le
+diagramme de cas d’utilisation ci-dessous.
+
+\begin{figure}
+	\includegraphics[scale=0.75]{images/UseCase2}
+	\caption{Diagramme de cas d'utilisation}
+	\label{fig:diagUseCase}
+\end{figure}
 
 
 \subsection{Séléction des chaînes via le fichier texte}
@@ -396,6 +420,10 @@ Nous pouvons remarquer que nous avons produit un code sans bug et sans vulnérab
 
 
 \chapter*{Bilan et conclusion}
+
+La première partie de ce projet aura abouti à une recherche approfondie sur les différentes solutions possibles pour la plateforme. Certaines questions restent cependant en suspens, et notamment la question des flux. Néanmoins, nous avons une idée de la structure future de l’application dont les spécifications nécessiteront d’être plus détaillées dans les jours à venir. Par la suite, l’ambition serait de terminer la conception architecturale de la plateforme dans les premières semaines de 2018 pour pouvoir entamer pleinement le développement jusqu’au mois de Mars.
+
+En ce qui concerne la gestion du projet à mi-parcours, la phase de recherche a été assez laborieuse lors des premières semaines. En effet, le sujet est très vaste et documenté régulièrement depuis son apparition sur Internet. Or, si le domaine du streaming est vaste, il est en perpétuel évolution et a subi de grands chamboulements depuis l’arrivée d’HTML5 ces dernières années. Ainsi, il ne fallait pas se perdre parmi la pléiade de protocoles existants et aussi sélectionner ceux qui ne sont pas devenus obsolètes. Cette phase de recherche, bien que compliqué, n’en fut pas moins intéressante et m’a permis d’acquérir de nouvelles connaissances sur un domaine qui représente une proportion gigantesque de l’Internet tel qu’on l’utilise aujourd’hui. Mené à bien un projet sur un domaine crucial du secteur offre une motivation supplémentaire indéniable.
 
 
 \appendix
