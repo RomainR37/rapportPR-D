@@ -55,14 +55,13 @@
 \chapter*{Introduction}
 
 
-Alors qu’approche la fin du cursus à l’école Polytech Tours, se dresse le projet le plus important du parcours, le projet Recherche et Développement. Il s’étale sur l’ensemble de la cinquième année et représente une forme de synthèse des connaissances acquises lors des années d’études précédentes. Il permet de développer et d’approfondir son savoir sur un ou plusieurs champs de compétences spécifiques, afin de devenir un spécialiste du domaine choisi dans le cadre du projet. Ce projet est mené seul, sous la supervision du tuteur académique et avec l’aide d’un intervenant extérieur qui fait partie des initiateurs du sujet. Il permet ainsi de développer son autonomie en menant à bien un travail des prémices jusque, dans le meilleur des cas, à la production.
+Ce rapport traite du projet Recherche et Développement. Il s’étale sur l’ensemble de la cinquième année à l'école Polytech et représente une forme de synthèse des connaissances acquises lors des années d’études précédentes. Il permet de développer et d’approfondir son savoir sur un ou plusieurs champs de compétences spécifiques, afin de devenir un spécialiste du domaine choisi dans le cadre du projet. Ce travail est mené seul, sous la supervision d'un tuteur académique et avec l’aide d’un intervenant extérieur qui fait partie des initiateurs du sujet. Il permet ainsi de développer son autonomie en menant à bien un travail des prémices jusque, dans le meilleur des cas, à la production.
 
 J’ai décidé de me consacrer à un sujet lié à un domaine en plein essor : le streaming. Ce sujet faisait partie de mes choix privilégiés lorsque j’ai vu la liste des sujets proposés. En effet, je regarde moi-même beaucoup de contenu audiovisuel par ce biais. J’ai pris pour habitude de regarder mes programmes télévisuelles préférés via mon ordinateur plutôt que par les usages traditionnelles avec une télévision depuis plusieurs années déjà, et il m’a paru intéressant de me pencher sur l’envers du décor et le fonctionnement de ces applications utilisées au quotidien par des milliers de personnes aujourd’hui.
 
-Le but du projet est de réaliser une plateforme pour l’acquisition de flux de TV Web. Le contexte, les acteurs et les objectifs seront détaillés dans la première partie de ce rapport. En deuxième partie, nous retrouverons l’état de l’art et la veille technologique pour la plateforme, à savoir des informations sur les protocoles utilisés, les différentes librairies d’acquisition, les serveurs distribuant les flux, etc. La description générale du projet, avec son environnement, ses fonctionnalités et ses caractéristiques, sera dans la troisième partie de ce rapport. Le choix de présenter l’état de l’art et la veille technologique avant la description de la plateforme découle de la présentation des librairies et des protocoles utilisés, détaillés dans la deuxième partie. Il s’agit d’un choix qui permet d’accroître sa compréhension lorsque les descriptions fonctionnelles seront présentées. Enfin nous évoquerons les prémices d’analyse et de conception de la plateforme dans la dernière partie.
+Le but de ce projet est de mettre en \oe{}uvre une plate-forme permettant d'acquérir de multiples flux de chaînes de télévision. Le contexte, les acteurs et les objectifs seront détaillés dans la première partie de ce rapport. La deuxième partie sera consacrée à l'état de l'art sur la télévision et l'implantation générale des flux vidéos sur Internet ainsi qu'à la veille technologique pour la mise en place de la plate-forme, c'est-à-dire les différents protocoles utilisés, les bibliothèques d'acquisition à disposition, les serveurs distribuant les flux, etc.. La description générale du projet ainsi que les diverses fonctionnalités et caractéristiques présentes seront explicitées dans la troisième partie du document. La dernière section sera consacrée à la qualité du code et à la mise en place des tests autour de l'application. 
 
-Des éléments complémentaires concernant notamment la gestion de projet via un diagramme
-de Gantt sont disponibles en annexes.
+De nombreux documents complémentaires seront à disposition en annexes, notamment les diagrammes de Gantt, les diagrammes UML de la plate-forme, des schémas de l'interface, etc. Un guide d'utilisation de l'application est également présent en complément. Les sources du projet sont disponibles sur un dépôt GitHub à l'adresse suivante : \url{https://github.com/RomainR37/streamPlatform}.
 
 
 
@@ -75,9 +74,9 @@ Cette partie est consacrée à la description du cadre général du projet, c’
 \section{Contexte, enjeux et acteurs}
 
 
-Aujourd’hui, Internet est l’un des supports les plus répandus pour échanger et partager de l’information. En constante expansion, Internet est accessible par plus de la moitié de la population mondiale \cite{_chiffres_2017}. L’un des aspects majeurs d’Internet est la diffusion de contenu audio et vidéo, en effet plus de 75\% du trafic actuel est constitué de données vidéo et ce pourcentage augmentera jusqu’à plus de 80\% à l’horizon 2021 \cite{_cisco_2017}. La demande continue de prendre de l’ampleur au fil des années, les consommateurs demandant des vidéos avec la meilleure qualité possible.
+Aujourd’hui, Internet est l’un des supports les plus répandus pour échanger et partager de l’information. En constante expansion, Internet est accessible par plus de la moitié de la population mondiale \cite{_chiffres_2017}. L’une des principales sources de transmissions d'informations sur Internet est la diffusion de contenu audio et vidéo, en effet plus de 75\% du trafic actuel est constitué de données vidéo et ce pourcentage augmentera jusqu’à plus de 80\% à l’horizon 2021 \cite{_cisco_2017}. La demande continue de prendre de l’ampleur au fil des années, les consommateurs réclamant des vidéos avec la meilleure qualité possible.
 
-Avec cette évolution constante, la diffusion de contenu vidéo en ligne est devenue un enjeu majeur pour les entreprises s’installant sur Internet et en particulier pour celles spécialisées dans l’audio-visuel et les médias. Les plus grands groupes ont déjà tous développé des services permettant de voir leurs programmes en direct ou en différé sur Internet depuis plusieurs années déjà. Aujourd’hui, elles sont utilisées couramment par le grand public (exemple avec la plateforme MyCanal du groupe Canal + qui compte 5 millions de visiteurs uniques par mois et près de 2 millions d’utilisateurs actifs \cite{sancerre_canal+_2017}) et les principaux acteurs du secteur tendent à vouloir élargir leur offre en se démarquant du modèle de la télévision traditionnelle.
+Avec cette évolution constante, la diffusion de contenu vidéo en ligne est devenue un enjeu majeur pour les entreprises s’installant sur Internet et en particulier pour celles spécialisées dans l’audio-visuel et les médias. Les plus grands groupes ont déjà tous développé des services permettant de voir leurs programmes en direct ou en différé sur Internet depuis plusieurs années déjà. De nos jours, elles sont utilisées couramment par le grand public (exemple avec la plateforme MyCanal du groupe Canal + qui compte 5 millions de visiteurs uniques par mois et près de 2 millions d’utilisateurs actifs \cite{sancerre_canal+_2017}) et les principaux acteurs du secteur tendent à vouloir élargir leur offre en se démarquant du modèle de la télévision traditionnelle.
 
 
 \begin{figure}
@@ -88,8 +87,7 @@ Avec cette évolution constante, la diffusion de contenu vidéo en ligne est dev
 
 Ils existent déjà de nombreux outils pour acquérir, stocker, traiter et indexer les flux de Web TV hors-ligne \cite{abduraman_tv_2012}. Cependant, la tendance actuelle est l’analyse de ces flux en continu, notamment par le biais de la détection de vidéos dupliquées \cite{liu_near-duplicate_2013}. Ce type d’analyse peut être appliqué à de nombreux domaines faisant l’objet d’enjeux majeurs pour les entreprises du secteur comme la protection de la propriété intellectuelle, la recommandation de vidéo, ou même le contrôle des vidéos.
 
-
-Prenons un exemple d’analyse en continu qui est susceptible d’être utilisé dans le cadre de la télévision sur le web. Une entreprise souhaite vérifier si ces publicités sont bien passées à l’antenne. Par le biais de la détection vidéo, il serait possible en analysant le flux d’une chaîne souhaitée de savoir si la publicité est bien passée, à quel moment de la journée, sa fréquence sur un temps donné, et d’autres données pouvant intéresser l’entreprise. Récupérer ces informations avec une analyse manuelle du chaîne est laborieuse et coûteuse.
+Prenons un exemple d’analyse en continu qui est susceptible d’être utilisé dans le cadre de la télévision sur le web. Une entreprise souhaite vérifier si ces publicités sont bien passées à l’antenne. Par le biais de la détection vidéo, il serait possible en analysant le flux d’une chaîne souhaitée de savoir si la publicité est bien passée, à quel moment de la journée, sa fréquence sur un temps donné, et d’autres données pouvant intéresser l’entreprise. Récupérer ces informations avec une analyse manuelle du chaîne est laborieuse et coûteuse. Ainsi, la perspective d'un outil qui puisse analyser de multiples chaînes de télévision en simultané serait très intéressante pour des entreprises de publicités par exemple, mais aussi pour des institutions comme le Conseil Supérieur de l'Audiovisuel.
 
 Ce projet a été initié par un ancien étudiant de Polytech Tours, M. Jordan NICOT qui, pour son projet libre lors de son dernier semestre, a réalisé un programme de traitement d’un flux RTSP. L’idée derrière son projet était de détecter si une chaîne de télévision diffusait des publicités ou non. Pour cela, la plateforme prenait un flux RTSP venant de son boîtier TV et effectuait un traitement d’images détecter l’apparition du jingle de publicité de la chaîne analysée. Le traitement était assez rudimentaire, puisqu’il consistait en l’analyse d’un encart de l’image dans lequel était écrit, avec une typographie particulière, le mot "publicités". L’analyse fonctionnait bien pour une à deux chaînes, mais pas pour toutes. Cependant, l’idée principale a été conservée, et sera exploitée lors de ce projet.
 
@@ -470,17 +468,17 @@ L'application fonctionne pour les versions 0.10.0 et supérieurs.
 
 \subsection{VLC}
 
-VLC est le logiciel permettant à l'application de visualiser les chaînes. Le programme  fonctionne avec la version 3.0.1 de VLC disponible à l'adresse suivante : https://get.videolan.org/vlc/3.0.1/win64/vlc-3.0.1-win64.exe
+VLC est le logiciel permettant à l'application de visualiser les chaînes. Le programme  fonctionne avec la version 3.0.1 de VLC disponible à l'adresse suivante : \url{https://get.videolan.org/vlc/3.0.1/win64/vlc-3.0.1-win64.exe}
 
 
 \subsection{Java Runtime Environment}
 
-Le programme est un fichier jar qui fonctionne sur la version 8 de Java. Il est nécessaire pour le faire fonctionner de disposer du JRE 8 disponible à l'adresse : www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+Le programme est un fichier jar qui fonctionne sur la version 8 de Java. Il est nécessaire pour le faire fonctionner de disposer du JRE 8 disponible à l'adresse : \url{www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html}
 
 
 \section{Récupération du projet et fonctionnement}
 
-Le projet se trouve sur le dépôt GitHub disponible à l'adresse suivante : https://github.com/RomainR37/streamPlatform
+Le projet se trouve sur le dépôt GitHub disponible à l'adresse suivante : \url{https://github.com/RomainR37/streamPlatform}
 
 Une fois sur cette page, vous pouvez soit cloner le dépôt Git sur votre ordinateur, soit télécharger le dossier compressé en cliquant sur le bouton \textit{Clone or download} puis en sélectionnant son choix.
 

@@ -67,12 +67,12 @@ L'analyse temps réel de flux fait l'objet d'enjeux majeurs et peut être utilis
 \begin{frame}
 \frametitle{Objectifs}
 
-Développer un programme pilote d'acquisition multi-flux TV Web 
+Développer un programme pilote d'acquisition multi-flux TV Web garantissant une synchronisation.
 
 \end{frame}
 
 \begin{frame}
-\frametitle{À l'issue de PR\&D 1}
+\frametitle{Gestion du projet à l'issue de PR\&D 1}
 
 Passage vers une méthode Agile adaptée avec sprint durant 2 à 3 semaines:
 
@@ -134,7 +134,7 @@ Nécessite trois installations:
 Structure MVC (Modèle, vue, contrôleur): 
 
 \begin{figure}
-	\includegraphics[scale=0.25]{images/ClassDiagram}
+	\includegraphics[scale=0.5]{images/mvc}
 \end{figure}
 
 \end{frame}
@@ -144,9 +144,10 @@ Structure MVC (Modèle, vue, contrôleur):
 
 Classes principales:
 \begin{description}
-	\item[MainControler] : lit le fichier texte et détermine les chaînes à lancer
-	\item[StreamControler] : lance Streamlink et l'affichage
+	\item[MainController] : lit le fichier texte et détermine les chaînes à lancer
+	\item[StreamController] : lance Streamlink et l'affichage
 	\item[StreamView] : affiche les flux sur des fenêtres Java
+	\item[TextInputStreamController] : observeur
 \end{description}
 
 \end{frame}
@@ -155,6 +156,10 @@ Classes principales:
 \frametitle{Structure}
 
 Implémentation d'un pattern Observer pour détecter lorsque Streamlink est prêt. 
+
+\begin{figure}
+	\includegraphics[scale=0.25]{images/ObserverDiag}
+\end{figure}
 
 \end{frame}
 
@@ -175,14 +180,18 @@ Implémentation d'un pattern Observer pour détecter lorsque Streamlink est prê
 \begin{frame}
 \frametitle{Tests de charges}
 
-Premier test en Wi-fi sur réseau domestique:
-
-Limitation réseau: 7 chaînes en simultané maximum
-
+Débit moyen estimé pour un stream en 720p : 1.2 Mbps
+\bigbreak
+Débit moyen estimé pour 7 streams de qualité moyenne (520p) : 12.5 Mbps
 \end{frame}
 
 \begin{frame}
 \frametitle{Tests de charges}
+
+Premier test en Wi-fi sur réseau domestique:
+
+Limitation réseau: 7 chaînes en simultané maximum
+\bigbreak
 
 Test sur machine virtuelle et réseau de l'école:
 
