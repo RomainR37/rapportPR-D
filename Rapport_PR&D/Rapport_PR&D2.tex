@@ -68,8 +68,7 @@ De nombreux documents complémentaires seront à disposition en annexes, notamme
 \part{Contexte de la réalisation et cadre générale du projet}
 
 
-Cette partie est consacrée à la description du cadre général du projet, c’est-à-dire ce pourquoi le sujet a été proposé, qui sont les acteurs autour de celui-ci, les enjeux posés, etc.
-
+Cette partie est consacrée au contexte générale de la réalisation, avec les enjeux, les acteurs impliqués ainsi que les objectifs fixés au démarrage. Nous verrons également les hypothèses auxquelles nous devrons faire face. Une section sur la base méthodologique utilisée et sur la gestion du projet sera également présente.
 
 \section{Contexte, enjeux et acteurs}
 
@@ -91,29 +90,40 @@ Prenons un exemple d’analyse en continu qui est susceptible d’être utilisé
 
 Ce projet a été initié par un ancien étudiant de Polytech Tours, M. Jordan NICOT qui, pour son projet libre lors de son dernier semestre, a réalisé un programme de traitement d’un flux RTSP. L’idée derrière son projet était de détecter si une chaîne de télévision diffusait des publicités ou non. Pour cela, la plateforme prenait un flux RTSP venant de son boîtier TV et effectuait un traitement d’images détecter l’apparition du jingle de publicité de la chaîne analysée. Le traitement était assez rudimentaire, puisqu’il consistait en l’analyse d’un encart de l’image dans lequel était écrit, avec une typographie particulière, le mot "publicités". L’analyse fonctionnait bien pour une à deux chaînes, mais pas pour toutes. Cependant, l’idée principale a été conservée, et sera exploitée lors de ce projet.
 
+Ce sujet s’inscrit dans le cadre d’un projet de création de startup ImageStream engagé au niveau du Laboratoire d’Informatique Fondamentale de Tours (LIFAT), entre l’Université et le secteur privé. La mise en place future de cette collaboration dépendra de l'aboutissement du projet. 
 
 \section{Objectifs}
 
-L’objectif de ce projet est, à terme, de mettre en place une plateforme d’acquisition et de formatage en temps réel de flux TV Web. Le but est que cette plateforme soit adaptable afin que des éléments d’analyse et de traitements des données puissent être ajoutée par la suite. Pour le moment, nous nous contenterons d’afficher un ou plusieurs flux à l’écran en prenant en compte les capacités réseaux, et garantissant une synchronisation en horodatage des flux. Le projet s’appuiera sur une partie des travaux de Jordan NICOT lors de son projet libre de l’année dernière. Le code ne sera pas repris dans son intégralité, le programme final de ce projet sera seulement inspiré de ses travaux, notamment de gestion et d’affichage du flux. 
+L’objectif de ce projet est, à terme, de mettre en place une plateforme d’acquisition et de formatage en temps réel de flux TV Web. Le but est que cette plateforme soit adaptable afin que des éléments d’analyse et de traitements des données puissent être ajoutée par la suite. Pour le moment, nous nous contenterons d’afficher un ou plusieurs flux à l’écran en prenant en compte les capacités réseaux, et garantissant une synchronisation en horodatage des flux. À plus long terme, le but serait d'acquérir plusieurs dizaines de flux vidéo en simultané. L'intérêt par la suite serait de normaliser les images entrantes et de les analyser. En effet, la normalisation des images est nécessaire car les flux vidéos seront tirés de serveurs variés utilisant des protocoles, des résolutions, des débits d'images différentes. 
 
-Ce sujet s’inscrit dans le cadre d’un projet de création de startup ImageStream engagé au niveau du Laboratoire d’Informatique Fondamentale de Tours (LIFAT), entre l’Université et le secteur privé. Ainsi, la plateforme pourra être réutilisée et amélioré si le projet abouti. Par ailleurs, pour ces raisons de création de Start-Up en lien avec l’Université, les tests de la plateforme seront réalisés via le réseau et les machines de l’université.
+Le projet s’appuiera sur une partie des travaux de Jordan NICOT lors de son projet libre de l’année dernière. Le code ne sera pas repris dans son intégralité, le programme final de ce projet sera seulement inspiré de ses travaux, notamment de gestion et d’affichage du flux. La plate-forme sera conçue pour fonctionner dans l'enceinte de l'université, avec une connexion et une machine assez puissante pour avoir le moins de limitations techniques possibles.
 
 \section{Hypothèses}
 
-Le but de l’application est d’acquérir des flux TV retransmis sur le Web. Cependant, avec l’évolution des protocoles de streaming (voir \autoref{chap:diffusion_flux}), il devient de plus en plus compliqué de récupérer un flux TV pour un programme tiers. Les grandes plateformes d’hébergement de flux nécessitent souvent d’avoir un compte sur le site en question ou d’être abonné à un fournisseur de services. L’un des intérêts de l’application est qu’elle fonctionne pour toutes les chaînes accessibles gratuitement sur la télévision française par la TNT. Or, certaines d’entre elles pourraient être difficiles d’accès pour la plateforme.
+Le but de l’application est d’acquérir des flux TV retransmis sur le Web. Cependant, avec l’évolution des protocoles de streaming (voir \autoref{chap:diffusion_flux}), il devient de plus en plus compliqué de récupérer un flux TV pour un programme tiers. Les grandes plateformes d’hébergement de flux nécessitent souvent d’avoir un compte sur le site en question ou bien de souscrire un abonnement à un fournisseur de services. L’un des intérêts de l’application est qu’elle fonctionne pour toutes les chaînes accessibles gratuitement sur la télévision française par la TNT. Or, certaines d’entre elles pourraient être difficiles d’accès pour la plateforme.
 
-S’il n’est pas possible de récupérer les flux, de façon sûr et légal, alors nous effectuerons les tests uniquement sur des chaînes facilement accessibles, quelles soient françaises ou étrangères, comme par exemple : FranceInfo ou France24, toutes les deux disponibles sur Youtube.
+L'une des solutions aux problèmes d'accessibilité des chaînes serait d'utiliser un programme externe comme Streamlink (que nous allons voir plus en détail dans la \autoref{sec:streamlink}) permettant d'exploiter des flux vidéos sur des sites. Nous avons opté pour cette solution bien que celle-ci ait néanmoins un inconvénient. Dans le cas où le programme n'est plus maintenu ou ne permet plus de récupérer les flux de certaines chaînes à cause de nouvelles protections, l'application ne fonctionnerait plus ou serait bridée par ce programme externe, indépendamment de notre structure. La meilleure solution à plus long terme serait de disposer d'une infrastructure professionnelle avec une autorisation des chaînes de télévision exploitées.
 
 
 \section{Base méthodologique}
 
-Ce projet suivra une structure traditionnelle de cycle en V. En effet, elle est plus adaptée dans notre cas qu’une méthode Agile. La plateforme ne nécessite pas une grande réactivité dans les demandes clients et n’a besoin de fonctionnement sous forme de sprint pour être réalisé. Étant donné qu’il n’y a pas de clients pour le moment, les demandes sont déjà connues et ne sont pas amenées à évoluer pour ce qui est de la partie Analyse des besoins.
 
+Lors des premières réunions du projet, nous avons opté pour une gestion de projet sous forme de cycle en V. En effet, la plate-forme ne nécessite pas une grande réactivité dans les demandes clients et l'expression des besoins est directement donnée par l'encadrant. Ceux-ci ne sont pas amenés à évoluer de façon drastique car ce ne sont pas des demandes provenant d'un client externe à l'école puisqu'il s'agit avant tout d'un projet interne à Polytech en premier lieu. 
 
-De plus, certaines étapes du cycle ont déjà été réalisé, la partie Analyse des besoins notamment, ainsi que la partie concernant les spécifications fonctionnelles. Le détail de la gestion de ce projet sont disponibles en annexes, avec le diagramme de Gantt. Il est à noter que ce diagramme est uniquement à but informatif, et les dates limites des tâches présentes sur celui-ci sont susceptibles d’être modifiées au cours de l’avancement du projet.
+Par ailleurs certaines étapes d'un cycle en V classique ont déjà été effectuées, la partie Expression des besoins ainsi que les spécifications fonctionnelles notamment, ce qui permet d'évoluer plus facilement à l'avenir et d'avoir une base pour aller plus vite dans les étapes suivantes. La première ébauche du diagramme de Gantt est disponible sur la \autoref{fig:gantt1}.
 
-Concernant le développement, nous suivrons une structure de type MVC (Modèle Vue Contrôleur) avec la partie Modèle qui se focalisera sur les objets Flux que nous allons créer, la partie Vue qui se concentrera sur l’affichage des fenêtres et sur l’interface en général et la partie Contrôleur qui fera la liaison entre les parties.
+Malheureusement à l'issue du premier semestre, des retards se sont accumulés, en particulier sur la partie \'{E}tat de l'art et veille technologique. Les contours du projet et les modalités de développement étaient restés flous. Dès lors, un ajustement dans les objectifs et dans la gestion de projet était nécessaire. Ainsi, pour le deuxième semestre consacré au projet, nous avons opté pour une méthode Agile adaptée au peu de temps restant pour la finalisation du projet. Quatre sprints principaux se distinguaient, tous d'une durée de 2 à 4 semaines maximum:
 
+\begin{itemize}
+	\item Ajustement de l'état de l'art et de la veille technologique, avec l'ajout de plusieurs parties sur la télévision et sur des bibliothèques d'acquisition;
+	\item \'{E}tude sur l'implantation des principales chaînes de télévision actuellement en France;
+	\item Développement de l'application;
+	\item Finalisation du rapport.
+\end{itemize}
+
+Le diagramme de Gantt ajusté pour le second semestre est disponible sur la \autoref{fig:gantt2}
+
+Concernant la méthodologie de développement, les premières idées portaient sur une structure MVC (Modèle - Vue - Contrôleur) avec une partie Modèle qui se focalisera les objets représentant les flux vidéos, une partie Vue qui se concentrera sur l'affichage des fenêtres et sur l'interface en général, et enfin une partie Contrôleur qui fera la liaison entre les parties. Au fur et à mesure de l'avancement du projet, la partie Contrôleur a pris une place prépondérante par rapport aux autres car elle contrôle la redirection des flux, la création des objets et des fenêtres ainsi que le lancement des programmes externes. Les parties Modèle et Vue se contente donc de représenter les chaînes d'un côté et afficher les vidéos pour l'autre. Les détails de l'implémentation sont explicités dans le \autoref{chap:description}.
 
 
 \part{\'{E}tat de l'art et Veille technologique}
@@ -122,6 +132,13 @@ Concernant le développement, nous suivrons une structure de type MVC (Modèle V
 \chapter{\'{E}tat de l'art sur la télévision}
 
 \section{Diffusion d'une chaîne de télévision}
+
+
+\begin{figure}
+	\includegraphics[scale=0.37]{images/diffusionTV.png}
+	\caption{Schéma de diffusion d'une chaîne de télévision repris de l'article \cite{_diffusion_2018}}
+	\label{fig:diffusionTV}
+\end{figure}
 
 \section{Réception de la télévision}
 
@@ -307,12 +324,14 @@ LibVLC est rédigée en langage C, mais il existe de nombreux adaptations et fra
 
 
 \section{Streamlink}
+\label{sec:streamlink}
 
 
 \part{Description générale et analyse}
 
 
 \chapter{Description générale}
+\label{chap:description}
 
 Le chapitre qui suit décrit ce que sera la plateforme, avec ces différentes spécifications. Nous détaillerons l’environnement du projet, les caractéristiques des utilisateurs, les fonctionnalités du système ainsi qu’une idée de ce que sera la structure générale de la plateforme.
 
@@ -431,6 +450,24 @@ En ce qui concerne la gestion du projet à mi-parcours, la phase de recherche a 
 \chapter{Gestion de projet, diagramme de Gantt}
 
 
+Ici, le diagramme de Gantt tel qu'il a été pensé à l'origine du projet. 
+
+\begin{figure}
+	\includegraphics[scale=0.2]{images/Diagramme_PR&D}
+	\caption{Diagramme de Gantt}
+	\label{fig:gantt1}
+\end{figure}
+
+
+Ci-dessous, le diagramme de Gantt ajusté à l'issue du premier semestre.
+
+\begin{figure}
+	\includegraphics[scale=0.25]{images/Diagramme_PR&D2}
+	\caption{Diagramme de Gantt ajusté à l'issu du premier semestre}
+	\label{fig:gantt2}
+\end{figure}
+
+
 \chapter{Diagramme de classes}
 
 
@@ -523,7 +560,7 @@ Sur certaines machines, et en particulier sur les machines virtuelles de l'écol
 
 
 \begin{figure}
-	\includegraphics[scale=0.37]{images/imageQualite.png}
+	\includegraphics[scale=0.75]{images/imageQualite.png}
 	\caption{Exemple de problèmes d'affichage}
 	\label{fig:pbAffichage}
 \end{figure}

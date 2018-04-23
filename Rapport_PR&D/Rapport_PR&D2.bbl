@@ -19,6 +19,23 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global/WWW}
+    \entry{_diffusion_2018}{online}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{e07d8eeb31ded4126e0aa0cfcdcb5a8f}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{\#03 - Les différents modes de réception télé}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb #03 - Les différents modes de réception télé:C\:\\Users\\Romain\\Zotero\\storage\\AFE7Z7B4\\03-les-differents-modes-de-reception-tele.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.a-suivre.org/flt/03-les-differents-modes-de-reception-tele
+      \endverb
+    \endentry
     \entry{abduraman_tv_2012}{article}{}
       \name{author}{3}{}{%
         {{hash=18ec683c5f4c176a4c66f7a8dc41a4ae}{%
@@ -639,6 +656,22 @@
     \endentry
   \endsortlist
   \sortlist[entry]{nyt/global/}
+    \entry{_diffusion_2018}{online}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{e07d8eeb31ded4126e0aa0cfcdcb5a8f}
+      \field{labeltitlesource}{title}
+      \field{title}{\#03 - Les différents modes de réception télé}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb #03 - Les différents modes de réception télé:C\:\\Users\\Romain\\Zotero\\storage\\AFE7Z7B4\\03-les-differents-modes-de-reception-tele.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.a-suivre.org/flt/03-les-differents-modes-de-reception-tele
+      \endverb
+    \endentry
     \entry{abduraman_tv_2012}{article}{}
       \name{author}{3}{}{%
         {{hash=18ec683c5f4c176a4c66f7a8dc41a4ae}{%
