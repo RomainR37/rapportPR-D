@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  23 APR 2018 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  24 APR 2018 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2947,7 +2947,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 . 
 . Redefining command \caption with sig. 'om' on line 81.
 .................................................
- <images/exemple_sites.png, id=287, 404.712pt x 128.27925pt>
+ <images/exemple_sites.png, id=299, 404.712pt x 128.27925pt>
 File: images/exemple_sites.png Graphic file (type png)
 
 <use images/exemple_sites.png>
@@ -2981,7 +2981,7 @@ Chapitre 1.
 . 
 . Redefining command \caption with sig. 'om' on line 137.
 .................................................
-<images/diffusionTV.png, id=321, 853.38824pt x 467.346pt>
+<images/diffusionTV.png, id=333, 853.38824pt x 467.346pt>
 File: images/diffusionTV.png Graphic file (type png)
 
 <use images/diffusionTV.png>
@@ -2989,28 +2989,46 @@ Package pdftex.def Info: images/diffusionTV.png used on input line 138.
 (pdftex.def)             Requested size: 315.7487pt x 172.9153pt.
 
 * Missing: images/diffusionTV.pax
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 154.
+.................................................
+<images/logoMolotov.png, id=335, 515.9275pt x 172.645pt>
+File: images/logoMolotov.png Graphic file (type png)
+
+<use images/logoMolotov.png>
+Package pdftex.def Info: images/logoMolotov.png used on input line 155.
+(pdftex.def)             Requested size: 180.57733pt x 60.42664pt.
+
+* Missing: images/logoMolotov.pax
 [7
 
  <./images/diffusionTV.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 1.  État de l'art sur la té-lé-vi-sion
+ []
+
+[8 <./images/logoMolotov.png>]
 Chapitre 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 [][][][]\T1/jkpf/b/n/24.88 La dif-fu-sion de flux en
  []
 
-[8
+[9
 
 ]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 182.
+. Redefining command \caption with sig. 'om' on line 188.
 .................................................
- <images/logos_platform.png, id=338, 591.4095pt x 175.25475pt>
+ <images/logos_platform.png, id=356, 591.4095pt x 175.25475pt>
 File: images/logos_platform.png Graphic file (type png)
 
 <use images/logos_platform.png>
-Package pdftex.def Info: images/logos_platform.png used on input line 183.
+Package pdftex.def Info: images/logos_platform.png used on input line 189.
 (pdftex.def)             Requested size: 413.98383pt x 122.67747pt.
 
 * Missing: images/logos_platform.pax
@@ -3020,19 +3038,19 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 -ter-net
  []
 
-[9 <./images/logos_platform.png>]
+[10 <./images/logos_platform.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 197.
+. Redefining command \caption with sig. 'om' on line 203.
 .................................................
 
-<images/Adaptive_streaming_overview.png, id=352, 1699.05353pt x 490.30235pt>
+<images/Adaptive_streaming_overview.png, id=371, 1699.05353pt x 490.30235pt>
 File: images/Adaptive_streaming_overview.png Graphic file (type png)
 
 <use images/Adaptive_streaming_overview.png>
 Package pdftex.def Info: images/Adaptive_streaming_overview.png used on input l
-ine 198.
+ine 204.
 (pdftex.def)             Requested size: 424.76234pt x 122.57529pt.
 
 * Missing: images/Adaptive_streaming_overview.pax
@@ -3042,17 +3060,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 -ter-net
  []
 
-[10 <./images/Adaptive_streaming_overview.png>]
+[11 <./images/Adaptive_streaming_overview.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 232.
+. Redefining command \caption with sig. 'om' on line 238.
 .................................................
 
-<images/html5logo.jpg, id=368, 642.4pt x 642.4pt>
+<images/html5logo.jpg, id=386, 642.4pt x 642.4pt>
 File: images/html5logo.jpg Graphic file (type jpg)
  <use images/html5logo.jpg>
-Package pdftex.def Info: images/html5logo.jpg used on input line 233.
+Package pdftex.def Info: images/html5logo.jpg used on input line 239.
 (pdftex.def)             Requested size: 160.59961pt x 160.59961pt.
 
 * Missing: images/html5logo.pax
@@ -3065,105 +3083,163 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 -ter-net
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
 -ter-net
  []
 
-[12 <./images/html5logo.jpg>]
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
--ter-net
- []
-
-[13]
+[13 <./images/html5logo.jpg>]
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
 -ter-net
  []
 
 [14]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 2.  La dif-fu-sion de flux en continu sur In
+-ter-net
+ []
+
+[15]
 Chapitre 3.
-[15
+[16
 
 ]
 Chapitre 4.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 300.
+. Redefining command \caption with sig. 'om' on line 306.
 .................................................
-<images/ffmpeg.png, id=401, 397.485pt x 100.375pt>
+<images/ffmpeg.png, id=420, 397.485pt x 100.375pt>
 File: images/ffmpeg.png Graphic file (type png)
  <use images/ffmpeg.png>
-Package pdftex.def Info: images/ffmpeg.png used on input line 301.
+Package pdftex.def Info: images/ffmpeg.png used on input line 307.
 (pdftex.def)             Requested size: 198.742pt x 50.18736pt.
 
 * Missing: images/ffmpeg.pax
-[16
+[17
 
  <./images/ffmpeg.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 315.
+. Redefining command \caption with sig. 'om' on line 321.
 .................................................
 
-<images/vlc-media-player-logo.png, id=412, 501.875pt x 250.9375pt>
+<images/vlc-media-player-logo.png, id=430, 501.875pt x 250.9375pt>
 File: images/vlc-media-player-logo.png Graphic file (type png)
 
 <use images/vlc-media-player-logo.png>
-Package pdftex.def Info: images/vlc-media-player-logo.png used on input line 31
-6.
+Package pdftex.def Info: images/vlc-media-player-logo.png used on input line 32
+2.
 (pdftex.def)             Requested size: 250.93687pt x 125.46843pt.
 
 * Missing: images/vlc-media-player-logo.pax
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 335.
+.................................................
+<images/streamlink.png, id=433, 570.933pt x 75.8835pt>
+File: images/streamlink.png Graphic file (type png)
+
+<use images/streamlink.png>
+Package pdftex.def Info: images/streamlink.png used on input line 336.
+(pdftex.def)             Requested size: 285.46579pt x 37.94165pt.
+
+* Missing: images/streamlink.pax
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 342.
+.................................................
+<images/streamlinkHttp.png, id=434, 576.9555pt x 116.8365pt>
+File: images/streamlinkHttp.png Graphic file (type png)
+
+<use images/streamlinkHttp.png>
+Package pdftex.def Info: images/streamlinkHttp.png used on input line 343.
+(pdftex.def)             Requested size: 288.47704pt x 58.4181pt.
+
+* Missing: images/streamlinkHttp.pax
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Chapitre 4.  Les bi-blio-thèques et lo-gi-ciels d'ac-
 qui-si-tion
  []
 
-[17 <./images/vlc-media-player-logo.png>] [18
+[18 <./images/vlc-media-player-logo.png> <./images/streamlink.png> <./images/st
+reamlinkHttp.png>] [19
 
 ]
 Chapitre 5.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 344.
+. Redefining command \caption with sig. 'om' on line 362.
 .................................................
-<images/environnement.jpg, id=425, 563.58453pt x 191.91025pt>
+<images/environnement.jpg, id=445, 563.58453pt x 191.91025pt>
 File: images/environnement.jpg Graphic file (type jpg)
 
 <use images/environnement.jpg>
-Package pdftex.def Info: images/environnement.jpg used on input line 345.
+Package pdftex.def Info: images/environnement.jpg used on input line 363.
 (pdftex.def)             Requested size: 422.68735pt x 143.93231pt.
 
 * Missing: images/environnement.pax
 
 Underfull \vbox (badness 5231) has occurred while \output is active []
 
- [19
+ [20
 
  <./images/environnement.jpg>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 362.
+. Redefining command \caption with sig. 'om' on line 380.
 .................................................
 
-<images/UseCase2.png, id=430, 665.48625pt x 521.69907pt>
+<images/UseCase2.png, id=451, 665.48625pt x 521.69907pt>
 File: images/UseCase2.png Graphic file (type png)
 
 <use images/UseCase2.png>
-Package pdftex.def Info: images/UseCase2.png used on input line 363.
+Package pdftex.def Info: images/UseCase2.png used on input line 381.
 (pdftex.def)             Requested size: 499.11346pt x 391.27333pt.
 
 * Missing: images/UseCase2.pax
 
-Overfull \hbox (43.86935pt too wide) in paragraph at lines 363--366
+Overfull \hbox (43.86935pt too wide) in paragraph at lines 381--384
+ [][] |
+ []
+
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 389.
+.................................................
+<images/textFile.png, id=452, 378.81525pt x 224.037pt>
+File: images/textFile.png Graphic file (type png)
+
+<use images/textFile.png>
+Package pdftex.def Info: images/textFile.png used on input line 390.
+(pdftex.def)             Requested size: 189.40715pt x 112.01822pt.
+
+* Missing: images/textFile.pax
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 401.
+.................................................
+<images/affichageFlux.png, id=453, 1155.71774pt x 619.71526pt>
+File: images/affichageFlux.png Graphic file (type png)
+
+<use images/affichageFlux.png>
+Package pdftex.def Info: images/affichageFlux.png used on input line 402.
+(pdftex.def)             Requested size: 577.85747pt x 309.85686pt.
+
+* Missing: images/affichageFlux.pax
+
+Overfull \hbox (122.61336pt too wide) in paragraph at lines 402--405
  [][] |
  []
 
@@ -3172,44 +3248,82 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Chapitre 5.  Des-crip-tion gé-né-rale
  []
 
-[20 <./images/UseCase2.png>]
+[21 <./images/UseCase2.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 426.
+.................................................
+
+<images/ClassDiagram.png, id=459, 1075.76906pt x 521.69907pt>
+File: images/ClassDiagram.png Graphic file (type png)
+
+<use images/ClassDiagram.png>
+Package pdftex.def Info: images/ClassDiagram.png used on input line 427.
+(pdftex.def)             Requested size: 268.9416pt x 130.42444pt.
+
+* Missing: images/ClassDiagram.pax
+
+Underfull \vbox (badness 4391) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Chapitre 5.  Des-crip-tion gé-né-rale
  []
 
-[21]
-Chapitre 6.
-[22
+[22 <./images/textFile.png> <./images/affichageFlux.png>]
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \caption with sig. 'om' on line 433.
+.................................................
 
-] [23
+<images/SequenceDiagram.png, id=465, 907.89188pt x 536.75531pt>
+File: images/SequenceDiagram.png Graphic file (type png)
+
+<use images/SequenceDiagram.png>
+Package pdftex.def Info: images/SequenceDiagram.png used on input line 434.
+(pdftex.def)             Requested size: 226.97241pt x 134.18849pt.
+
+* Missing: images/SequenceDiagram.pax
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][]\T1/jkpf/b/sc/12 Chapitre 5.  Des-crip-tion gé-né-rale
+ []
+
+[23 <./images/ClassDiagram.png> <./images/SequenceDiagram.png>]
+Chapitre 6.
+[24
+
+] [25
 
 ]
 Chapitre 7.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 414.
+. Redefining command \caption with sig. 'om' on line 460.
 .................................................
-<sonarcmd.png, id=451, 728.12025pt x 236.082pt>
+<sonarcmd.png, id=482, 728.12025pt x 236.082pt>
 File: sonarcmd.png Graphic file (type png)
  <use sonarcmd.png>
-Package pdftex.def Info: sonarcmd.png used on input line 415.
+Package pdftex.def Info: sonarcmd.png used on input line 461.
 (pdftex.def)             Requested size: 436.87552pt x 141.65028pt.
 
 * Missing: sonarcmd.pax
-[24
+[26
 
  <./sonarcmd.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 426.
+. Redefining command \caption with sig. 'om' on line 472.
 .................................................
- <sonarresult.png, id=456, 765.45975pt x 343.2825pt>
+ <sonarresult.png, id=487, 765.45975pt x 343.2825pt>
 File: sonarresult.png Graphic file (type png)
 
 <use sonarresult.png>
-Package pdftex.def Info: sonarresult.png used on input line 427.
+Package pdftex.def Info: sonarresult.png used on input line 473.
 (pdftex.def)             Requested size: 421.00417pt x 188.80594pt.
 
 * Missing: sonarresult.pax
@@ -3219,114 +3333,112 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 é du code
  []
 
-[25 <./sonarresult.png>]
+[27 <./sonarresult.png>]
 Chapitre 8.
-[26
+[28
 
-] [27
+] [29
 
-] [28
+] [30
 
 ]
 Annexe A.
-[29
+[31
 
 ]
 Annexe B.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 455.
+. Redefining command \caption with sig. 'om' on line 501.
 .................................................
-<images/Diagramme_PR&D.png, id=478, 2229.32875pt x 327.2225pt>
+<images/Diagramme_PR&D.png, id=509, 2229.32875pt x 327.2225pt>
 File: images/Diagramme_PR&D.png Graphic file (type png)
 
 <use images/Diagramme_PR&D.png>
-Package pdftex.def Info: images/Diagramme_PR&D.png used on input line 456.
+Package pdftex.def Info: images/Diagramme_PR&D.png used on input line 502.
 (pdftex.def)             Requested size: 445.85785pt x 65.44333pt.
 
 * Missing: images/Diagramme_PR&D.pax
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 464.
+. Redefining command \caption with sig. 'om' on line 510.
 .................................................
-<images/Diagramme_PR&D2.png, id=479, 1720.4275pt x 211.79124pt>
+<images/Diagramme_PR&D2.png, id=510, 1720.4275pt x 211.79124pt>
 File: images/Diagramme_PR&D2.png Graphic file (type png)
 
 <use images/Diagramme_PR&D2.png>
-Package pdftex.def Info: images/Diagramme_PR&D2.png used on input line 465.
+Package pdftex.def Info: images/Diagramme_PR&D2.png used on input line 511.
 (pdftex.def)             Requested size: 430.10582pt x 52.94768pt.
 
 * Missing: images/Diagramme_PR&D2.pax
-[30
+[32
 
  <./images/Diagramme_PR&D.png (PNG copy)> <./images/Diagramme_PR&D2.png (PNG co
 py)>]
 Annexe C.
-[31
+[33
 
 ]
 Annexe D.
-[32
+[34
 
 ]
 Annexe E.
-[33
+[35
 
 ]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 524.
+. Redefining command \caption with sig. 'om' on line 570.
 .................................................
- <images/cmdLancement.png, id=500, 729.32475pt x 52.39575pt>
+ <images/cmdLancement.png, id=532, 729.32475pt x 52.39575pt>
 File: images/cmdLancement.png Graphic file (type png)
 
 <use images/cmdLancement.png>
-Package pdftex.def Info: images/cmdLancement.png used on input line 525.
+Package pdftex.def Info: images/cmdLancement.png used on input line 571.
 (pdftex.def)             Requested size: 437.59822pt x 31.43768pt.
 
 * Missing: images/cmdLancement.pax
 
-LaTeX Warning: Polytech : Missing label on figure on input line 527.
+LaTeX Warning: Polytech : Missing label on figure on input line 573.
 
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 537.
+. Redefining command \caption with sig. 'om' on line 583.
 .................................................
-<images/testStream.png, id=501, 413.1435pt x 230.0595pt>
-File: images/testStream.png Graphic file (type png)
+File: images/textFile.png Graphic file (type png)
+<use images/textFile.png>
+Package pdftex.def Info: images/textFile.png used on input line 584.
+(pdftex.def)             Requested size: 265.16885pt x 156.82481pt.
 
-<use images/testStream.png>
-Package pdftex.def Info: images/testStream.png used on input line 538.
-(pdftex.def)             Requested size: 289.19846pt x 161.04054pt.
-
-* Missing: images/testStream.pax
+* Missing: images/textFile.pax
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Annexe E.  Guide d'ins-tal-la-tion et d'uti-li-sa-tio
 n
  []
 
-[34 <./images/cmdLancement.png>]
+[36 <./images/cmdLancement.png>]
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \caption with sig. 'om' on line 562.
+. Redefining command \caption with sig. 'om' on line 608.
 .................................................
 
-<images/imageQualite.png, id=511, 1202.99437pt x 452.4403pt>
+<images/imageQualite.png, id=541, 1202.99437pt x 452.4403pt>
 File: images/imageQualite.png Graphic file (type png)
 
 <use images/imageQualite.png>
-Package pdftex.def Info: images/imageQualite.png used on input line 563.
+Package pdftex.def Info: images/imageQualite.png used on input line 609.
 (pdftex.def)             Requested size: 902.24358pt x 339.3294pt.
 
 * Missing: images/imageQualite.pax
 
-Overfull \hbox (446.99947pt too wide) in paragraph at lines 563--566
+Overfull \hbox (446.99947pt too wide) in paragraph at lines 609--612
  [][] |
  []
 
@@ -3336,33 +3448,33 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 n
  []
 
-[35 <./images/testStream.png>]
+[37]
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Annexe E.  Guide d'ins-tal-la-tion et d'uti-li-sa-tio
 n
  []
 
-[36 <./images/imageQualite.png>]
-Overfull \hbox (1.50822pt too wide) in paragraph at lines 572--572
+[38 <./images/imageQualite.png>]
+Overfull \hbox (1.50822pt too wide) in paragraph at lines 618--618
 [][]$\T1/jkptt/m/n/10.95 https : / / www . cisco . com / c / en / us / solution
 s / collateral / service -[] provider /|
  []
 
 
-Overfull \hbox (7.4523pt too wide) in paragraph at lines 572--572
+Overfull \hbox (7.4523pt too wide) in paragraph at lines 618--618
 []\T1/jkpf/m/it/10.95 (-20) Définition strea-ming\T1/jkpf/m/n/10.95 (-20) . \T1
 /jkpf/m/sc/10.95 (-20) url \T1/jkpf/m/n/10.95 (-20) : [][]$\T1/jkptt/m/n/10.95 
 http : / / www . futura -[] sciences . com / tech / definitions /|
  []
 
-[37
+[39
 
 ]
 Underfull \hbox (badness 10000) has occurred while \output is active
  [][][][]\T1/jkpf/b/sc/12 Webographie
  []
 
-[38]
+[40]
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
  (c:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/british.lbx
@@ -3378,14 +3490,14 @@ See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.572 \end{document}
+l.618 \end{document}
                     
 You may proceed, but expect unexpected results
 
 No file Rapport_PR&D2.gls.
 No file Rapport_PR&D2.acr.
 No file Rapport_PR&D2.ind.
-[39
+[41
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -3421,113 +3533,107 @@ No file Rapport_PR&D2.ind.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  []\T1/jkpf/b/n/10 Département In-for-ma-tique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  []\T1/jkpf/b/n/10 64 ave-nue Jean Por-ta-lis, 37200 Tours, France
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  [][][][][]$\T1/jkptt/b/n/10 p o l y t e c h \OML/jkp/m/it/10 : \T1/jkptt/b/n/1
 0 u n i v -[] t o u r s\OML/jkp/m/it/10 : \T1/jkptt/b/n/10 f r$[][][][]
  []
 
 File: polytech/polytech.pdf Graphic file (type pdf)
 <use polytech/polytech.pdf>
-Package pdftex.def Info: polytech/polytech.pdf used on input line 572.
+Package pdftex.def Info: polytech/polytech.pdf used on input line 618.
 (pdftex.def)             Requested size: 306.2564pt x 95.25526pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  [][][][]\T1/jkpf/b/n/12 Informatique
  []
 
-<images/illuStreaming.jpg, id=580, 2569.6pt x 863.225pt>
+<images/illuStreaming.jpg, id=611, 2569.6pt x 863.225pt>
 File: images/illuStreaming.jpg Graphic file (type jpg)
 
 <use images/illuStreaming.jpg>
-Package pdftex.def Info: images/illuStreaming.jpg used on input line 572.
+Package pdftex.def Info: images/illuStreaming.jpg used on input line 618.
 (pdftex.def)             Requested size: 2569.59377pt x 863.2229pt.
-
-<images/streamlink.png, id=581, 570.933pt x 75.8835pt>
 File: images/streamlink.png Graphic file (type png)
-
-<use images/streamlink.png>
-Package pdftex.def Info: images/streamlink.png used on input line 572.
+ <use images/streamlink.png>
+Package pdftex.def Info: images/streamlink.png used on input line 618.
 (pdftex.def)             Requested size: 570.9316pt x 75.8833pt.
-
-<images/affichageFlux.png, id=582, 1155.71774pt x 619.71526pt>
 File: images/affichageFlux.png Graphic file (type png)
 
 <use images/affichageFlux.png>
-Package pdftex.def Info: images/affichageFlux.png used on input line 572.
+Package pdftex.def Info: images/affichageFlux.png used on input line 618.
 (pdftex.def)             Requested size: 1155.71494pt x 619.71373pt.
- [40
+ [42
 
 
- <./images/illuStreaming.jpg> <./images/streamlink.png> <./images/affichageFlux
-.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+ <./images/illuStreaming.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  [][][][]\T1/jkpf/b/sc/10.95 Ecole Po-ly-tech-nique de l'Uni-ver-sité Fran-çois
  Ra-be-lais de Tours
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  []\T1/jkpf/b/n/10 Département In-for-ma-tique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  []\T1/jkpf/b/n/10 64 ave-nue Jean Por-ta-lis, 37200 Tours, France
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  [][][][][]$\T1/jkptt/b/n/10 p o l y t e c h \OML/jkp/m/it/10 : \T1/jkptt/b/n/1
 0 u n i v -[] t o u r s\OML/jkp/m/it/10 : \T1/jkptt/b/n/10 f r$[][][][]
  []
 
 File: polytech/polytech.pdf Graphic file (type pdf)
 <use polytech/polytech.pdf>
-Package pdftex.def Info: polytech/polytech.pdf used on input line 572.
+Package pdftex.def Info: polytech/polytech.pdf used on input line 618.
 (pdftex.def)             Requested size: 306.2564pt x 95.25526pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
  [][][][]\T1/jkpf/b/n/12 Informatique
  []
 
 File: images/illuStreaming.jpg Graphic file (type jpg)
 <use images/illuStreaming.jpg>
-Package pdftex.def Info: images/illuStreaming.jpg used on input line 572.
+Package pdftex.def Info: images/illuStreaming.jpg used on input line 618.
 (pdftex.def)             Requested size: 2569.59377pt x 863.2229pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
 []\T1/jkpf/m/n/14.4 Le do-maine du strea-ming est en
  []
 
 File: images/streamlink.png Graphic file (type png)
 <use images/streamlink.png>
-Package pdftex.def Info: images/streamlink.png used on input line 572.
+Package pdftex.def Info: images/streamlink.png used on input line 618.
 (pdftex.def)             Requested size: 570.9316pt x 75.8833pt.
 File: images/affichageFlux.png Graphic file (type png)
  <use images/affichageFlux.png>
-Package pdftex.def Info: images/affichageFlux.png used on input line 572.
+Package pdftex.def Info: images/affichageFlux.png used on input line 618.
 (pdftex.def)             Requested size: 1155.71494pt x 619.71373pt.
 
-Underfull \hbox (badness 2503) in paragraph at lines 572--572
+Underfull \hbox (badness 2503) in paragraph at lines 618--618
 []\T1/jkpf/m/n/14.4 Lancement de la plate-forme en
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 572--572
+Underfull \hbox (badness 1033) in paragraph at lines 618--618
 []\T1/jkpf/m/n/14.4 Affichage des flux en si-mul-ta-nés,
  []
 
-[41
+[43
 
 
 ]
@@ -3563,7 +3669,7 @@ Underfull \hbox (badness 1033) in paragraph at lines 572--572
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [42
+ [44
 
 
 
@@ -3571,8 +3677,12 @@ Underfull \hbox (badness 1033) in paragraph at lines 572--572
 
 ] 
 AED: pageslts setting LastPage 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 572.
+
+Package totalcount Warning: Total counter(s) have changed.
+(totalcount)                Rerun to get them right.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 618.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 618.
 \c@pagesLTS.arabic.1.local.count=\count489
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -3584,25 +3694,29 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./Rapport_PR&D2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 572.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 618.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 618.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'Rapport_PR&D2.run.xml'.
 \openout1 = `Rapport_PR&D2.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 572.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 618.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54968 strings out of 493013
- 985410 string characters out of 6136993
- 1595983 words of memory out of 5000000
- 56977 multiletter control sequences out of 15000+600000
+ 55025 strings out of 493013
+ 986562 string characters out of 6136993
+ 1596505 words of memory out of 5000000
+ 57021 multiletter control sequences out of 15000+600000
  187311 words of font info for 401 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,17n,94p,10391b,23255s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,17n,94p,10391b,23279s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/tex
 live/2016/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<c:/texlive/201
 6/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb><c:/texlive/2016/texmf-dis
@@ -3616,10 +3730,10 @@ s/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpmsc8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/j
 kpttbn8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.p
 fb>
-Output written on Rapport_PR&D2.pdf (51 pages, 4895067 bytes).
+Output written on Rapport_PR&D2.pdf (53 pages, 5010725 bytes).
 PDF statistics:
- 944 PDF objects out of 1000 (max. 8388607)
- 836 compressed objects within 9 object streams
- 179 named destinations out of 1000 (max. 500000)
- 54038 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 975 PDF objects out of 1000 (max. 8388607)
+ 858 compressed objects within 9 object streams
+ 188 named destinations out of 1000 (max. 500000)
+ 54058 words of extra memory for PDF output out of 61914 (max. 10000000)
 

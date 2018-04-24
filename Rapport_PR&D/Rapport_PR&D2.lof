@@ -40,6 +40,12 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Logo de la plate-forme Molotov TV\relax }}{8}{figure.1.2}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \select@language {english}
@@ -56,7 +62,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}La diffusion de flux en continu sur Internet}{}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Exemples de plate-forme populaire dans les ann\IeC {\'e}es 2000\relax }}{9}{figure.2.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemples de plate-forme populaire dans les ann\IeC {\'e}es 2000\relax }}{10}{figure.2.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -70,7 +76,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Sch\IeC {\'e}ma du fonctionnement de la diffusion en flux adaptatif (tir\IeC {\'e} de \cite {_adaptive_2017})\relax }}{10}{figure.2.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Sch\IeC {\'e}ma du fonctionnement de la diffusion en flux adaptatif (tir\IeC {\'e} de \cite {_adaptive_2017})\relax }}{11}{figure.2.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -92,7 +98,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Logo du HTML5 qui a bouscul\IeC {\'e} le march\IeC {\'e} du multim\IeC {\'e}dia en ligne \IeC {\`a} son arriv\IeC {\'e}e\relax }}{12}{figure.2.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Logo du HTML5 qui a bouscul\IeC {\'e} le march\IeC {\'e} du multim\IeC {\'e}dia en ligne \IeC {\`a} son arriv\IeC {\'e}e\relax }}{13}{figure.2.3}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -116,17 +122,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Les biblioth\IeC {\`e}ques et logiciels d'acquisition}{}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Logo de FFMPEG\relax }}{16}{figure.4.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Logo de FFMPEG\relax }}{17}{figure.4.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Logo de la VideoLAN Organization\relax }}{17}{figure.4.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Logo de la VideoLAN Organization\relax }}{18}{figure.4.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemple d'utilisation de streamlink\relax }}{18}{figure.4.3}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemple de redirection des streams\relax }}{18}{figure.4.4}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -140,13 +158,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Description g\IeC {\'e}n\IeC {\'e}rale}{}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Sch\IeC {\'e}ma de l'environnement du projet\relax }}{19}{figure.5.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Sch\IeC {\'e}ma de l'environnement du projet\relax }}{20}{figure.5.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Diagramme de cas d'utilisation\relax }}{20}{figure.5.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagramme de cas d'utilisation\relax }}{21}{figure.5.2}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemple de fichier texte en entr\IeC {\'e}e du programme\relax }}{22}{figure.5.3}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemple d'affichage des flux\relax }}{22}{figure.5.4}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Premi\IeC {\`e}re \IeC {\'e}bauche du diagramme de classes avec la structure MVC\relax }}{23}{figure.5.5}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces Premier diagramme de s\IeC {\'e}quences\relax }}{23}{figure.5.6}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -162,13 +204,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Documentation et contr\IeC {\^o}le de qualit\IeC {\'e} du code}{}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Lancement de l'instance SonarQube\relax }}{24}{figure.7.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Lancement de l'instance SonarQube\relax }}{26}{figure.7.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces R\IeC {\'e}sultats de l'analyse Sonar\relax }}{25}{figure.7.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces R\IeC {\'e}sultats de l'analyse Sonar\relax }}{27}{figure.7.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -182,13 +224,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Gestion de projet, diagramme de Gantt}{}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Diagramme de Gantt\relax }}{30}{figure.B.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Diagramme de Gantt\relax }}{32}{figure.B.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Diagramme de Gantt ajust\IeC {\'e} \IeC {\`a} l'issu du premier semestre\relax }}{30}{figure.B.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagramme de Gantt ajust\IeC {\'e} \IeC {\`a} l'issu du premier semestre\relax }}{32}{figure.B.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -202,13 +244,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {E}Guide d'installation et d'utilisation}{}{appendix.E}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Commande de lancement du programme\relax }}{34}{figure.E.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Commande de lancement du programme\relax }}{36}{figure.E.1}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Fichier texte exemple \textit {testStream}\relax }}{35}{figure.E.2}
+\contentsline {figure}{\numberline {2}{\ignorespaces Fichier texte exemple \textit {testStream}\relax }}{37}{figure.E.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -218,7 +260,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Exemple de probl\IeC {\`e}mes d'affichage\relax }}{36}{figure.E.3}
+\contentsline {figure}{\numberline {3}{\ignorespaces Exemple de probl\IeC {\`e}mes d'affichage\relax }}{38}{figure.E.3}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

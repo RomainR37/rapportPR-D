@@ -151,6 +151,12 @@ Concernant la méthodologie de développement, les premières idées portaient s
 \subsection{Service par contournement ou Over the Top (OTT)}
 
 
+\begin{figure}
+	\includegraphics[scale=0.35]{images/logoMolotov}
+	\caption{Logo de la plate-forme Molotov TV}
+	\label{fig:logoMolotov}
+\end{figure}
+
 \chapter{La diffusion de flux en continu sur Internet}
 \label{chap:diffusion_flux}
 
@@ -326,6 +332,18 @@ LibVLC est rédigée en langage C, mais il existe de nombreux adaptations et fra
 \section{Streamlink}
 \label{sec:streamlink}
 
+\begin{figure}
+	\includegraphics[scale=0.5]{images/streamlink.png}
+	\caption{Exemple d'utilisation de streamlink}
+	\label{fig:streamlink}
+\end{figure}
+
+
+\begin{figure}
+	\includegraphics[scale=0.5]{images/streamlinkHttp.png}
+	\caption{Exemple de redirection des streams}
+	\label{fig:redir_streamlink}
+\end{figure}
 
 \part{Description générale et analyse}
 
@@ -368,9 +386,24 @@ diagramme de cas d’utilisation ci-dessous.
 
 \subsection{Séléction des chaînes via le fichier texte}
 
+\begin{figure}
+	\includegraphics[scale=0.5]{images/textFile.png}
+	\caption{Exemple de fichier texte en entrée du programme}
+	\label{fig:textFile}
+\end{figure}
+
+
 \subsection{Lancement en ligne de commande}
 
 \subsection{Affichage des streams}
+
+
+\begin{figure}
+	\includegraphics[scale=0.5]{images/affichageFlux.png}
+	\caption{Exemple d'affichage des flux}
+	\label{fig:affichageFlux}
+\end{figure}
+
 
 \section{Structure générale du système}
 
@@ -379,16 +412,29 @@ diagramme de cas d’utilisation ci-dessous.
 
 \subsection{La classe MainLaunch}
 
-\subsection{La classe MainControler}
+\subsection{La classe MainController}
 
-\subsection{La classe StreamControler}
+\subsection{La classe StreamController}
 
-\subsection{La classe TextInputStreamControler}
+\subsection{La classe TextInputStreamController}
 
 \subsection{La classe StreamView}
 
 
 \subsection{Lien entre les classes}
+
+\begin{figure}
+	\includegraphics[scale=0.25]{images/ClassDiagram.png}
+	\caption{Première ébauche du diagramme de classes avec la structure MVC}
+	\label{fig:classdiag1}
+\end{figure}
+
+
+\begin{figure}
+	\includegraphics[scale=0.25]{images/SequenceDiagram.png}
+	\caption{Premier diagramme de séquences}
+	\label{fig:seqdiag1}
+\end{figure}
 
 
 \chapter{Analyse des méthodes}
@@ -535,7 +581,7 @@ Il est possible de lancer l'application avec le fichier texte que l'on souhaite.
 Une chaîne nécessite deux informations pour pouvoir fonctionner: son nom et l'adresse du site diffusant son stream. Dans le fichier texte que l'on veut lire, ces deux informations doivent transparaître séparées d'une tabulation. Vous pouvez voir l'exemple du fichier \textit{testStream.txt} ci-après:
 
 \begin{figure}
-	\includegraphics[scale=0.7]{images/testStream.png}
+	\includegraphics[scale=0.7]{images/textFile.png}
 	\caption{Fichier texte exemple \textit{testStream}}
 	\label{fig:fichier_texte}
 \end{figure}
