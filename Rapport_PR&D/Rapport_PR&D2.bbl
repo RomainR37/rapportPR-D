@@ -141,6 +141,48 @@
       \verb https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html
       \endverb
     \endentry
+    \entry{_combien_2016}{online}{}
+      \field{sortinit}{c}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{{CC}0 Public Domain, via Pixabay Notre réponse du 21/12/2016 Je n'ai pas trouvé le nombre de personnes regardant la télévision dans le monde. Je peux néanmoins vous indiquer qu'à l'échelle internationale, 1,59 milliards de foyers disposaient d'au moins un téléviseur en 2015 (chiffre indiqué sur le site de l'agence spécialisée en statistiques Statista : . Les chiffres relatifs aux téléspectateurs sont faciles à trouver pour les pays développés. Le chiffre donné pour l'Espagne est de 33 millions (indiqué par l'agence de marketing Isarta : Ce que le monde adore regarder À l'occasion de la Journée mondiale de la télévision, World {TV} et Thinktv partagent avec nous des statistiques internationales. Celles-ci révèlent sans aucun doute l'immense popularité du petit écran à travers la planète! Cordialement, Eurêkoi – Bibliothèque Publique d'Information}
+      \field{day}{21}
+      \field{langid}{french}
+      \field{month}{12}
+      \field{shorttitle}{combien de personnes regardent la télévision dans le monde ?}
+      \field{title}{combien de personnes regardent la télévision dans le monde ? et en Espagne? {|} Eurêkoi}
+      \field{titleaddon}{Eurêkoi - Il suffit de demander}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\WTNEJKHE\\combien-de-personnes-regardent-la-television-dans-le-monde-et-espagne.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.eurekoi.org/combien-de-personnes-regardent-la-television-dans-le-monde-et-espagne/
+      \endverb
+    \endentry
+    \entry{_comment_2018}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{Comment recevoir la télévision ? / Le paysage audiovisuel / Connaître / Clés de l’audiovisuel}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Comment recevoir la télévision ? / Le paysage audiovisuel / Connaître / Clés de l’audiovisuel:C\:\\Users\\Romain\\Zotero\\storage\\7VWLCV5M\\Comment-recevoir-la-television.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://clesdelaudiovisuel.fr/Connaitre/Le-paysage-audiovisuel/Comment-recevoir-la-television
+      \endverb
+    \endentry
     \entry{_definition_2017}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -288,6 +330,20 @@
       \verb https://openclassrooms.com/courses/les-reseaux-de-zero/introduction-aux-protocoles
       \endverb
     \endentry
+    \entry{_guerre_2018}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{La guerre {TF}1 contre Canal, Orange et Free : quand la première chaîne d’Europe se fâche avec ses distributeurs {|} Atlantico.fr}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.atlantico.fr/decryptage/guerre-tf1-contre-canal-orange-et-free-quand-premiere-chaine-europe-se-fache-avec-distributeurs-3327828.html
+      \endverb
+    \endentry
     \entry{liu_near-duplicate_2013}{article}{}
       \name{author}{6}{}{%
         {{hash=cd0f0cd17467d8e0cc3ed143e26df5f3}{%
@@ -374,6 +430,72 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video
+      \endverb
+    \endentry
+    \entry{_lott_2013}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alors que les services de distribution de contenus par contournement ({OTT}) se sont multipliés, le problème de leur régulation se pose avec acuité, dans un marché où les acteurs traditionnels n'entendent pas se laisser distancer par cette nouvelle concurrence.}
+      \field{day}{19}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{title}{L’{OTT}, un casse-tête pour les régulateurs}
+      \field{titleaddon}{{InaGlobal}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\LWZ2CNS9\\l-ott-un-casse-tete-pour-les-regulateurs-9246.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.inaglobal.fr/numerique/article/l-ott-un-casse-tete-pour-les-regulateurs-9246
+      \endverb
+    \endentry
+    \entry{_medias_2018}{inreference}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Les médias de masse (francisation de l'anglais : mass media) sont les médias capables d'atteindre et d'influencer une large audience. Par le recours à ces moyens, les annonceurs peuvent diffuser leurs messages en direction d'un très vaste public, répartis sur des espaces élargis pour un coût relativement raisonnable. La mesure de l'efficacité de ces diffusions donne lieu à un suivi spécifique (mesure de l'audience : audimat, coût par contact, etc.). Au-delà de la publicité, les sources d'information peuvent s'exprimer dans ces médias par différents moyens et bénéficient de par la loi de la protection des sources d'information.}
+      \field{booktitle}{Wikipédia}
+      \field{day}{16}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{note}{Page Version {ID}: 145529845}
+      \field{title}{Médias de masse}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\MXGFBQZW\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=M%C3%A9dias_de_masse&oldid=145529845
+      \endverb
+    \endentry
+    \entry{_molotov_2018}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{Molotov revendique 2 millions d'utilisateurs actifs}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Molotov revendique 2 millions d'utilisateurs actifs:C\:\\Users\\Romain\\Zotero\\storage\\9MLDAD4W\\0301220555811-molotov-revendique-2-millions-dutilisateurs-actifs-2148969.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.lesechos.fr/tech-medias/medias/0301220555811-molotov-revendique-2-millions-dutilisateurs-actifs-2148969.php
       \endverb
     \endentry
     \entry{_chronique_streaming_2010}{online}{}
@@ -773,6 +895,46 @@
       \verb https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html
       \endverb
     \endentry
+    \entry{_combien_2016}{online}{}
+      \field{sortinit}{c}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{{CC}0 Public Domain, via Pixabay Notre réponse du 21/12/2016 Je n'ai pas trouvé le nombre de personnes regardant la télévision dans le monde. Je peux néanmoins vous indiquer qu'à l'échelle internationale, 1,59 milliards de foyers disposaient d'au moins un téléviseur en 2015 (chiffre indiqué sur le site de l'agence spécialisée en statistiques Statista : . Les chiffres relatifs aux téléspectateurs sont faciles à trouver pour les pays développés. Le chiffre donné pour l'Espagne est de 33 millions (indiqué par l'agence de marketing Isarta : Ce que le monde adore regarder À l'occasion de la Journée mondiale de la télévision, World {TV} et Thinktv partagent avec nous des statistiques internationales. Celles-ci révèlent sans aucun doute l'immense popularité du petit écran à travers la planète! Cordialement, Eurêkoi – Bibliothèque Publique d'Information}
+      \field{day}{21}
+      \field{langid}{french}
+      \field{month}{12}
+      \field{shorttitle}{combien de personnes regardent la télévision dans le monde ?}
+      \field{title}{combien de personnes regardent la télévision dans le monde ? et en Espagne? {|} Eurêkoi}
+      \field{titleaddon}{Eurêkoi - Il suffit de demander}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\WTNEJKHE\\combien-de-personnes-regardent-la-television-dans-le-monde-et-espagne.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.eurekoi.org/combien-de-personnes-regardent-la-television-dans-le-monde-et-espagne/
+      \endverb
+    \endentry
+    \entry{_comment_2018}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeltitlesource}{title}
+      \field{title}{Comment recevoir la télévision ? / Le paysage audiovisuel / Connaître / Clés de l’audiovisuel}
+      \field{urlday}{24}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Comment recevoir la télévision ? / Le paysage audiovisuel / Connaître / Clés de l’audiovisuel:C\:\\Users\\Romain\\Zotero\\storage\\7VWLCV5M\\Comment-recevoir-la-television.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://clesdelaudiovisuel.fr/Connaitre/Le-paysage-audiovisuel/Comment-recevoir-la-television
+      \endverb
+    \endentry
     \entry{_definition_2017}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -913,6 +1075,19 @@
       \verb https://openclassrooms.com/courses/les-reseaux-de-zero/introduction-aux-protocoles
       \endverb
     \endentry
+    \entry{_guerre_2018}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeltitlesource}{title}
+      \field{title}{La guerre {TF}1 contre Canal, Orange et Free : quand la première chaîne d’Europe se fâche avec ses distributeurs {|} Atlantico.fr}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.atlantico.fr/decryptage/guerre-tf1-contre-canal-orange-et-free-quand-premiere-chaine-europe-se-fache-avec-distributeurs-3327828.html
+      \endverb
+    \endentry
     \entry{liu_near-duplicate_2013}{article}{}
       \name{author}{6}{}{%
         {{hash=cd0f0cd17467d8e0cc3ed143e26df5f3}{%
@@ -997,6 +1172,69 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video
+      \endverb
+    \endentry
+    \entry{_lott_2013}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alors que les services de distribution de contenus par contournement ({OTT}) se sont multipliés, le problème de leur régulation se pose avec acuité, dans un marché où les acteurs traditionnels n'entendent pas se laisser distancer par cette nouvelle concurrence.}
+      \field{day}{19}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{title}{L’{OTT}, un casse-tête pour les régulateurs}
+      \field{titleaddon}{{InaGlobal}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\LWZ2CNS9\\l-ott-un-casse-tete-pour-les-regulateurs-9246.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.inaglobal.fr/numerique/article/l-ott-un-casse-tete-pour-les-regulateurs-9246
+      \endverb
+    \endentry
+    \entry{_medias_2018}{inreference}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Les médias de masse (francisation de l'anglais : mass media) sont les médias capables d'atteindre et d'influencer une large audience. Par le recours à ces moyens, les annonceurs peuvent diffuser leurs messages en direction d'un très vaste public, répartis sur des espaces élargis pour un coût relativement raisonnable. La mesure de l'efficacité de ces diffusions donne lieu à un suivi spécifique (mesure de l'audience : audimat, coût par contact, etc.). Au-delà de la publicité, les sources d'information peuvent s'exprimer dans ces médias par différents moyens et bénéficient de par la loi de la protection des sources d'information.}
+      \field{booktitle}{Wikipédia}
+      \field{day}{16}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{note}{Page Version {ID}: 145529845}
+      \field{title}{Médias de masse}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Romain\\Zotero\\storage\\MXGFBQZW\\index.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/w/index.php?title=M%C3%A9dias_de_masse&oldid=145529845
+      \endverb
+    \endentry
+    \entry{_molotov_2018}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeltitlesource}{title}
+      \field{title}{Molotov revendique 2 millions d'utilisateurs actifs}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Molotov revendique 2 millions d'utilisateurs actifs:C\:\\Users\\Romain\\Zotero\\storage\\9MLDAD4W\\0301220555811-molotov-revendique-2-millions-dutilisateurs-actifs-2148969.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.lesechos.fr/tech-medias/medias/0301220555811-molotov-revendique-2-millions-dutilisateurs-actifs-2148969.php
       \endverb
     \endentry
     \entry{_chronique_streaming_2010}{online}{}

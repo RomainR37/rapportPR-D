@@ -129,33 +129,88 @@ Concernant la méthodologie de développement, les premières idées portaient s
 \part{\'{E}tat de l'art et Veille technologique}
 
 
+Cette partie concernera l'état de l'art sur la télévision et son fonctionnement général, avec les changements provoqués par l'arrivée d'Internet et du streaming vidéo. Nous verrons également l'implantation des principales chaînes de télévision françaises sur Internet. Un chapitre sera consacré à une veille technologique sur les bibliothèques d'acquisition pour les flux vidéos en streaming. 
+
+
 \chapter{\'{E}tat de l'art sur la télévision}
+
+
+Le sujet principal du projet porte sur la diffusion en ligne des chaînes de télévision. Cependant, avant d'évoquer le fonctionnement de la télévision sur internet, il est important de voir l'évolution de la télévision au travers des années et comment ce média fonctionne de manière générale.
+
+La télévision est un élément incontournable du quotidien des familles depuis le milieu du XXe siècle. Elle a bouleversé les habitudes et modifié drastiquement les us et coutumes des populations à travers le monde. Il s'agit du média de masse \cite{_medias_2018} le plus influent depuis son développement vers le grand public dans les années 50. En 2015, le nombre de foyers disposant d'une télévision s'élevait à près de 1,6 milliard \cite{_combien_2016}, et ce chiffre continue d'augmenter aujourd'hui. 
+
+Il existe de nombreuses possibilités pour recevoir la télévision dans un foyer, et les entreprises de l'audio-visuel ont beaucoup évolué au travers des années afin de proposer leurs contenus au plus grand monde avec une variété de procédés différents. Nous allons voir par la suite les méthodes traditionnelles pour diffuser une chaîne de télévision.
+
 
 \section{Diffusion d'une chaîne de télévision}
 
+La télévision a subi de nombreuses évolutions au cours de son siècle d'existence. Néanmoins, le principe de base de transmission des images est resté le même depuis son invention. L'image est balayée le long de lignes de balayage, transformée en signaux électriques, transmise par un canal et enfin, reproduite par le récepteur. Afin de minimiser la quantité de données à transmettre, la transmission se base sur la perception des images par l'\oe{}il humain. Une fréquence limitée de répétition des images est utilisé, car à partir de 20 images par seconde, une impression de mouvement fluide se crée par le cerveau. Les images sont, par exemple, diffusées en mode balayage d'entrelacement, c'est-à-dire que les images sont divisées en deux moitiés. L'\oe{}il humain assemble ces deux parties pour en former une seule. Comme la résolution de la rétine est limitée, des informations de colorimétrie peuvent être transmises avec une résolution moindre que celles de la luminosité, sans qu'il y ait perte visible de qualité. 
+
+Au début de la télévision, on ne transmettait que les valeurs de luminosités, les émissions étaient donc en noir et blanc, les couleurs ne s'y sont ajoutées que plus tard avec l'apparition du standard PAL dans les années 60. Il n'est plus d'actualité aujourd'hui avec les diffusions au format numérique. En effet, à partir des années 2000, les transmission ont migré de signaux analogique en signaux numériques apportant une évolution considérable dans la retransmission télévisuelle. Parmi les nouveautés apportées par le numérique, on retrouve:
+
+\begin{itemize}
+	\item Le support de formats différents de vidéo, comme la HD ou la 4K;
+	\item L'ajout d'informations supplémentaire (des guides de programmes par exemple);
+	\item Plusieurs canaux audio stéréo;
+	\item La transmission de fichiers;
+	\item etc.
+\end{itemize}
+
+La télévision numérique est apparu au plus grand nombre en France via l'introduction de la TNT (Télévision Numérique Terrestre) en 2005, apportant la haute définition aux foyers français à partir de 2007. Les flux analogiques ont cessé d'émettre définitivement au sein de l'Union Européenne en 2012.
+
+
+Pendant longtemps au XXème siècle, la transmission terrestre, c'est-à-dire la diffusion par émetteurs terrestres, était la plus utilisée. Actuellement, la diffusion primaire des chaînes se fait principalement via des satellites géostationnaires comme Astra ou Eutelsat. Le flux est ensuite redistribué à travers de nombreux réseaux. En Europe, le standard DVB (pour Digital Video Broadcast) s'est établi pour la télévision numérique. Il désigne les processus standardisés pour la transmission des fichiers numériques. Selon la voie de transmission utilisée, différents standards sont utilisés: DVB-C pour le câble, DVB-S pour le satellite, SVB-T pour la transmission par antenne terrestre, etc. Le schéma de la \autoref{fig:diffusionTV} représente la diffusion des signaux de TV.
 
 \begin{figure}
-	\includegraphics[scale=0.37]{images/diffusionTV.png}
+	\includegraphics[scale=0.5]{images/diffusionTV.png}
 	\caption{Schéma de diffusion d'une chaîne de télévision repris de l'article \cite{_diffusion_2018}}
 	\label{fig:diffusionTV}
 \end{figure}
 
+Les standards de diffusion sont différents aux \'{E}tats-Unis ou au Japon, mais ont en commun d'utiliser les normes de codage et les mécanismes de transport établit par MPEG (le Motion Picture Expert Group). 
+
+
 \section{Réception de la télévision}
+
+
+Comme nous venons de le voir, la télévision est émise par de nombreux moyens différents. Elle peut donc être reçue par de nombreux biais également. On distingue principalement 4 types de réception \cite{_comment_2018}:
+
 
 \subsection{Réception Hertzienne}
 
+La réception hertzienne consiste à diffuser les informations via le réseau hertzien en utilisant des antennes relais. La réception de ces données se fait grâce au antenne "râteau" que l'on peut voir surtout le toit de certaines maisons. En France, cette diffusion était sous forme analogique avant de passer en forme numérique avec la TNT (Télévision numérique terrestre). Il s'agit du type de réception le plus commun en France de part son accessibilité en terme de couverture de territoire (plus de 1600 antennes relais couvrant 97\% de la population métropolitaine) mais également en terme de facilité d'installation par rapport à une parabole satellite.
+
+
 \subsection{Réception par satellite}
+
+
+Cette méthode de réception utilise des satellites en orbite géostationnaire pour retransmettre les chaînes de télévision. Le réseau de satellite est géré en Europe par les entreprises Eutelsat et SES (qui gèrent les satellites \textit{Astra}). Les premiers bouquets de télévision adaptés pour la réception par satellite sont apparus dans les années 90. Les données sont reçues via une antenne parabolique orientée vers le satellite pour lequel on souhaite voir les flux. 
+
+L'un des gros avantages de cette technologie par rapport aux autres, c'est la couverture du territoire proposée par ce type de transmission. En effet, la quasi-intégralité européen est couverte par un des satellites géostationnaires, ce qui ne pourra jamais être atteint par n'importe quel autre type de réseau actuellement en place.
+
 
 \subsection{Réception par câble}
 
+
+Ici les données sont diffusées via une réseau filaire spécifique reliant le foyer à une station "tête de réseau" émettant les données venant d'antennes paraboliques par le biais de câble coaxial voire de fibre optique. Ce principe est peu commun en ce France dû à une couverture du territoire faible par ce réseau. En effet, le réseau câblé n'a été déployé que dans certaines grandes villes. À contrario, il est le moyen de réception le plus utilisé dans plusieurs pays occidentaux, notamment aux \'{E}tats-Unis.
+
+
 \subsection{Service par contournement ou Over the Top (OTT)}
+
+On appelle Service par contournement ou \textit{Over the Top} (OTT) en anglais l'utilisation d'un service qui se fait en dehors des fournisseurs traditionnels. On retrouve cette appellation dans plusieurs domaines comme la téléphonie. Dans ce cas, des services d'appel ou de messagerie comme \textit{Skype} ou \textit{What's App} sont considérés comme des OTT par rapport aux opérateurs téléphoniques. Dans le domaine de la télévision, on appelle OTT toutes les diffusions se faisant en dehors des réceptions hertziennes, satellites et câblés fournis par les réseaux traditionnels. 
+
+Ce type de service concerne principalement les retransmissions sur Internet, que ce soit par le biais d'une boîtier internet fournissant des chaînes de télévision (exemple avec les différentes box et abonnements des fournisseurs d'accès à internet), d'un site proposant des diffusions en direct (exemple avec les sites de chaînes de télévision qui proposent des vidéos en replay ou en direct) ou bien d'une plate-forme de vidéo à la demande provenant d'un tiers (comme \textit{Netflix} ou \textit{Hulu} aux \'{E}tats-Unis). Certaines plate-formes proposant de visualiser la télévision en ligne gratuitement ou via un abonnement sont apparues ces dernières années, comme par exemple la plate-forme \textit{MolotovTV} en France. Preuve du succès de ce type de distribution, cette plate-forme revendique près de 2 millions d'utilisateurs actifs mensuels au début d'année 2018 \cite{_molotov_2018}. Contrairement aux autres types de réception, les services OTT permettent pour la plupart, de lire des contenus depuis de nombreux supports comme un ordinateur, un smartphone ou une tablette et pas seulement depuis une télévision.
 
 
 \begin{figure}
-	\includegraphics[scale=0.35]{images/logoMolotov}
+	\includegraphics[scale=0.4]{images/logoMolotov}
 	\caption{Logo de la plate-forme Molotov TV}
 	\label{fig:logoMolotov}
 \end{figure}
+
+
+Ce type de diffusion prend de plus en plus d'ampleur et son arrivée rapide sur le marché a créé de nombreux conflits entre les acteurs traditionnels et les nouveaux entrants \cite{_lott_2013}, mais aussi entre les entreprises qui souhaitent faire valoir leurs droits sur leurs contenus audio-visuels. C'était d'ailleurs l'un des points de la bataille entre le groupe TF1 et plusieurs acteurs de l'audio-visuel français au début de l'année 2018 \cite{_guerre_2018}. En effet jusqu'à présent, le groupe TF1 autorisait les différents opérateurs à diffuser leurs programmes gratuitement sur leurs plate-formes, ce qui leur permet de tirer profit des contenus de TF1 sans avoir à débourser un centime. Ce type de situation est assez comparable à celle que l'on peut retrouver entre les industries agroalimentaires et les chaînes d'hypermarché. Des accords ont depuis été trouvés avec les différents opérateurs comme Orange, Free ou Canal.
+
 
 \chapter{La diffusion de flux en continu sur Internet}
 \label{chap:diffusion_flux}
@@ -590,9 +645,7 @@ Ici sur la \autoref{fig:fichier_texte}, nous pouvons voir un \# avant une ligne.
 
 Certaines chaînes ne fonctionnent pas avec streamlink, et ne sont donc pas disponibles sur l'application. Par exemple, la version 0.11.0 de streamlink ne prend pas en charge les chaînes diffusées sur Dailymotion. Le problème sera sans doute réglé dans les prochaines versions ce qui rajoutera de nouvelles chaînes disponibles au visionnage. 
 
-
 \section{Problèmes pouvant survenir}
-
 
 
 \subsection{Pare-feu de Windows}
@@ -606,13 +659,12 @@ Sur certaines machines, et en particulier sur les machines virtuelles de l'écol
 
 
 \begin{figure}
-	\includegraphics[scale=0.75]{images/imageQualite.png}
+	\includegraphics[scale=0.37]{images/imageQualite.png}
 	\caption{Exemple de problèmes d'affichage}
 	\label{fig:pbAffichage}
 \end{figure}
 
 
 Ces problèmes peuvent venir des configurations graphiques de la machine, notamment de DirectX. Néanmoins, lors des tests effectués sur machines Windows 10, il n'y avait aucun problème d'affichage, donc cela pourrait être des anciens systèmes Windows également.
-
 
 \end{document}
