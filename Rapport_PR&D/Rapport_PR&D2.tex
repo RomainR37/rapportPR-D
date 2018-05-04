@@ -215,7 +215,7 @@ Ce type de diffusion prend de plus en plus d'ampleur et son arrivée rapide sur 
 \chapter{La diffusion de flux en continu sur Internet}
 \label{chap:diffusion_flux}
 
-Dans la partie suivante, nous allons effectuer un tour d’horizon sur les flux en continu diffusés sur Internet ainsi que sur les possibilités actuelles en terme d’exploitation de données. Nous répondrons par la suite à plusieurs problématiques : comment les flux en continu ont émergé avec le développement d’Internet ? Quels sont les protocoles existants permettant de transmettre ces flux de données? Quelles librairies nous permettent d’acquérir et d’exploiter ces flux? Autant de questions auxquelles nous allons nous pencher dans les pages qui suivent.
+Dans la partie suivante, nous allons effectuer un tour d’horizon sur les flux en continu diffusés sur Internet ainsi que sur les possibilités actuelles en terme d’exploitation de données. Nous répondrons par la suite à plusieurs problématiques : comment les flux en continu ont émergé avec le développement d’Internet ? Quels sont les protocoles existants permettant de transmettre ces flux de données? Quelles bibliothèques nous permettent d’acquérir et d’exploiter ces flux? Autant de questions auxquelles nous allons nous pencher dans les pages qui suivent.
 
 Une parenthèse cependant concernant la suite de ce rapport, nous emploierons plusieurs termes pour définir la même notion, à savoir les flux de données en continu. Nous les nommerons flux, flux TV Web ou encore Streaming ou Streaming vidéo indifféremment. Le terme Streaming est tiré de l’anglais stream signifiant flot ou courant en français. Ce terme désigne aujourd’hui dans le langage courant la diffusion en continu sur Internet de contenus audio-visuels. Il existe différents types de données que l’on peut diffuser en continu sur une plateforme, mais nous nous focaliserons essentiellement sur les flux vidéo en continu, qui sont les bases de ce projet. Nous pouvons noter que les autres principes de flux de données comme le streaming audio que l’on peut retrouver sur des plateformes comme Spotify ou Deezer fonctionnent sur des bases similaires. Seules les données transférées diffèrent.
 
@@ -229,7 +229,6 @@ La diffusion de flux en continu repose sur le principe d’une communication ent
 \end{description}
 
 Pour notre projet, nous nous intéresserons uniquement à la lecture en continu, qui est le principe des flux TV sur le Web. Et en particulier, l’un des aspects que nous rechercherons par la suite sur la diffusion de flux est le \textit{streaming} adapté ou \textit{Adaptive Streaming} en anglais que nous détaillerons dans la \autoref{sec:adaptative_streaming}.
-
 
 
 \section{Genèse du \textit{streaming} vidéo et évolution au fil du temps}
@@ -333,8 +332,15 @@ Parmi les autres protocoles propriétaires que l’on peut citer, il y \textit{H
 
 \section{Les formats de fichiers utilisés}
 
+Le type de fichier utilisé pour la diffusion de contenu en ligne varie selon le protocole de communication. Les protocoles standardisés utilisent les extensions de fichiers par le groupe MPEG. Ainsi, on retrouve des diffusions de fichiers \textit{.mp4} ou \textit{.mp2t}. Pour certains protocoles propriétaires, il n'est pas rare de voir associer un type de fichier qui est également propriétaire. C'est le cas lorsque l'on utilise Flash, les fichiers alors diffusés sont au format \textit{.f4f}. Un fichier \textit{.f4f} est un fragment multimédia qui est stocké au format F4V des vidéos Flash. Il peut être diffusé par le protocole HDS et lu par la suite via le plug-in \textit{Flash}. De plus, de multiples fragments peut être assemblé pour former une seule vidéo qui peut être exploité de manière dynamique et adaptative. C'est un format propriétaire compatible uniquement avec les navigateurs qui disposent du plug-in \textit{Flash}.
+
+Les fichiers transférés au cours d'une diffusion ont une taille variable qui dépend plusieurs facteurs comme la qualité d'image ou bien simplement la longueur de l'extrait qu'il contient. Selon les diffusions, il est fréquent que deux fichiers soient envoyés simultanément pour un seul extrait, le premier contenant la vidéo et le second contenant l'audio. Ce procédé est notamment utilisé lorsque plusieurs pistes audio sont disponibles pour les mêmes extraits vidéos, dans le cas d'un choix de la langue par exemple. Il est ainsi plus facile de changer de version en cours de visionnage pour le spectateur. 
+
 
 \chapter{Les chaînes de TV sur Internet en France}
+
+
+Ce chapitre va détailler l'implémentation des chaînes de télévision françaises sur Internet. Cela permettra d'avoir une idée générale sur les protocoles de communication utilisés, les players populaires pour visualiser les images, les qualités d'images proposées, les débits, et d'autres données. Ces informations nous permettront d'avoir une idée pour la normalisation des flux qui pourra être faite par la suite. 
 
 
 \section{Critères de recherche}
@@ -347,6 +353,10 @@ Parmi les autres protocoles propriétaires que l’on peut citer, il y \textit{H
 
 
 \section{Un mot sur le copyright}
+
+
+La technologie Digital Rights Management (DRM), soit en français la Gestion des droits numériques (GND), permet aux services multimédia en ligne de vérifier que le contenu qu'ils fournissent est utilisé correctement. Alors que certains contenus protégés par DRM peuvent être lus en utilisant les plugins Microsoft Silverlight ou Adobe Flash, beaucoup de services passent à la vidéo HTML5 qui requiert un système de DRM différent appelé Module de décryptage de contenu (CDM en anglais).
+
 
 
 \chapter{Les bibliothèques et logiciels d'acquisition}
