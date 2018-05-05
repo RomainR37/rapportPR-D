@@ -340,16 +340,160 @@ Les fichiers transférés au cours d'une diffusion ont une taille variable qui d
 \chapter{Les chaînes de TV sur Internet en France}
 
 
-Ce chapitre va détailler l'implémentation des chaînes de télévision françaises sur Internet. Cela permettra d'avoir une idée générale sur les protocoles de communication utilisés, les players populaires pour visualiser les images, les qualités d'images proposées, les débits, et d'autres données. Ces informations nous permettront d'avoir une idée pour la normalisation des flux qui pourra être faite par la suite. 
+Ce chapitre va détailler l'implémentation des chaînes de télévision françaises sur Internet. Cela permettra d'avoir une idée générale sur les protocoles de communication utilisés, les players populaires pour visualiser les contenus, les qualités d'images proposées, les débits, et d'autres données concernant la diffusion. Ces informations nous permettront de dégager une tendance générale sur la technologie en France, ce qui nous orientera dans la suite du projet pour la normalisation des flux de l'application. 
 
 
-\section{Critères de recherche}
+\section{Critères d'observation}
+
+Les chaînes de télévision observées ici sont les chaînes présentes sur la TNT (Télévision numérique terrestre). Ce choix est dû au fait que ces chaînes sont les plus populaires de par la gratuité de leurs retransmissions et leurs accessibilités au plus grand nombre. Elles sont également les plus à même à disposer de leurs propres sites internet comportant un flux en direct que l'on peut analyser.
+
+Un autre point concernant la sélection, le choix d'observer uniquement des chaînes françaises s'expliquent par le fait que les chaînes étrangères peuvent être soumises à des restrictions de flux en France. En effet, les flux de streaming des chaînes de télévision sont pour la plupart restreints au pays dans lesquels ils sont diffusés. Cela peut s'expliquer par des droits d'exclusivité sur des contenus qui pourraient porter préjudice à des chaînes d'un autre pays. Prenons l'exemple des droits TV pour une compétition sportive, si cette compétition est diffusée sur une chaîne payante dans un pays et sur une chaîne gratuite dans un autre pays, les téléspectateurs pourraient se tourner vers la chaîne gratuite, entraînant ainsi des pertes de profit pour la chaîne payante. 
+
+\section{Tableau récapitulatif}
+
+Le tableau récapitulatif qui va suivre regroupe pour chaque chaîne ou groupe de chaînes les informations suivantes: 
+
+\begin{itemize}
+	\item Le player utilisé pour afficher les flux;
+	\item Le ou les protocoles de communication utilisés;
+	\item Le serveur hôte du flux;
+	\item Les fichiers utilisés ainsi que leur taille;
+	\item Le débit de transfert des fichiers;
+	\item et la qualité de la retransmission.
+\end{itemize}
+
+Les données présentes ont été arrêtées au mois de février 2018, des évolutions ont pu apparaître sur les retransmissions ultérieurement à cette date.
 
 
-\section{Résultats de l'étude}
-
+\begin{longtabu}{|X|X[1.15]|}
+	\hline
+	Chaîne ou groupe de chaînes observées & Données obtenues \\
+	\endhead
+	\hline
+	TF1 / TMC / TFX / TF1 séries et films (\textit{MyTF1}: \url{https://www.tf1.fr/tf1/direct})
+& \begin{itemize}
+	\item Player Wat.tv utilisant Adobe Flash
+	\item Protocole HTTP Dynamic Streaming
+	\item Serveur hôte: AkamaiHD
+	\item Fichier \textit{.f4f}, transmission par 2 paquets : environ 600 Ko pour la vidéo et 63 Ko pour l'audio
+	\item Débit estimé: 1.36 Mbps
+	\item Qualité d'images: jusqu'à 360p	
+\end{itemize} \\ 
+\hline
+France 2 / 3 / 4 / 5 / O (\textit{france.tv}: \url{https://www.france.tv/france-2/direct.html})
+& \begin{itemize}
+	\item Player intégré au site
+	\item Protocole HTTP
+	\item Serveur hôte : AkamaiHD
+	\item Fichier \textit{.mp4}, transmission par 2 paquets : environ 350 Ko pour la vidéo et 16 Ko pour l'audio
+	\item Débit estimé: 1.16 Mbps
+	\item Qualité d'images: jusqu'à 576p	
+\end{itemize} \\ 
+\hline
+France 2 / 3 / 4 / 5 / O (\textit{france.tv}: \url{https://www.france.tv/france-2/direct.html})
+& \begin{itemize}
+	\item Player intégré au site
+	\item Protocole HTTP
+	\item Serveur hôte : AkamaiHD
+	\item Fichier \textit{.mp4}, transmission par 2 paquets : environ 350 Ko pour la vidéo et 16 Ko pour l'audio
+	\item Débit estimé: 1.16 Mbps
+	\item Qualité d'images: jusqu'à 576p	
+\end{itemize} \\
+\hline
+Canal + (\textit{MyCanal}:\url{https://www.mycanal.fr/live})
+& \begin{itemize}
+	\item OnePlayer, player propriétaire Canal +
+	\item Protocoles HTTP et HLS
+	\item Serveur hôte : AkamaiHD
+	\item Fichier \textit{.mp4}, transmission par 2 paquets : environ 800 Ko pour la vidéo et 25 Ko pour l'audio
+	\item Débit estimé: 2.93 Mbps
+	\item Qualité d'images: jusqu'à 1080p	
+\end{itemize} \\
+\hline
+M6 / W9 / 6ter (\textit{6Play}: \url{https://www.france.tv/france-2/direct.html})
+& \begin{itemize}
+	\item Player intégré au site
+	\item Protocole HTTP
+	\item Serveur hôte : Akamai
+	\item Fichier \textit{.mp4}, transmission par 2 paquets : environ 900 Ko pour la vidéo et 75 Ko pour l'audio
+	\item Débit estimé: 1.23 Mbps
+	\item Qualité d'images: jusqu'à 720p
+\end{itemize} \\
+\hline
+Arte (\url{https://www.arte.tv/fr/direct/}):
+& \begin{itemize}
+	\item JW Player
+	\item Protocole HTTP
+	\item Serveur hôte : Akamai
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 3.87 Mo
+	\item Débit estimé: 3.14 Mbps
+	\item Qualité d'images: jusqu'à 1080p 60 fps
+\end{itemize} \\
+\hline
+NRJ12 / Chérie 25 (\textit{NRJPlay}: \url{http://www.nrj-play.fr/nrj12/direct}):
+& \begin{itemize}
+	\item JW Player
+	\item Protocole HTTP
+	\item Serveur hôte : Akamai
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 3 Mo
+	\item Débit estimé: 3.1 Mbps
+	\item Qualité d'images: jusqu'à 720p
+\end{itemize} \\
+\hline
+LCP (\url{http://www.lcp.fr/le-direct}):
+& \begin{itemize}
+	\item Player Dailymotion
+	\item Protocole HLS
+	\item Serveur hôte : Dailymotion
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 550 Ko
+	\item Débit estimé: 1.47 Mbps
+	\item Qualité d'images: jusqu'à 480p
+\end{itemize} \\
+\hline
+BFM TV (\url{http://www.bfmtv.com/mediaplayer/live-video/}):
+& \begin{itemize}
+	\item Player intégré au site
+	\item Protocole HTTP
+	\item Serveur hôte : Akamai
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 1.16 Mo
+	\item Débit estimé: 2.54 Mbps
+	\item Qualité d'images: jusqu'à 480p
+\end{itemize} \\
+\hline
+CNews (\url{http://playtv.fr/television/cnews/}):
+& \begin{itemize}
+	\item Player Dailymotion
+	\item Protocole HLS
+	\item Serveur hôte : Dailymotion
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 1 Mo \item Débit estimé: 1.05 Mbps
+	\item Qualité d'images: jusqu'à 1080p 60 fps
+\end{itemize} \\
+\hline
+Gulli (\url{http://replay.gulli.fr/Direct}):
+& \begin{itemize}
+	\item JW Player
+	\item Protocole HTTP
+	\item Serveur hôte : Akamai
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 1 Mo
+	\item Débit estimé: 1.26 Mbps
+	\item Qualité d'images: jusqu'à 396p
+\end{itemize} \\
+\hline
+Numéro 23 (\url{http://www.numero23.fr/direct/}):
+& \begin{itemize}
+	\item Player Dailymotion
+	\item Protocole HLS
+	\item Serveur hôte : Dailymotion
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 500 Ko
+	\item Débit estimé: 1.39 Mbps
+	\item Qualité d'images: jusqu'à 480p
+\end{itemize} \\
+\hline
+\end{longtabu}
 
 \section{Tendances observées}
+
+Suite à cette étude, nous pouvons observer plusieurs tendances se dégager. Tout d'abord, on remarque qu'il n'y a quasiment plus de sites utilisant le plug-in Flash.
 
 
 \section{Un mot sur le copyright}
