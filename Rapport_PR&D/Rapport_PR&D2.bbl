@@ -344,6 +344,23 @@
       \verb http://www.atlantico.fr/decryptage/guerre-tf1-contre-canal-orange-et-free-quand-premiere-chaine-europe-se-fache-avec-distributeurs-3327828.html
       \endverb
     \endentry
+    \entry{_lire_2018}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{Lire du contenu protégé par {DRM} dans Firefox {|} Assistance de Firefox}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Lire du contenu protégé par DRM dans Firefox | Assistance de Firefox:C\:\\Users\\Romain\\Zotero\\storage\\EZDB549E\\support-drm-firefox.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://support.mozilla.org/fr/kb/support-drm-firefox
+      \endverb
+    \endentry
     \entry{liu_near-duplicate_2013}{article}{}
       \name{author}{6}{}{%
         {{hash=cd0f0cd17467d8e0cc3ed143e26df5f3}{%
@@ -496,6 +513,23 @@
       \endverb
       \verb{url}
       \verb https://www.lesechos.fr/tech-medias/medias/0301220555811-molotov-revendique-2-millions-dutilisateurs-actifs-2148969.php
+      \endverb
+    \endentry
+    \entry{_mpeg-2_2018}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelprefix}{WWW}
+      \field{labeltitlesource}{title}
+      \field{title}{{MPEG}-2 {TS} Byte Stream Format}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb MPEG-2 TS Byte Stream Format:C\:\\Users\\Romain\\Zotero\\storage\\PQJ9V3Q4\\mp2t-byte-stream-format.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/2013/12/byte-stream-format-registry/mp2t-byte-stream-format.html
       \endverb
     \endentry
     \entry{_chronique_streaming_2010}{online}{}
@@ -1088,6 +1122,22 @@
       \verb http://www.atlantico.fr/decryptage/guerre-tf1-contre-canal-orange-et-free-quand-premiere-chaine-europe-se-fache-avec-distributeurs-3327828.html
       \endverb
     \endentry
+    \entry{_lire_2018}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeltitlesource}{title}
+      \field{title}{Lire du contenu protégé par {DRM} dans Firefox {|} Assistance de Firefox}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Lire du contenu protégé par DRM dans Firefox | Assistance de Firefox:C\:\\Users\\Romain\\Zotero\\storage\\EZDB549E\\support-drm-firefox.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://support.mozilla.org/fr/kb/support-drm-firefox
+      \endverb
+    \endentry
     \entry{liu_near-duplicate_2013}{article}{}
       \name{author}{6}{}{%
         {{hash=cd0f0cd17467d8e0cc3ed143e26df5f3}{%
@@ -1235,6 +1285,22 @@
       \endverb
       \verb{url}
       \verb https://www.lesechos.fr/tech-medias/medias/0301220555811-molotov-revendique-2-millions-dutilisateurs-actifs-2148969.php
+      \endverb
+    \endentry
+    \entry{_mpeg-2_2018}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeltitlesource}{title}
+      \field{title}{{MPEG}-2 {TS} Byte Stream Format}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb MPEG-2 TS Byte Stream Format:C\:\\Users\\Romain\\Zotero\\storage\\PQJ9V3Q4\\mp2t-byte-stream-format.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/2013/12/byte-stream-format-registry/mp2t-byte-stream-format.html
       \endverb
     \endentry
     \entry{_chronique_streaming_2010}{online}{}

@@ -2172,8 +2172,10 @@
     <bcf:citekey order="28">rao_real-time_2016</bcf:citekey>
     <bcf:citekey order="29">_mpegdash_2017</bcf:citekey>
     <bcf:citekey order="30">pantos_http_2017</bcf:citekey>
-    <bcf:citekey order="31">_ffmpeg_2017</bcf:citekey>
-    <bcf:citekey order="32">_vlc:_2017</bcf:citekey>
+    <bcf:citekey order="31">_mpeg-2_2018</bcf:citekey>
+    <bcf:citekey order="32">_lire_2018</bcf:citekey>
+    <bcf:citekey order="33">_ffmpeg_2017</bcf:citekey>
+    <bcf:citekey order="34">_vlc:_2017</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/WWW" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="WWW">
   <bcf:sorting>

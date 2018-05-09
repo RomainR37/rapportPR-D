@@ -1,24 +1,24 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'Rapport_PR&D2.blg'
-[52] biber-MSWIN32:303> INFO - === 
-[89] Biber.pm:359> INFO - Reading 'Rapport_PR&D2.bcf'
-[244] Biber.pm:835> INFO - Found 29 citekeys in bib section 0
-[280] Biber.pm:3670> INFO - Processing section 0
-[307] Biber.pm:3840> INFO - Looking for bibtex format file 'polytech/dummy.bib' for section 0
-[314] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[322] bibtex.pm:1292> INFO - Found BibTeX data source 'polytech/dummy.bib'
-[324] Biber.pm:3840> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[342] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[363] bibtex.pm:1292> INFO - Found BibTeX data source 'biblio.bib'
-[483] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'level = 4' with 'level = 2'
-[484] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[484] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[484] Biber.pm:3499> INFO - Sorting list 'nyt/global/WWW' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
-[484] Biber.pm:3505> INFO - No sort tailoring available for locale 'fr-FR'
-[527] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[528] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[528] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'level = 4' with 'level = 2'
-[528] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
-[528] Biber.pm:3505> INFO - No sort tailoring available for locale 'fr-FR'
-[564] bbl.pm:608> INFO - Writing 'Rapport_PR&D2.bbl' with encoding 'UTF-8'
-[580] bbl.pm:712> INFO - Output to Rapport_PR&D2.bbl
+[1] Config.pm:357> INFO - Logfile is 'Rapport_PR&D2.blg'
+[1086] biber-MSWIN32:303> INFO - === 
+[1310] Biber.pm:359> INFO - Reading 'Rapport_PR&D2.bcf'
+[1464] Biber.pm:835> INFO - Found 31 citekeys in bib section 0
+[1492] Biber.pm:3670> INFO - Processing section 0
+[1669] Biber.pm:3840> INFO - Looking for bibtex format file 'polytech/dummy.bib' for section 0
+[1772] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1792] bibtex.pm:1292> INFO - Found BibTeX data source 'polytech/dummy.bib'
+[1902] Biber.pm:3840> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[2171] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[2186] bibtex.pm:1292> INFO - Found BibTeX data source 'biblio.bib'
+[2686] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'level = 4' with 'level = 2'
+[2687] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2687] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2687] Biber.pm:3499> INFO - Sorting list 'nyt/global/WWW' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
+[2687] Biber.pm:3505> INFO - No sort tailoring available for locale 'fr-FR'
+[2723] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2723] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2723] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'level = 4' with 'level = 2'
+[2723] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
+[2724] Biber.pm:3505> INFO - No sort tailoring available for locale 'fr-FR'
+[2755] bbl.pm:608> INFO - Writing 'Rapport_PR&D2.bbl' with encoding 'UTF-8'
+[2767] bbl.pm:712> INFO - Output to Rapport_PR&D2.bbl

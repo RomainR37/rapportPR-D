@@ -196,6 +196,8 @@ Ici les données sont diffusées via une réseau filaire spécifique reliant le 
 
 
 \subsection{Service par contournement ou Over the Top (OTT)}
+\label{subsec:ott}
+
 
 On appelle Service par contournement ou \textit{Over the Top} (OTT) en anglais l'utilisation d'un service qui se fait en dehors des fournisseurs traditionnels. On retrouve cette appellation dans plusieurs domaines comme la téléphonie. Dans ce cas, des services d'appel ou de messagerie comme \textit{Skype} ou \textit{What's App} sont considérés comme des OTT par rapport aux opérateurs téléphoniques. Dans le domaine de la télévision, on appelle OTT toutes les diffusions se faisant en dehors des réceptions hertziennes, satellites et câblés fournis par les réseaux traditionnels. 
 
@@ -232,6 +234,8 @@ Pour notre projet, nous nous intéresserons uniquement à la lecture en continu,
 
 
 \section{Genèse du \textit{streaming} vidéo et évolution au fil du temps}
+\label{sec:genese}
+
 
 Dans les années 1990, Internet commence à se démocratiser. Il est désormais accessible de s’acheter un ordinateur personnel pour un foyer lambda, quand les prix étaient encore très élevés dans les années 1980. L’élargissement de la bande passante ainsi que l’amélioration de l’accès aux réseaux accélèrent le développement d’Internet tel qu’on le connaît aujourd'hui. La possibilité de communiquer entre différents foyers et de diffuser des informations à travers le monde devient de plus en plus accessible par le biais de ce jeune Internet.
 
@@ -332,7 +336,7 @@ Parmi les autres protocoles propriétaires que l’on peut citer, il y \textit{H
 
 \section{Les formats de fichiers utilisés}
 
-Le type de fichier utilisé pour la diffusion de contenu en ligne varie selon le protocole de communication. Les protocoles standardisés utilisent les extensions de fichiers par le groupe MPEG. Ainsi, on retrouve des diffusions de fichiers \textit{.mp4} ou \textit{.mp2t}. Pour certains protocoles propriétaires, il n'est pas rare de voir associer un type de fichier qui est également propriétaire. C'est le cas lorsque l'on utilise Flash, les fichiers alors diffusés sont au format \textit{.f4f}. Un fichier \textit{.f4f} est un fragment multimédia qui est stocké au format F4V des vidéos Flash. Il peut être diffusé par le protocole HDS et lu par la suite via le plug-in \textit{Flash}. De plus, de multiples fragments peut être assemblé pour former une seule vidéo qui peut être exploité de manière dynamique et adaptative. C'est un format propriétaire compatible uniquement avec les navigateurs qui disposent du plug-in \textit{Flash}.
+Le type de fichier utilisé pour la diffusion de contenu en ligne varie selon le protocole de communication. Les protocoles standardisés utilisent les extensions de fichiers par le groupe MPEG. Ainsi, on retrouve des diffusions de fichiers \textit{.mp4} ou \textit{.mp2t}, basés respectivement sur les normes MPEG-4 et MPEG-2 \cite{_mpeg-2_2018}. Pour certains protocoles propriétaires, il n'est pas rare de voir associer un type de fichier qui est également propriétaire. C'est le cas lorsque l'on utilise Flash, les fichiers alors diffusés sont au format \textit{.f4f}. Un fichier \textit{.f4f} est un fragment multimédia qui est stocké au format F4V des vidéos Flash. Il peut être diffusé par le protocole HDS et lu par la suite via le plug-in \textit{Flash}. De plus, de multiples fragments peut être assemblé pour former une seule vidéo qui peut être exploité de manière dynamique et adaptative. C'est un format propriétaire compatible uniquement avec les navigateurs qui disposent du plug-in \textit{Flash}.
 
 Les fichiers transférés au cours d'une diffusion ont une taille variable qui dépend plusieurs facteurs comme la qualité d'image ou bien simplement la longueur de l'extrait qu'il contient. Selon les diffusions, il est fréquent que deux fichiers soient envoyés simultanément pour un seul extrait, le premier contenant la vidéo et le second contenant l'audio. Ce procédé est notamment utilisé lorsque plusieurs pistes audio sont disponibles pour les mêmes extraits vidéos, dans le cas d'un choix de la langue par exemple. Il est ainsi plus facile de changer de version en cours de visionnage pour le spectateur. 
 
@@ -355,11 +359,11 @@ Le tableau récapitulatif qui va suivre regroupe pour chaque chaîne ou groupe d
 
 \begin{itemize}
 	\item Le player utilisé pour afficher les flux;
-	\item Le ou les protocoles de communication utilisés;
+	\item Le ou les protocoles de communication utilisé(s);
 	\item Le serveur hôte du flux;
 	\item Les fichiers utilisés ainsi que leur taille;
-	\item Le débit de transfert des fichiers;
-	\item et la qualité de la retransmission.
+	\item Le débit de transfert des fichiers (calculé à partir de la meilleure qualité des flux);
+	\item et la qualité d'image de la retransmission.
 \end{itemize}
 
 Les données présentes ont été arrêtées au mois de février 2018, des évolutions ont pu apparaître sur les retransmissions ultérieurement à cette date.
@@ -389,16 +393,6 @@ France 2 / 3 / 4 / 5 / O (\textit{france.tv}: \url{https://www.france.tv/france-
 	\item Débit estimé: 1.16 Mbps
 	\item Qualité d'images: jusqu'à 576p	
 \end{itemize} \\ 
-\hline
-France 2 / 3 / 4 / 5 / O (\textit{france.tv}: \url{https://www.france.tv/france-2/direct.html})
-& \begin{itemize}
-	\item Player intégré au site
-	\item Protocole HTTP
-	\item Serveur hôte : AkamaiHD
-	\item Fichier \textit{.mp4}, transmission par 2 paquets : environ 350 Ko pour la vidéo et 16 Ko pour l'audio
-	\item Débit estimé: 1.16 Mbps
-	\item Qualité d'images: jusqu'à 576p	
-\end{itemize} \\
 \hline
 Canal + (\textit{MyCanal}:\url{https://www.mycanal.fr/live})
 & \begin{itemize}
@@ -465,8 +459,9 @@ CNews (\url{http://playtv.fr/television/cnews/}):
 	\item Player Dailymotion
 	\item Protocole HLS
 	\item Serveur hôte : Dailymotion
-	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 1 Mo \item Débit estimé: 1.05 Mbps
-	\item Qualité d'images: jusqu'à 1080p 60 fps
+	\item Fichier \textit{.mp2t}, transmission par paquet unique d'environ 1 Mo
+	\item Débit estimé: 1.05 Mbps
+	\item Qualité d'images: jusqu'à 1080p 60fps
 \end{itemize} \\
 \hline
 Gulli (\url{http://replay.gulli.fr/Direct}):
@@ -493,22 +488,33 @@ Numéro 23 (\url{http://www.numero23.fr/direct/}):
 
 \section{Tendances observées}
 
-Suite à cette étude, nous pouvons observer plusieurs tendances se dégager. Tout d'abord, on remarque qu'il n'y a quasiment plus de sites utilisant le plug-in Flash.
+
+Suite à cette étude, nous pouvons observer plusieurs tendances se dégager. Tout d'abord, on remarque qu'il n'y a quasiment plus de sites utilisant le plug-in Flash. La seule exception dans cette liste est paradoxalement le groupe le plus populaire en terme d'audience puisqu'il s'agit du groupe TF1. Cependant, comme expliqué dans la \autoref{subsec:ott}, l'entreprise cherche à se renouveler en modernisant sa plate-forme \textit{MyTF1} notamment. On peut donc aisément supposer que le plug-in Flash sera abandonné dans les prochaines semaines pour adopter un procédé basé sur HTML5 et les protocoles HTTP similaire aux autres chaînes. L'explication de la disparition du plug-in \textit{Flash} s'explique aussi par la non-compatibilité du plug-in avec les navigateurs récents pour les raisons évoquées dans la \autoref{sec:genese}.
+
+Ensuite, nous pouvons observer que les players pour lire les flux sont pour la plupart faits sur mesure pour les sites. On peut distinguer un prestataire qui fournit notamment \textit{Arte} et le groupe \textit{NRJ}, \textit{JW Player} un visualisateur de vidéo pour le HTML5. L'une des données marquantes du tableau concerne les serveurs hôtes qui sont tous gérés par une seule entreprise : \textit{Akamai}. Cette société américaine est spécialisée dans la mise à disposition de serveurs pour les entreprises et se caractérise "Leader mondial des services réseau de diffusion de contenu(CDN)". Elle a parmi ses clients la plupart des grandes plate-formes sur le web actuellement, et donc la majorité des chaînes de télévision en France. Nous pouvons noter parmi les exceptions, la présence de la plate-forme \textit{Dailymotion} qui héberge encore quelques chaînes.
+
+Concernant les flux, nous pouvons remarquer deux types de transmission principaux en HTTP : l'envoi d'un paquet au format \textit{.mp2t} et l'envoi de deux paquets au format \textit{.mp4}. Le débit estimé pour les retransmissions sont très dépendantes de la qualité de l'image ainsi que du contenu en lui-même de la vidéo. Néanmoins, nous pouvons estimer un débit entre 1 Mbps pour un stream de qualité moyenne et 4 Mbps pour la haute définition. À propos de la qualité d'image, les chaînes disponibles en haute définition en streaming ne sont pas en nombre sur Internet à l'heure actuelle. Par ailleurs, certaines chaînes proposent des flux en 60 images par seconde mais elles sont minoritaires pour le moment. 
 
 
 \section{Un mot sur le copyright}
 
 
-La technologie Digital Rights Management (DRM), soit en français la Gestion des droits numériques (GND), permet aux services multimédia en ligne de vérifier que le contenu qu'ils fournissent est utilisé correctement. Alors que certains contenus protégés par DRM peuvent être lus en utilisant les plugins Microsoft Silverlight ou Adobe Flash, beaucoup de services passent à la vidéo HTML5 qui requiert un système de DRM différent appelé Module de décryptage de contenu (CDM en anglais).
+La diffusion des flux sur Internet, comme toute diffusion à la télévision ou sous un autre support, est soumise au copyright. Les protections relatives à celui-ci sur Internet sont récentes et surtout difficiles à mettre en place sur ce média en évolution. Il existe cependant des technologies permettant de protéger les diffusions en ligne pour les chaînes de télévision, et notamment la DRM.
 
+La technologie Digital Rights Management (DRM), soit en français la Gestion des droits numériques (GND), permet aux services multimédia en ligne de vérifier que le contenu qu'ils fournissent est utilisé correctement \cite{_lire_2018}. Alors que certains contenus protégés par DRM peuvent être lus en utilisant les plugins Microsoft Silverlight ou Adobe Flash, beaucoup de services passent à la vidéo HTML5 qui requiert un système de DRM différent appelé Module de décryptage de contenu (CDM en anglais).
+
+Un exemple de CDM utilisé sur les navigateurs récents: le CDM \textit{Google Widevine}. Il se matérialise sous la forme d'un plug-in, téléchargé et activé par défaut sur Firefox, qui permet de lire les contenus protégés par DRM. Parmi les sites utilisant \textit{Google Widevine}, on retrouve la plate-forme \textit{MyCanal} notamment.
 
 
 \chapter{Les bibliothèques et logiciels d'acquisition}
 
-Pour notre plateforme, nous aurons besoin d’une bibliothèque qui puisse acquérir les flux de streaming afin de les traiter par la suite. Il existe de nombreuses librairies diverses et variées pour effectuer une acquisition de flux. Nous allons nous focaliser sur deux d’entre elles : VLC et FFMPEG.
+
+Ce chapitre est consacré aux bibliothèques et aux logiciels d'acquisition qui nous serviront pour le projets. Il existe de nombreuses bibliothèques pour effectuer une acquisition d'un flux en ligne. Ici, nous allons observer dans un premier temps les technologies pionnières pour le traitement de flux avant de nous focaliser sur l'un des frameworks les plus utilisés dans le milieu : \textit{FFMPEG}, ainsi que sur l'une des bibliothèques l'utilisant : \textit{libVLC}. Enfin, nous allons présenter le logiciel \textit{Sreamlink} qui nous permettra d'exploiter les flux depuis notre plate-forme.
+
 
 \section{Les frameworks Windows (VfW, DirectShow, Media Foundation)}
 
+Les années 90 sont marquées par l'arrivée progressive d'internet dans les foyers. Parallèlement, on voit le développement des systèmes d'exploitation 
 
 \section{FFMPEG}
 
