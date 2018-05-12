@@ -497,7 +497,7 @@ Concernant les flux, nous pouvons remarquer deux types de transmission principau
 
 
 \section{Un mot sur le copyright}
-
+\label{sec:copyright}
 
 La diffusion des flux sur Internet, comme toute diffusion à la télévision ou sous un autre support, est soumise au copyright. Les protections relatives à celui-ci sur Internet sont récentes et surtout difficiles à mettre en place sur ce média en évolution. Il existe cependant des technologies permettant de protéger les diffusions en ligne pour les chaînes de télévision, et notamment la DRM.
 
@@ -514,51 +514,82 @@ Ce chapitre est consacré aux bibliothèques et aux logiciels d'acquisition qui 
 
 \section{Les frameworks Windows (VfW, DirectShow, Media Foundation)}
 
-Les années 90 sont marquées par l'arrivée progressive d'internet dans les foyers. Parallèlement, on voit le développement des systèmes d'exploitation 
+
+Les années 90 sont marquées par l'arrivée progressive d'Internet dans les foyers. Parallèlement, on voit le développement des systèmes d'exploitation avec interface graphique, rendant ainsi l'informatique accessible au grand public. Deux entreprises se sont démarquées durant cette période et ils règnent encore dans leur domaine aujourd'hui: \textit{Apple} et \textit{Microsoft}. 
+
+En 1991, \textit{Apple} lance son framework multimédia \textit{QuickTime} permettant de gérer de nombreux formats d'image, de vidéo, de son et de toute sorte de fichier multimédia en général. De son côté \textit{Microsoft}, en réponse au lancement de \textit{QuickTime}, a lancé en novembre 1992 son framework \textit{Video for Windows}. Le framework a des fonctionnalités similaires à celui d'\textit{Apple} avec trois aspects distincts : un format de fichier pour stocker les vidéos, le format AVI (pour \textit{Audio Video Interleave}); une API permettant aux développeurs de manipuler des vidéos dans leur propre application; et une suite de logiciels pour lire et éditer des vidéos. Les dernières versions de \textit{Video for Windows} sortent en 1996 avant de laisser la place au successeur \textit{DirectShow}.
+
+\textit{DirectShow} est un framework sorti en 1996 qui était intégré à la version 3.0 du navigateur Internet Explorer. Il intégrait la rétro-compatibilité avec les vidéos issues de \textit{Video for Windows} et avait la capacité de prendre en charge des vidéos de meilleure qualité, en effet l'ancien framework était limité à une résolution de 320 par 240 pixels par image et à 30 images par seconde. \textit{DirectShow} était proposé sur les systèmes Windows jusqu'à la version XP sorti en 2001. Ce framework a été remplacé par \textit{Media Foundation}. 
+
+\textit{Media Foundation}, présent sur les systèmes Windows actuels, se concentre principalement les vidéos en haute définition et ajoute la possibilité de lire des contenus protégés par DRM (voir la \autoref{sec:copyright}). Le framework a beaucoup évolué depuis sa première sortie sur Windows Vista. Il permet aujourd'hui de prendre en charge de nombreux formats de fichier, y compris les encodages MPEG-4, quand à l'origine celui-ci ne prenait en charge les formats Windows Media. \textit{Media Foundation} est utilisé sur les applications de Windows comme \textit{Windows Media Player} mais aussi sur le navigateur \textit{Firefox} pour lire les fichiers encodés avec le standard \textit{H.264}.
+
+
 
 \section{FFMPEG}
 
 \begin{figure}
-	\includegraphics[scale=0.5]{images/ffmpeg}
+	\includegraphics[scale=0.55]{images/ffmpeg}
 	\caption{Logo de FFMPEG}
 	\label{fig:logoffmpeg}
 \end{figure}
 
-FFMPEG est un ensemble de logiciels libres permettant d’acquérir, de convertir et d’enregistrer des flux vidéo et audio \cite{_ffmpeg_2017}. La première version du projet a été créée en 2000 et a depuis été reprise par de nombreux autres outils multimédia disponibles en ligne. Le projet est composé de plusieurs logiciels dont \textit{ffmpeg} qui est un outil en ligne de commande pour convertir des fichiers multimédia, \textit{ffserver} qui est un serveur streaming pour les diffusions en ligne, \textit{ffplay} qui est un lecteur utilisant les bibliothèques \textit{ffmpeg} et \textit{ffprobe} qui est un outil d’analyse de flux multimédia. En complément de ces outils, il existe également diverses bibliothèques qui sont proposées aux développeurs. Ces bibliothèques ont été rédigées en langage C et permettent de gérer diverses tâches liées aux flux de données. Ces outils proposés par FFMPEG sont libres et ont été utilisés dans de nombreux projets comme VLC par exemple.
+FFMPEG est un ensemble de logiciels libres permettant d’acquérir, de convertir et d’enregistrer des flux vidéo et audio \cite{_ffmpeg_2017}. La première version du projet a été créée en 2000 et a depuis été reprise par de nombreux autres outils multimédia disponibles en ligne. Le projet est composé de plusieurs logiciels dont \textit{ffmpeg} qui est un outil en ligne de commande pour convertir des fichiers multimédia, \textit{ffserver} qui est un serveur streaming pour les diffusions en ligne, \textit{ffplay} qui est un lecteur utilisant les bibliothèques \textit{ffmpeg} et \textit{ffprobe} qui est un outil d’analyse de flux multimédia. En complément de ces outils, il existe également diverses bibliothèques qui sont proposées aux développeurs. Ces bibliothèques ont été rédigées en langage C et permettent de gérer diverses tâches liées aux flux de données. Voici la liste des bibliothèques proposées:
 
-Plus d’une centaines de fichiers et de protocoles sont pris en charge par FFMPEG, parmi eux, on retrouve les protocoles de communication que nous avons vu auparavant : HTTP, HLS, RTMP, RTP, etc. La liste des fichiers supportés est disponible \href{http://ffmpeg.org/general.html#Supported-File-Formats_002c-Codecs-or-Features}{ici}.
+\begin{description}
+	\item[libavutil]: bibliothèque utilitaire regroupant des fonctions pour faciliter le développement;
+	\item[libavcodec]: contient les encodeurs et décodeurs pour les streams audio, vidéo ainsi que les sous-titres;
+	\item[libavformat]: bibliothèque proposant des multiplexeurs et des demultiplexeurs (muxers et demuxers en anglais), c'est-à-dire des outils permettant de synchroniser plusieurs éléments multimédias pour générer un fichier unifié, généralement une piste audio avec une vidéo;
+	\item[libavdevice]: bibliothèque permettant de se connecter avec des frameworks extérieurs comme \textit{Video for Windows} ou \textit{DirectShow};
+	\item[libavfilter]: bibliothèque pour la gestion des filtres;
+	\item[libswscale]: bibliothèque permettant de faire du \textit{rescaling} (de la mise à l'échelle en français) pour modifier la taille des images de la vidéo et de changer les formats de couleurs des pixels de l'image.
+\end{description}
 
-Parmi les logiciels, \textit{ffprobe} nous sera particulièrement utile pour afficher les statistiques liées aux flux de données que l’on souhaite visionner. Il offre tout un panel d’informations comme le codec, la disposition de l’affichage avec longueur et largeur de la fenêtre, mais surtout des chiffres sur le débit, le nombre d’images par seconde à l’affichage, le nombre d’images visionnées au total, et bien d’autres encore.
+Plus d’une centaines de fichiers et de protocoles sont pris en charge par FFMPEG. Parmi eux, on retrouve les protocoles de communication que nous avons vu auparavant : HTTP, HLS, RTMP, RTP, etc. La liste des fichiers supportés est disponible \href{http://ffmpeg.org/general.html#Supported-File-Formats_002c-Codecs-or-Features}{ici}. Le projet FFMPEG est libre de droit et est toujours maintenu à l'heure actuelle. De nombreuses outils utilisent les éléments de FFMPEG comme base pour leur support multimédia. Parmi les logiciels utilisant sur FFMPEG, on retrouve \textit{Audacity}, \textit{Youtube}, le navigateur \textit{Google Chrome}, ou encore \textit{VLC Media Player}.
 
 
-\section{libVLC et VLCJ}
+\section{LibVLC, la bibliothèque de VLC}
 
 \begin{figure}
-	\includegraphics[scale=0.5]{images/vlc-media-player-logo}
+	\includegraphics[scale=0.35]{images/vlc-media-player-logo}
 	\caption{Logo de la VideoLAN Organization}
 	\label{fig:logovlc}
 \end{figure}
 
 LibVLC est une bibliothèque initiée par la \textit{VideoLAN Organization}, qui est à l’origine du lecteur multimédia VLC. \textit{VideoLAN} est une association à but non-lucrative qui développe et promeut des solutions libres pour le multimédia. Elle met à disposition de nombreuses bibliothèques et logiciels, dont le plus connu et le plus utilisé est \textit{VLC Media Player} \cite{_vlc:_2017}. Il s’agit d’un des lecteurs les plus réputés du marché dû à ses performances et ses possibilités pour lire la plupart des codecs audio ou vidéo. En effet, les codecs sont directement intégrés au logiciel grâce aux bibliothèques de FFMPEG.
 
-LibVLC est rédigée en langage C, mais il existe de nombreux adaptations et frameworks reprenant la bibliothèque et qui sont adaptés à tout type de langage (C++, Java, Python, etc.). On peut retrouver la liste de ces bibliothèques sur ce \href{https://wiki.videolan.org/LibVLC/}{site}. Dans notre cas, on pourrait être amené à utiliser le framework VLCJ, qui permet d’importer un lecteur VLC dans une fenêtre JAVA.
+LibVLC est rédigée en langage C, mais il existe de nombreuses adaptations reprenant la bibliothèque et qui sont adaptés à tout type de langage (C++, Java, Python, etc.). On peut retrouver la liste de ces bibliothèques sur ce \href{https://wiki.videolan.org/LibVLC/}{site}. Dans notre cas, nous pourrons être amené à utiliser le framework VLCJ, qui permet d’importer un lecteur VLC dans une fenêtre JAVA.
 
 
 \section{Streamlink}
 \label{sec:streamlink}
 
+
+\textit{Streamlink} est un logiciel utilitaire en ligne de commande qui permet de rediriger des flux vidéos provenant d'un site diffusant du contenu en streaming. L'idée principale à l'origine de la création de ce projet était de permettre aux utilisateurs d'éviter d'utiliser des plug-in Flash qui sont très consommateurs en ressource et qui présentent de nombreuses failles. Les flux peuvent être redirigés via de nombreux lecteurs vidéo plus fiables comme VLC par exemple. 
+
+Le principe de \textit{Streamlink} repose sur un système de plug-in où chaque plug-in correspond à un domaine diffusant des flux en ligne. Parmi les services supportées par \textit{Streamlink}, on retrouve les plus grandes plateformes comme \textit{Youtube}, \textit{Twitch} ou encore \textit{Dailymotion}. La liste de tous les services compatibles est disponible en cliquant \href{https://streamlink.github.io/plugin_matrix.html#plugin-matrix}{ici}.
+
+Après installation, le fonctionnement de \textit{Streamlink} est très simple. Pour lancer un stream, il suffit d'appeler la commande \textit{Streamlink} et d'y ajouter le lien du site contenant la vidéo que nous souhaitons regarder. Si un plug-in compatible avec le site est trouvé, \textit{Streamlink} propose alors les différentes résolutions disponibles pour la diffusion. L'image \autoref{fig:streamlink} est un exemple de lancement du logiciel. 
+
 \begin{figure}
-	\includegraphics[scale=0.5]{images/streamlink.png}
+	\includegraphics[scale=0.75]{images/streamlink.png}
 	\caption{Exemple d'utilisation de streamlink}
 	\label{fig:streamlink}
 \end{figure}
 
+Concernant la résolution, si l'on souhaite ouvrir la meilleure qualité de diffusion par défaut, il suffit d'ajouter le terme \textit{best} comme dans l'image précédente. Nous pouvons remarquer par ailleurs que le lecteur lancé par défaut est VLC. Pour modifier les configurations par défaut, il est possible d'éditer un fichier de configuration pour personnaliser le lancement du programme. 
+
+De nombreuses possibilités de lancement et d'enregistrement existent avec \textit{Streamlink}. Une des options va nous intéresser pour le projet: la possibilité de redirection vers un port de communication. Au lieu de rediriger le flux que l'on souhaite vers un lecteur local, il est possible de rediriger la diffusion vers un port de communication pour qu'un appareil ou un programme externe puisse lire le flux à partir de l'adresse souhaité. Pour effectuer une redirection, il suffit d'ajouter la commande \javacode{--player-external-http}. \textit{Streamlink} lancera un serveur avec le flux redirigé. Si l'on n'indique aucun port de communication précis, alors \textit{Streamlink} redirigera les flux sur un port aléatoire supérieur à 1024. L'image \autoref{fig:redir_streamlink} montre la démarche à suivre ainsi que les résultats indiqués dans la console. Dans cette exemple, le flux est redirigé sur le port 55173 et est accessible par quatre adresses.
+
 
 \begin{figure}
-	\includegraphics[scale=0.5]{images/streamlinkHttp.png}
+	\includegraphics[scale=0.75]{images/streamlinkHttp.png}
 	\caption{Exemple de redirection des streams}
 	\label{fig:redir_streamlink}
 \end{figure}
+
+
+Pour notre projet, nous serons amenés à lancer autant d'instance de \textit{Streamlink} que de programmes que l'on veut visionner et nous redirigerons les flux vers notre application.
+
 
 \part{Description générale et analyse}
 

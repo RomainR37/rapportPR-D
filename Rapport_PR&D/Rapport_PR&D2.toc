@@ -184,105 +184,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Un mot sur le copyright}{22}{section.3.4}
 \defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Les biblioth\IeC {\`e}ques et logiciels d'acquisition}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Les frameworks Windows (VfW, DirectShow, Media Foundation)}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}FFMPEG}{23}{section.4.2}
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}FFMPEG}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}libVLC et VLCJ}{24}{section.4.3}
+\contentsline {section}{\numberline {3}LibVLC, la biblioth\IeC {\`e}que de VLC}{24}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Streamlink}{24}{section.4.4}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Description g\IeC {\'e}n\IeC {\'e}rale et analyse}{25}{part.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Description g\IeC {\'e}n\IeC {\'e}rale}{26}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Environnement du projet}{26}{section.5.1}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Caract\IeC {\'e}ristiques des utilisateurs}{27}{section.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Fonctionnalit\IeC {\'e}s du syst\IeC {\`e}me}{27}{section.5.3}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}l\IeC {\'e}ction des cha\IeC {\^\i }nes via le fichier texte}{28}{subsection.5.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Lancement en ligne de commande}{28}{subsection.5.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Affichage des streams}{28}{subsection.5.3.3}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Structure g\IeC {\'e}n\IeC {\'e}rale du syst\IeC {\`e}me}{29}{section.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}La classe TVChannel}{29}{subsection.5.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}La classe MainLaunch}{29}{subsection.5.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}La classe MainController}{29}{subsection.5.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}La classe StreamController}{29}{subsection.5.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}La classe TextInputStreamController}{29}{subsection.5.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}La classe StreamView}{29}{subsection.5.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7}Lien entre les classes}{29}{subsection.5.4.7}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Analyse des m\IeC {\'e}thodes}{30}{chapter.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Qualit\IeC {\'e} de code et Tests de charges}{31}{part.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Documentation et contr\IeC {\^o}le de qualit\IeC {\'e} du code}{32}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Javadoc}{32}{section.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Utilisation de SonarQube et SonarLint}{32}{section.7.2}
+\contentsline {section}{\numberline {4}Streamlink}{25}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -296,15 +222,31 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Tests de charges}{34}{chapter.8}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bilan et conclusion}{35}{chapter*.8}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{Annexes}{36}{part*.9}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Interface Humain/Machine}{37}{appendix.A}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Gestion de projet, diagramme de Gantt}{38}{appendix.B}
+\contentsline {part}{III\hspace {1em}Description g\IeC {\'e}n\IeC {\'e}rale et analyse}{27}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Description g\IeC {\'e}n\IeC {\'e}rale}{28}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Environnement du projet}{28}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Caract\IeC {\'e}ristiques des utilisateurs}{29}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Fonctionnalit\IeC {\'e}s du syst\IeC {\`e}me}{29}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -314,25 +256,31 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Diagramme de classes}{39}{appendix.C}
+\contentsline {subsection}{\numberline {3.1}S\IeC {\'e}l\IeC {\'e}ction des cha\IeC {\^\i }nes via le fichier texte}{30}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Diagramme de s\IeC {\'e}quences}{40}{appendix.D}
+\contentsline {subsection}{\numberline {3.2}Lancement en ligne de commande}{30}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Guide d'installation et d'utilisation}{41}{appendix.E}
+\contentsline {subsection}{\numberline {3.3}Affichage des streams}{30}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Pr\IeC {\'e}-requis}{41}{section.E.1}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Installations}{41}{section.E.2}
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Streamlink}{41}{subsection.E.2.1}
+\contentsline {section}{\numberline {4}Structure g\IeC {\'e}n\IeC {\'e}rale du syst\IeC {\`e}me}{31}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}VLC}{41}{subsection.E.2.2}
+\contentsline {subsection}{\numberline {4.1}La classe TVChannel}{31}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Java Runtime Environment}{42}{subsection.E.2.3}
+\contentsline {subsection}{\numberline {4.2}La classe MainLaunch}{31}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}R\IeC {\'e}cup\IeC {\'e}ration du projet et fonctionnement}{42}{section.E.3}
+\contentsline {subsection}{\numberline {4.3}La classe MainController}{31}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Fichier texte et syntaxe}{42}{section.E.4}
+\contentsline {subsection}{\numberline {4.4}La classe StreamController}{31}{subsection.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}La classe TextInputStreamController}{31}{subsection.5.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}La classe StreamView}{31}{subsection.5.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7}Lien entre les classes}{31}{subsection.5.4.7}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -342,11 +290,15 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Probl\IeC {\`e}mes pouvant survenir}{43}{section.E.5}
+\contentsline {chapter}{\numberline {6}Analyse des m\IeC {\'e}thodes}{32}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Pare-feu de Windows}{43}{subsection.E.5.1}
+\contentsline {part}{IV\hspace {1em}Qualit\IeC {\'e} de code et Tests de charges}{33}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Probl\IeC {\`e}mes d'affichage}{43}{subsection.E.5.2}
+\contentsline {chapter}{\numberline {7}Documentation et contr\IeC {\^o}le de qualit\IeC {\'e} du code}{34}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Javadoc}{34}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Utilisation de SonarQube et SonarLint}{34}{section.7.2}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -356,7 +308,71 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Webographie}{44}{appendix*.10}
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Tests de charges}{36}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bilan et conclusion}{37}{chapter*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Annexes}{38}{part*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Interface Humain/Machine}{39}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Gestion de projet, diagramme de Gantt}{40}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Diagramme de classes}{41}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Diagramme de s\IeC {\'e}quences}{42}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Guide d'installation et d'utilisation}{43}{appendix.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Pr\IeC {\'e}-requis}{43}{section.E.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Installations}{43}{section.E.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Streamlink}{43}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}VLC}{43}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Java Runtime Environment}{44}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}R\IeC {\'e}cup\IeC {\'e}ration du projet et fonctionnement}{44}{section.E.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Fichier texte et syntaxe}{44}{section.E.4}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Probl\IeC {\`e}mes pouvant survenir}{45}{section.E.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Pare-feu de Windows}{45}{subsection.E.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Probl\IeC {\`e}mes d'affichage}{45}{subsection.E.5.2}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Webographie}{46}{appendix*.10}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
@@ -366,7 +382,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{46}{appendix*.11}
+\contentsline {chapter}{Bibliographie}{48}{appendix*.11}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
